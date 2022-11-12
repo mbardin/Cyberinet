@@ -1,0 +1,26 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=utton
+*Date=21:17:30
+*CreatedBy=Fritzing 0.9.9b.2021-09-22.CD-348-0-f0af53a9
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;THT;25.4886;-16.4477;-90;Bottom;VIN1 VIN2 GND S1 S2
+2;220;0603 [SMD];24.6387;-3.7477;0;Top;R2
+3;;;23.7148;-8.74705;0;Bottom;Via1
+4;;;28.0285;-3.74771;0;Bottom;Via2
+5;;THT;45.8086;-8.82769;-90;Bottom;VIN GND S1 S3
+6;220;0603 [SMD];24.6387;-6.2877;0;Top;R1
+7;;tactile-pth-12mm;37.0187;-8.8677;0;Bottom;S2
+8;;THT;28.0286;-8.82769;-90;Bottom;VIN GND S1 S4
+9;;THT;20.4086;-8.82769;-90;Bottom;VIN GND S1 S6
+10;;tactile-pth-12mm;11.6187;-8.8677;0;Bottom;S1
+11;;THT;2.62862;-8.82769;-90;Bottom;VIN GND S1 S5

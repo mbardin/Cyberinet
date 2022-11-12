@@ -1,0 +1,67 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Main Boardv1.1
+*Date=21:16:14
+*CreatedBy=Fritzing 0.9.9b.2021-09-22.CD-348-0-f0af53a9
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;27.1381;-18.452;0;Bottom;Via131
+2;;;6.81811;-19.722;0;Bottom;Via55
+3;;;43.498;-4.58119;0;Bottom;Via54
+4;;;33.4881;-9.56213;0;Bottom;Via128
+5;;;47.4581;-14.6421;0;Bottom;Via136
+6;;THT;8.08821;-24.802;90;Bottom;GND|BATT
+7;;;22.0581;-22.262;0;Bottom;Via143
+8;0.030;0603 [SMD];59.8185;-22.9419;0;Top;Green
+9;220;0603 [SMD];52.5383;-14.222;90;Top;330
+10;;;51.2681;-7.02213;0;Bottom;Via135
+11;;;55.0782;-10.832;0;Bottom;Via67
+12;;;27.1381;-9.56213;0;Bottom;Via48
+13;;;56.3481;-8.29213;0;Bottom;Via122
+14;;THT;39.8382;-15.912;180;Bottom;INT | SDP31
+15;;;39.8381;-4.48213;0;Bottom;Via53
+16;;;43.6481;-1.94213;0;Bottom;Via59
+17;;;42.3781;-26.072;0;Bottom;Via134
+18;;;18.2481;-23.532;0;Bottom;Via146
+19;220;0603 [SMD];55.0783;-14.222;90;Top;220
+20;;THT;53.8082;-27.342;90;Bottom;27|26|GND|S1|S2
+21;;;47.4581;-4.48213;0;Bottom;Via153
+22;;THT;54.4855;-2.0267;90;Bottom;PWR|GND|33|32|35
+23;;THT;19.9698;-2.0267;90;Bottom;To Accessories3
+24;;;18.2481;-5.75213;0;Bottom;Via6
+25;;;30.9481;-14.6421;0;Bottom;Via127
+26;;;30.9481;-19.722;0;Bottom;Via133
+27;;;53.8081;-18.452;0;Bottom;Via137
+28;;;46.1881;-5.75213;0;Bottom;Via36
+29;;;54.2783;-9.05498;0;Bottom;Via26
+30;;;43.6481;-8.29213;0;Bottom;Via115
+31;;;28.4081;-14.6421;0;Bottom;Via151
+32;0.030;0603 [SMD];59.7381;-20.992;180;Top;Red (-)
+33;;;49.9981;-13.3721;0;Bottom;Via140
+34;;;60.1581;-10.8321;0;Bottom;Via43
+35;;THT;22.0582;-12.102;180;Bottom;VIN | MPU6050
+36;;;46.1881;-8.29213;0;Bottom;Via113
+37;;;37.2981;-17.182;0;Bottom;Via147
+38;;;33.4881;-22.262;0;Bottom;Via138
+39;;;36.0281;-5.75213;0;Bottom;Via9
+40;;;60.6201;-18.452;0;Bottom;Via117
+41;;;25.8681;-12.1021;0;Bottom;Via150
+42;;;39.8381;-8.29213;0;Bottom;Via139
+43;;;51.2681;-9.56213;0;Bottom;Via23
+44;;THT;14.3671;-20.5761;180;Bottom;Out -|B-
+45;;;24.5981;-9.56213;0;Bottom;Via3
+46;;;24.5981;-23.532;0;Bottom;Via145
+47;;;6.81811;-7.02213;0;Bottom;Via125
+48;;THT;14.4382;-9.56204;180;Bottom;B+|OUT+
+49;;;44.9181;-14.6421;0;Bottom;Via63
+50;;;30.9481;-9.56213;0;Bottom;Via152
+51;;THT;19.5182;-28.104;90;Bottom;To Accessories4
+52;;;27.1381;-23.532;0;Bottom;Via130
