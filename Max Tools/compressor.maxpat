@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 187.0, 908.0, 612.0 ],
+		"rect" : [ 621.0, 281.0, 908.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,9 +55,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Input gain (db)",
+					"comment" : "makeupGain",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -74,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 517.0, 107.0, 93.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "makeupGain $1"
 				}
 
@@ -83,7 +82,7 @@
 				"box" : 				{
 					"comment" : "Rain Reduction (connect to meter~)",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -95,7 +94,7 @@
 				"box" : 				{
 					"comment" : "Output signal R",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -122,7 +121,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 431.0, 107.0, 65.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "release $1"
 				}
 
@@ -144,9 +142,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Ratio",
+					"comment" : "release",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -163,7 +161,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 361.0, 107.0, 57.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "attack $1"
 				}
 
@@ -185,9 +182,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Ratio",
+					"comment" : "attack",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -227,7 +224,7 @@
 				"box" : 				{
 					"comment" : "Ratio",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -267,7 +264,7 @@
 				"box" : 				{
 					"comment" : "Threshold (db)",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -295,7 +292,7 @@
 				"box" : 				{
 					"comment" : "Input gain (db)",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -308,11 +305,11 @@
 				"box" : 				{
 					"comment" : "input Signal R",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 79.0, 24.0, 30.0, 30.0 ]
 				}
 
@@ -1138,7 +1135,7 @@
 				"box" : 				{
 					"comment" : "Output Signal L",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1150,11 +1147,11 @@
 				"box" : 				{
 					"comment" : "input Signal L",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 25.0, 24.0, 30.0, 30.0 ]
 				}
 
@@ -1330,9 +1327,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
