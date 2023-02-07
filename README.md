@@ -26,6 +26,9 @@
  * TP 4056-C
  * SparkX Differential Pressure Sensor 
  
+ ## Hardware
+ The casing for the hardware is 3D printed. .stl files can be found in the repository. The form facotr of the Cyberinet is designed to temperariliy replace the barrel and mouthpiece of a traditional Bb clarinet. The ligature of this unit is based on one by Thingiverse user Furpis, and is being used under an attribution lisence. https://www.thingiverse.com/thing:4644676
+ 
  ## Code
  The Cyberinet is programmed using the Arduino IDE. The main unit comes with the most up-to-date software version already included, but any updates can be applied or changes reverted using the included .ino file.
  
