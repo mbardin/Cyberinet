@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 108.0, 124.0, 1620.0, 803.0 ],
+		"rect" : [ 34.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -107,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 698.0, 150.0, 20.0 ],
+					"patching_rect" : [ 558.0, 697.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 809.0, 748.0, 127.0, 20.0 ],
 					"text" : "Emergency Nap Time"
@@ -440,7 +440,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 510.0, 305.0, 115.0, 34.0 ],
-									"presentation_linecount" : 2,
 									"text" : "~ signal way to get the beat"
 								}
 
@@ -500,7 +499,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 288.0, 352.25, 89.0, 48.0 ],
-									"presentation_linecount" : 3,
 									"text" : "this is the value of that audio signal"
 								}
 
@@ -787,7 +785,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 430.0, 150.0, 34.0 ],
+					"patching_rect" : [ 175.0, 430.0, 152.0, 34.0 ],
 					"text" : "use b patchers to make UI for each of the patches"
 				}
 
@@ -815,7 +813,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1167.0, 595.0, 119.0, 119.0 ],
+					"patching_rect" : [ 1167.0, 594.5, 119.0, 119.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 809.0, 618.5, 119.0, 119.0 ]
 				}
@@ -871,7 +869,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1061.0, 471.0, 243.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "You are performing Raindrops on a Tin Roof"
 				}
 
@@ -994,7 +991,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 310.0, 283.0, 100.0, 105.0 ],
+					"patching_rect" : [ 310.0, 269.0, 100.0, 105.0 ],
 					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Raindrops.maxpat\""
 				}
 
@@ -1081,7 +1078,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1033.0, 708.0, 64.0, 22.0 ],
+					"patching_rect" : [ 1485.0, 722.0, 64.0, 22.0 ],
 					"text" : "snapshot~"
 				}
 
@@ -1405,13 +1402,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "KarplusStrong.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Max Tools",
-				"patcherrelativepath" : "../Max Tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Puzzle.maxpat",
 				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital/comps",
 				"patcherrelativepath" : "./comps",
@@ -1426,29 +1416,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "compressor.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Max Tools",
-				"patcherrelativepath" : "../Max Tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "feedbackDelay.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Max Tools",
-				"patcherrelativepath" : "../Max Tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "map.maxpat",
 				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multDel.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Max Tools",
-				"patcherrelativepath" : "../Max Tools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1467,22 +1436,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "reverb.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Max Tools",
-				"patcherrelativepath" : "../Max Tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "simpleFM~.maxpat",
 				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vibDelay.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Max Tools",
-				"patcherrelativepath" : "../Max Tools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
