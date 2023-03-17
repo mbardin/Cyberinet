@@ -1,0 +1,64 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Main Boardv1.1
+*Date=10:22:44
+*CreatedBy=Fritzing 0.9.9b.2021-09-22.CD-348-0-f0af53a9
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;33.4881;-9.56213;0;Bottom;Via128
+2;;;37.2982;-5.75204;0;Bottom;Via53
+3;;THT;39.8382;-15.912;180;Bottom;INT|SCL|SDA|3.3|GND
+4;0.030;0603 [SMD];58.4681;-22.262;0;Top;(+) Green
+5;;;56.3481;-7.02213;0;Bottom;Via122
+6;;THT;14.4382;-9.56204;180;Bottom;B+|OUT+
+7;;THT;19.9698;-2.0267;90;Bottom;ESP-32 VIN|GND|D15|D2...
+8;;;57.6181;-17.182;0;Bottom;Via158
+9;;;57.6096;-14.6599;0;Bottom;Via43
+10;;THT;14.3671;-20.5761;180;Bottom;Out -|B-
+11;;;44.9181;-9.56213;0;Bottom;Via115
+12;;;29.651;-23.5518;0;Bottom;Via160
+13;;;49.9981;-7.02213;0;Bottom;Via23
+14;;;34.7581;-10.8321;0;Bottom;Via156
+15;0.030;0603 [SMD];58.4681;-19.722;0;Top;(-) Red
+16;;;22.0581;-20.992;0;Bottom;Via143
+17;;;24.5981;-12.1021;0;Bottom;Via3
+18;;;52.5381;-17.182;0;Bottom;Via162
+19;;;47.4581;-13.3721;0;Bottom;Via136
+20;;;37.2981;-20.992;0;Bottom;Via138
+21;;;25.8682;-10.197;0;Bottom;Via150
+22;;;24.5982;-18.452;0;Bottom;Via131
+23;;;42.3781;-20.992;0;Bottom;Via154
+24;;;36.0281;-22.262;0;Bottom;Via147
+25;;;42.3782;-5.75204;0;Bottom;Via54
+26;;;47.4581;-9.56213;0;Bottom;Via113
+27;;THT;55.7132;-27.977;90;Bottom;Buttons 27|26|GND|S1|S2
+28;;;47.4582;-23.532;0;Bottom;Via163
+29;;;19.5181;-22.262;0;Bottom;Via146
+30;;;29.6781;-12.1021;0;Bottom;Via127
+31;;;55.7132;-19.722;0;Bottom;Via161
+32;;THT;8.08821;-24.802;90;Bottom;GND|BATT
+33;;THT;19.5182;-28.104;90;Bottom;To Accessories4
+34;;;27.1381;-8.29213;0;Bottom;Via48
+35;;;44.9181;-13.3721;0;Bottom;Via63
+36;;THT;22.0582;-12.102;180;Bottom;VIN | MPU6050
+37;;;45.5532;-5.75204;0;Bottom;Via36
+38;;;53.8081;-9.56213;0;Bottom;Via26
+39;;;30.9482;-10.197;0;Bottom;Via151
+40;;;47.4581;-18.452;0;Bottom;Via137
+41;220;0603 [SMD];55.0783;-14.222;90;Top;220
+42;;THT;54.4855;-2.0267;90;Bottom;Extras PWR|GND|33|32|35|18
+43;;;32.2012;-23.5046;0;Bottom;Via130
+44;;;49.9981;-12.1021;0;Bottom;Via140
+45;;;47.4581;-4.48213;0;Bottom;Via153
+46;;;34.7581;-5.75213;0;Bottom;Via9
+47;;;15.7081;-24.802;0;Bottom;Via134
+48;;;42.3781;-9.56213;0;Bottom;Via139
+49;220;0603 [SMD];52.5383;-14.222;90;Top;330
