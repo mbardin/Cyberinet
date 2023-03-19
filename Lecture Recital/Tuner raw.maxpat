@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 2545.0, 181.0, 642.0, 580.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 259.0, 114.0, 150.0, 20.0 ],
+					"text" : "adjust name of patch"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "frequency",
 					"id" : "obj-7",
@@ -85,6 +96,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.0, 509.0, 51.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 89.5, 187.0, 51.0, 23.0 ],
 					"style" : "rnbomonokai"
 				}
 
@@ -99,6 +112,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 365.0, 399.0, 54.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 73.0, 54.0, 23.0 ],
 					"style" : "rnbomonokai"
 				}
 
@@ -113,6 +128,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 436.0, 399.0, 52.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 65.0, 73.0, 52.0, 23.0 ],
 					"style" : "rnbomonokai"
 				}
 
@@ -127,6 +144,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 281.0, 492.0, 218.0, 57.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 114.0, 218.0, 57.0 ],
 					"style" : "rnbomonokai"
 				}
 
@@ -175,7 +194,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 215.0, 336.0, 53.0 ]
+					"patching_rect" : [ 40.0, 215.0, 336.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 6.0, 336.0, 53.0 ]
 				}
 
 			}
@@ -430,7 +451,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"bgcolor" : [ 0.980392156862745, 0.494117647058824, 0.0, 1.0 ]
 	}
 
 }
