@@ -17,11 +17,11 @@ Software:
 
 Lecture Recital:
 [x] finish basic music parts
-[] finish front matter for Raindrops
+[x] finish front matter for Raindrops
 [] finish Raindrops Max patch
-[] finish Puzzle Max patch
+[x] finish Puzzle Max patch
 [] finish EP Max patch
-[x] make lecture receital Max patch
+[x] make lecture recital Max patch
 
 Document:
 [] more coming soon
