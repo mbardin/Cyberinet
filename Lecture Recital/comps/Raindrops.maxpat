@@ -40,6 +40,93 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "## Procedurally colorize a video image ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-28",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.colorizr.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 816.0, 826.0, 138.0, 130.0 ],
+					"prototypename" : "pixl",
+					"varname" : "freezr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 922.0, 1029.0, 46.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 608.0, 874.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"border" : 1,
+					"id" : "obj-14",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 628.0, 1018.666697025299072, 178.0, 147.833303689956665 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 628.0, 947.000000715255737, 121.0, 23.0 ],
+					"text" : "prepend brgb"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "list", "bang" ],
+					"patching_rect" : [ 628.0, 919.333338022232056, 99.0, 22.0 ],
+					"text" : "colorpicker"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-116",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -358,7 +445,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 367.25, 726.999997854232788, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "responds when a clip is done"
 				}
 
@@ -616,7 +702,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -668,8 +754,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1036.0, 140.0, 150.0, 48.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 1036.0, 140.0, 153.0, 48.0 ],
 					"text" : "Ambience tracks. Playas needed. Loop as indicated in the score."
 				}
 
@@ -681,7 +766,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 576.0, 140.0, 150.0, 48.0 ],
+					"patching_rect" : [ 576.0, 140.0, 153.0, 48.0 ],
 					"text" : "Synth tracks. Play in order. Loop as indicated in the score."
 				}
 
@@ -806,7 +891,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -818,7 +903,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -830,7 +915,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -843,7 +928,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2577,6 +2662,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -2644,6 +2736,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -2692,6 +2791,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -3100,6 +3213,267 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-28::obj-104" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
+			"obj-28::obj-121" : [ "Invert", "Invert", 0 ],
+			"obj-28::obj-128" : [ "range[24]", "range", 0 ],
+			"obj-28::obj-24" : [ "Color plane", "Color plane", 0 ],
+			"obj-28::obj-25" : [ "Color palette", "Color palette", 0 ],
+			"obj-28::obj-26" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
+			"obj-28::obj-56::obj-23" : [ "gswitch2[2]", "gswitch2", 0 ],
+			"obj-28::obj-6" : [ "range[4]", "range", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "KarplusStrong.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MonsterAmbience.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RainAmbienceLong.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr1.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr10.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr11.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr12.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr2.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr3.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr4.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr5.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr6.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr7.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr8.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RaindropsNarr9.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "colorizer.genjit",
+				"bootpath" : "C74:/packages/vizzie/patchers/gen",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "compressor.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "exact_menu.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "feedbackDelay.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "introLoop.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monsterEffect1.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multDel.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "part1.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "part2.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "part3.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "part4.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "part5End.mp3",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverb.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vibDelay.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-datatexconvert.js",
+				"bootpath" : "C74:/packages/vizzie/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-global.js",
+				"bootpath" : "C74:/packages/vizzie/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.colorizr.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-object.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-outputdim.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.356862745098039, 0.015686274509804, 1.0, 1.0 ]
 	}
 
