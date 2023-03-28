@@ -27,15 +27,13 @@ const int MPU_ADDR = 0x68; // I2C address of the MPU-6050
 int16_t AcX, AcY, AcZ, GyX, GyY, GyZ; // values for 6050
 
 // pValues are previously sensed values. Used to reduce noise in signal.
-int pB1 = 0;
-int pB2 = 0;
+
 int button1State = 0;
 int button2State = 0;
 
 float pDiff, pTemp, rotX, rotY, rotZ, gForceX, gForceY, gForceZ;
 float diffPressure = 0.0;
 float temperature = 0.0;
-bool buttonConnectCheck = false;
 
 void setup() {
   // Pin mode assignment
@@ -50,7 +48,6 @@ void setup() {
   // various startup and checks
   gyroStartup();
   airflowStartup();
-  buttonCheck(); // do not press buttons when starting up device
   // device must be restarted if optional expansions are added
   // expansionCheck(); // make function to chekc for additoinal expansions in future versions
   // if everything clears
@@ -61,9 +58,7 @@ void setup() {
 
 void loop() { // check the sensors and transmit each loop.
   get6050();
-  if (buttonConnectCheck == true) { // find a way to not have to check every loop
-    getButtons();
-  }
+  getButtons();
   getAir(); // put 6050 and sdp31 on ends of sensor checks to give time between accessing the I2C pin.
 }
 
@@ -126,24 +121,17 @@ void get6050() {
 }
 
 void getButtons() { // currently whenever pressed. look into holding and release options
-  // store previous values
-  pB1 = button1State;
-  pB2 = button2State;
-  // get new values for this loop
   button1State = digitalRead(button1);
   button2State = digitalRead(button2);
   // transmit  values and change LED when the button changes state
-  if (pB1 != button1State) {
     Serial.print("Button1 ");
     Serial.println(button1State);
     digitalWrite(b1LED, button1State);
-  }
   // buttons are independant of each other
-  if (pB2 != button2State) {
     Serial.print("Button2 ");
     Serial.println(button2State);
     digitalWrite(b1LED, button2State);
-  }
+  
 }
 
 void getAir() {
@@ -166,38 +154,6 @@ void getAir() {
 }
 
 // startup functions
-void buttonCheck() { // look at makeing this function more effective.
-  // currently trying to compare states over time.
-  // if pin is floating it will fail
-  int pState1[6]; // array to compare
-
-  for (int i = 0; i < 6; i++) {
-
-    pState1[i] = button1State; // collects values to check
-  }
-
-  if (pState1[0] == pState1[1]) { // compare values
-    if (pState1[1] == pState1[2]) {
-      if (pState1[2] == pState1[3]) {
-        if (pState1[3] == pState1[4]) {
-          if (pState1[4] == pState1[5]) {
-            buttonConnectCheck = true; // if pin values are not floating
-          } else {
-            buttonConnectCheck = false;
-          }
-        } else {
-          buttonConnectCheck = false;
-        }
-      } else {
-        buttonConnectCheck = false;
-      }
-    } else {
-      buttonConnectCheck = false;
-    }
-  } else {
-    buttonConnectCheck = false;
-  }
-}
 
 void gyroStartup() {
   Wire.begin(21, 22, 100000); // sda, scl, clock speed
