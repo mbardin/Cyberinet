@@ -123,12 +123,12 @@ void get6050() {
 void getButtons() { // currently whenever pressed. look into holding and release options
   button1State = digitalRead(button1);
   button2State = digitalRead(button2);
-  // transmit  values and change LED when the button changes state
-    SerialBT.print("Button1 ");
+  // transmit  values and change LED each frame. May need tweaking.
+    SerialBT.print("B1 ");
     SerialBT.println(button1State);
     digitalWrite(b1LED, button1State);
   // buttons are independant of each other
-    SerialBT.print("Button2 ");
+    SerialBT.print("B2 ");
     SerialBT.println(button2State);
     digitalWrite(b1LED, button2State);
   
