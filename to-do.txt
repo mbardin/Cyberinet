@@ -3,8 +3,8 @@ Cyberinet to-do:
 Hardware:
 [x] finish prototype print
 [x] finish button print
-[] connect USB-C to main board
-[] remove all support material from prototype
+[x] connect USB-C to main board
+[x] remove all support material from prototype
 [] fully build prototype
 [] test prototype
 
