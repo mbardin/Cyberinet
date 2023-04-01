@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, 234.0, 1096.0, 539.0 ],
+		"rect" : [ 363.0, 275.0, 800.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,14 +56,16 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-64",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 144.0, 150.0, 26.0 ],
+					"patching_rect" : [ 488.0, 144.0, 150.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 436.0, 69.0, 45.0, 26.0 ],
-					"text" : "3",
+					"presentation_rect" : [ 530.0, 113.0, 161.0, 41.0 ],
+					"text" : "3: See Values populate below",
 					"textjustification" : 1
 				}
 
@@ -78,8 +80,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.0, 164.0, 150.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.5, 69.0, 33.0, 41.0 ],
-					"text" : "2",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 5.909090909090907, 69.0, 99.0, 56.0 ],
+					"text" : "2: Select Cyberinet's Port",
 					"textjustification" : 1
 				}
 
@@ -88,13 +91,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-60",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 111.0, 150.0, 26.0 ],
+					"patching_rect" : [ 269.0, 111.0, 150.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.0, 69.0, 36.0, 26.0 ],
-					"text" : "1",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 247.0, 52.454545454545439, 89.0, 57.0 ],
+					"text" : "1: Connect Cyberinet and click this.",
 					"textjustification" : 1
 				}
 
