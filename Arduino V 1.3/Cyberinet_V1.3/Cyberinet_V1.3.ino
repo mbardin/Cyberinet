@@ -1,6 +1,3 @@
-// This is a Wired only version convert to SerialBT commands to make wireless
-// I believe that startup error is due to wireing a pin incorrectly since it connects when not connected to the board.
-
 //libraries to include
 #include <SparkFun_SDP3x_Arduino_Library.h>
 #include<Wire.h>

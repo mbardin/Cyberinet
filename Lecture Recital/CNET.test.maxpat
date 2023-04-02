@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 363.0, 275.0, 800.0, 539.0 ],
+		"rect" : [ 416.0, 304.0, 847.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -107,14 +107,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"linecount" : 58,
+					"linecount" : 56,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 346.0, 150.0, 899.0 ],
+					"patching_rect" : [ 656.0, 374.0, 159.0, 868.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
-					"presentation_rect" : [ 19.0, 293.0, 759.0, 253.0 ],
+					"presentation_rect" : [ 19.0, 293.0, 761.0, 253.0 ],
 					"text" : "This patch is used for Callibrating and Testing the Cyberinet hardware with a max patch.\n\nIt simply connects to a Cyberient unit and displays the invoming values in the above message boxes. EAch outlet on CNET.receive has its own box, and these are broken up by the accompanying sensor on the Cyberinet.\n\nThe goal for this patch is to test that your device can be seen by the computer, and then to display the incom,ing values to see if your patch will need any value scaling between the Cyberient and the process you wish to control with the hardware.\n\nBegin by powering your Cyberient and connecting it via your computer's bluetooth capabilities. Then click the bang object to list all of the available ports in the Max console. You should see the Cyberinet listed as one of the options. Its specific placement in the list will vary depending on the other devices and ports availble to your computer.\nSecond, using the umenu object, select the port letter that matches the Cyberinet from the last step. You should then see values populate in the messages below. If you would like to see the values in the Max Console, click the toggle object.\n\nValues should be scaled to a normal range of 0-1 with the exception of the terperature value, which is measures in degrees celcius. Errors and Raw Data will display any error messages created by an unrecognized value label and the unmapped/routed data coming from the Cyberinet respectively."
 				}
 
@@ -138,7 +138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 384.0, 150.0, 22.0 ],
+					"patching_rect" : [ 656.0, 279.0, 150.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 369.0, 175.0, 140.0, 22.0 ],
 					"text" : "Airflow and Temperature"
@@ -435,28 +435,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-41",
-					"linecount" : 5,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 40.0, 324.0, 85.0 ],
-					"presentation_linecount" : 5,
-					"text" : "append a, append b, append c, append d, append e, append f, append g, append h, append i, append j, append k, append l, append m, append n, append o, append p, append q, append r, append s, append t, append u, append v, append w, append x, append y, append z"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
-					"items" : [ "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z" ],
+					"items" : [ "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 46.0, 163.5, 100.0, 22.0 ],
+					"patching_rect" : [ 46.0, 163.5, 100.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.909090909090907, 46.0, 100.0, 24.0 ]
 				}
@@ -589,23 +575,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"order" : 0,
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 

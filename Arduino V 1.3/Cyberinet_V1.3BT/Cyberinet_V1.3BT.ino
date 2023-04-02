@@ -1,5 +1,4 @@
-// This is a Wired only version convert to SerialBT commands to make wireless
-// I believe that startup error is due to wireing a pin incorrectly since it connects when not connected to the board.
+
 
 //libraries to include
 #include <SparkFun_SDP3x_Arduino_Library.h>
@@ -7,6 +6,10 @@
 #include <BluetoothSerial.h>
 #include <MPU6050.h>
 
+// Check if Bluetooth configs are enabled
+#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#endif
 
 // create instances of the libraries above
 BluetoothSerial SerialBT;
@@ -42,8 +45,8 @@ void setup() {
   pinMode(button1, INPUT_PULLUP); // use ESP32's built in pullup resistors
   pinMode(button2, INPUT_PULLUP);
 
-  Serial.begin(115200); // making sure this is before serialBT.begin ?
-  SerialBT.begin("Cyberinet V.1.3"); // Device name that will appear on computer
+  Serial.begin(115200);
+  SerialBT.begin("Cyberinet V.1.3"); // Device name
   delay(1000); // pause before checking
   // various startup and checks
   gyroStartup();
