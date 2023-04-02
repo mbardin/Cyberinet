@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 416.0, 304.0, 847.0, 539.0 ],
+		"rect" : [ 115.0, 211.0, 1002.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 837.0, 280.0, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.5, 248.0, 150.0, 22.0 ],
+					"text" : "Turn on data from Cyberinet"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 419.0, 190.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 786.0, 46.0, 191.0, 191.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-66",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -62,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 144.0, 150.0, 56.0 ],
+					"patching_rect" : [ 488.0, 144.0, 148.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 530.0, 113.0, 161.0, 41.0 ],
 					"text" : "3: See Values populate below",
@@ -107,11 +134,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"linecount" : 56,
+					"linecount" : 53,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 656.0, 374.0, 159.0, 868.0 ],
+					"patching_rect" : [ 656.0, 374.0, 167.0, 822.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
 					"presentation_rect" : [ 19.0, 293.0, 761.0, 253.0 ],
@@ -272,9 +299,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 391.0, 50.0, 24.0 ],
+					"patching_rect" : [ 273.0, 388.5, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 651.0, 241.0, 121.0, 24.0 ]
+					"presentation_rect" : [ 651.0, 241.0, 121.0, 24.0 ],
+					"text" : "10"
 				}
 
 			}
@@ -320,13 +348,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.090909090909093, 358.0, 50.0, 24.0 ],
+					"patching_rect" : [ 214.090909090909093, 358.0, 52.0, 85.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 651.0, 206.0, 121.0, 24.0 ]
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 651.0, 206.0, 121.0, 39.0 ],
+					"text" : "error: message not recognized: 10"
 				}
 
 			}
@@ -452,9 +483,9 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 12,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "int" ],
+					"numinlets" : 4,
+					"numoutlets" : 11,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 46.0, 209.0, 238.0, 24.0 ],
 					"text" : "CNET.receive"
 				}
@@ -465,6 +496,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 3 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -554,13 +592,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-4", 11 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-4", 3 ]
 				}
@@ -583,7 +614,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
