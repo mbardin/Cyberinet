@@ -7,9 +7,9 @@
 #include <MPU6050.h>
 
 // Check if Bluetooth configs are enabled
-#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
-#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
-#endif
+//#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+//#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+//#endif
 
 // create instances of the libraries above
 BluetoothSerial SerialBT;
@@ -46,7 +46,7 @@ void setup() {
   pinMode(button2, INPUT_PULLUP);
 
   Serial.begin(115200);
-  SerialBT.begin("Cyberinet V.1.3"); // Device name
+  SerialBT.begin("CyberinetV13"); // Device name
   delay(1000); // pause before checking
   // various startup and checks
   gyroStartup();
@@ -94,7 +94,7 @@ void get6050() {
   rotX = GyX *  0.007633587786; // mult is better for computations
   rotY = GyY *  0.007633587786;
   rotZ = GyZ *  0.007633587786;
-
+digitalWrite(msgLED, HIGH);
   SerialBT.print("GyroX ");
   SerialBT.println(rotX);
 
@@ -103,7 +103,7 @@ void get6050() {
 
   SerialBT.print("GyroZ ");
   SerialBT.println(rotZ);
-
+digitalWrite(msgLED, LOW);
   //  gForceX = AcX / 16384.0; // offsets for gravity
   //  gForceY = AcY / 16384.0;
   //  gForceZ = AcZ / 16384.0;
@@ -111,22 +111,24 @@ void get6050() {
   gForceX = AcX * 0.00006103515; // mult is better for computations
   gForceY = AcY * 0.00006103515;
   gForceZ = AcZ * 0.00006103515;
-
-  SerialBT.print("AcelX ");
+digitalWrite(msgLED, HIGH);
+  SerialBT.print("AccelX ");
   SerialBT.println(gForceX);
 
-  SerialBT.print("AclY ");
+  SerialBT.print("AccelY ");
   SerialBT.println(gForceY);
 
-  SerialBT.print("AcelZ ");
+  SerialBT.print("AccelZ ");
   SerialBT.println(gForceZ);
-
+digitalWrite(msgLED, LOW);
 }
 
 void getButtons() { // currently whenever pressed. look into holding and release options
   button1State = digitalRead(button1);
   button2State = digitalRead(button2);
   // transmit  values and change LED each frame. May need tweaking.
+   digitalWrite(msgLED, HIGH);
+    
     SerialBT.print("B1 ");
     SerialBT.println(button1State);
     digitalWrite(b1LED, button1State);
@@ -134,7 +136,7 @@ void getButtons() { // currently whenever pressed. look into holding and release
     SerialBT.print("B2 ");
     SerialBT.println(button2State);
     digitalWrite(b1LED, button2State);
-  
+  digitalWrite(msgLED, LOW);
 }
 
 void getAir() {
@@ -145,15 +147,18 @@ void getAir() {
   airFlow.readMeasurement(&diffPressure, &temperature); // get values
 
   // transmit values if they are above a range
-  if (abs(pDiff) - abs(diffPressure) > 0.5) { // check the ranges for more effective values
+//  if (abs(pDiff) - abs(diffPressure) > 0.5) { // check the ranges for more effective values
+    digitalWrite(msgLED, HIGH);
     SerialBT.print(F("AirP "));
     SerialBT.println(diffPressure, 2);
-  }
-
+//  }
+digitalWrite(msgLED, LOW);
 
   // transmits temp every loop because values will change too slowly to be effective
+  digitalWrite(msgLED, HIGH);
   SerialBT.print(F("Temp "));
   SerialBT.println(temperature, 2);
+  digitalWrite(msgLED, LOW);
 }
 
 // startup functions
@@ -190,4 +195,6 @@ void startLights() { // flashes startup LED in apecific pattern
   digitalWrite(msgLED, LOW);
   delay(1000);
   digitalWrite(msgLED, HIGH);
+  delay(1000);
+  digitalWrite(msgLED, LOW);
 }
