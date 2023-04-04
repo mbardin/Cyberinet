@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1452.0, 913.0 ],
+		"rect" : [ 65.0, 85.0, 1829.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -135,7 +135,7 @@
 					"patching_rect" : [ 1497.914285714285597, 361.0, 150.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 591.25, 216.0, 87.5, 67.0 ],
+					"presentation_rect" : [ 591.25, 216.0, 90.0, 67.0 ],
 					"text" : "Type Selected Port then Bang",
 					"textjustification" : 1
 				}
@@ -628,12 +628,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"name" : "Raindrops.maxpat",
+					"numinlets" : 10,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1424.0, 59.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1556.66668176651001, 376.000002145767212, 307.0, 203.0 ],
+					"presentation_rect" : [ 1193.333347678184509, 304.0, 712.333345413208008, 677.666680812835693 ],
 					"viewvisibility" : 1
 				}
 
@@ -649,12 +651,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"name" : "Ethereal.maxpat",
+					"numinlets" : 7,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1591.0, 59.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1218.66668176651001, 376.000002145767212, 307.0, 203.0 ],
+					"presentation_rect" : [ 844.000003933906555, 304.0, 339.000000953674316, 288.333335876464844 ],
 					"viewvisibility" : 1
 				}
 
@@ -1571,7 +1575,7 @@
 					"id" : "obj-11",
 					"linecount" : 4,
 					"maxclass" : "newobj",
-					"numinlets" : 11,
+					"numinlets" : 10,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 372.0, 557.0, 179.0, 64.0 ],
@@ -1600,7 +1604,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 198.0, 544.0, 140.5, 77.0 ],
+					"patching_rect" : [ 198.0, 544.0, 141.0, 77.0 ],
 					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Ethereal.maxpat\""
 				}
 
@@ -2332,13 +2336,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 10 ],
-					"source" : [ "obj-83", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-86", 0 ]
 				}
@@ -2362,7 +2359,21 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "CNET.KarplusStrong.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "CNET.compressor.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNET.feedbackDelay.maxpat",
 				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -2384,6 +2395,13 @@
 			}
 , 			{
 				"name" : "CNET.tuner.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNET.vibDelay.maxpat",
 				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -2593,6 +2611,13 @@
 				"name" : "pnp.binpass~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
 				"patcherrelativepath" : "../../../Max 8/Packages/pnp.maxtools/patchers/filters",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random-value.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

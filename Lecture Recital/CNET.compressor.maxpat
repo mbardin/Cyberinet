@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 621.0, 281.0, 908.0, 612.0 ],
+		"rect" : [ 201.0, 217.0, 908.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,13 +80,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Rain Reduction (connect to meter~)",
+					"comment" : "Gain Reduction (connect to meter~)",
 					"id" : "obj-35",
 					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 543.0, 30.0, 30.0 ]
+					"patching_rect" : [ 224.0, 276.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -98,7 +98,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 543.0, 30.0, 30.0 ]
+					"patching_rect" : [ 182.5, 276.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 224.0, 281.0, 131.0, 204.0 ]
+					"patching_rect" : [ 269.5, 246.0, 131.0, 204.0 ]
 				}
 
 			}
@@ -309,7 +309,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 24.0, 30.0, 30.0 ]
 				}
 
@@ -350,7 +350,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1139,7 +1139,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 543.0, 30.0, 30.0 ]
+					"patching_rect" : [ 141.0, 276.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1151,7 +1151,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 24.0, 30.0, 30.0 ]
 				}
 
