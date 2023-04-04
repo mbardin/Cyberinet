@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 85.0, 1829.0, 913.0 ],
+		"rect" : [ 34.0, 85.0, 1452.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1422.666709065437317, 36.000001072883606, 150.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1414.666708827018738, 21.0, 452.666675686836243, 34.0 ],
+					"text" : "Matthew Bardin Lecture Recital Control Patch\n04/18/2023 7:30 pm LSU Digital Media Center"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
@@ -665,6 +680,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@bgcolor", 1 ],
 					"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
