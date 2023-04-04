@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 85.0, 1021.0, 913.0 ],
+		"rect" : [ 2015.0, 186.0, 1279.0, 915.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -47,7 +47,7 @@
 					"patching_rect" : [ 280.0, 674.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 257.0, 678.0, 77.0, 34.0 ],
+					"presentation_rect" : [ 224.0, 156.0, 77.0, 34.0 ],
 					"text" : "emergency mute"
 				}
 
@@ -76,7 +76,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 178.333340287208557, 651.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.333340287208557, 652.0, 72.0, 72.0 ]
+					"presentation_rect" : [ 145.333340287208557, 130.0, 72.0, 72.0 ]
 				}
 
 			}
@@ -101,10 +101,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1109.333365321159363, 759.666687726974487, 188.0, 430.0 ],
+					"patching_rect" : [ 1109.333365321159363, 759.666687726974487, 196.0, 430.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 8.0, 16.0, 531.666650414466858, 172.0 ],
+					"presentation_rect" : [ 486.0, 475.0, 531.666650414466858, 172.0 ],
 					"text" : "Etereal Presence\n\nThis Max patch is made to accompany the Composition Ethereal Presnece. It will require a microphone to pick up the instrument sounds. The patch then uses the detected pitch to determine the harmonization applied to the synthesizer sounds output from the patch. All other sound aprameters are controlled by the Cyberinet Sensors. For more information on the composition and the hardware requirements, visit matthewbardin.com/ethereal"
 				}
 
@@ -119,7 +119,7 @@
 					"patching_rect" : [ 990.333353161811829, 1054.833338737487793, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 303.0, 303.0, 104.0, 48.0 ],
+					"presentation_rect" : [ 231.0, 24.0, 104.0, 48.0 ],
 					"text" : "Manually change harmonization parameters"
 				}
 
@@ -134,7 +134,7 @@
 					"patching_rect" : [ 58.0, 241.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 52.333340287208557, 317.0, 150.0, 34.0 ],
+					"presentation_rect" : [ 26.333340287208557, 62.0, 94.0, 34.0 ],
 					"text" : "detected pitch from instrument"
 				}
 
@@ -148,7 +148,7 @@
 					"patching_rect" : [ 982.333359837532043, 1059.833338737487793, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 93.0, 664.0, 62.0, 48.0 ],
+					"presentation_rect" : [ 150.333340287208557, 224.833338737487793, 62.0, 48.0 ],
 					"text" : "effect output volume"
 				}
 
@@ -161,8 +161,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1017.000024795532227, 1030.333349227905273, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 133.200000047683716, 486.466681301593781, 46.800000131130219, 34.0 ],
+					"presentation_rect" : [ 26.333340287208557, 110.666681289672852, 79.800000131130219, 20.0 ],
 					"text" : "effect Toggle"
 				}
 
@@ -189,7 +188,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 718.0, 490.666681289672852, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.333340287208557, 279.0, 72.0, 72.0 ]
+					"presentation_rect" : [ 145.333340287208557, 24.0, 72.0, 72.0 ]
 				}
 
 			}
@@ -203,7 +202,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.750003933906555, 438.333338737487793, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.333340287208557, 358.666657447814941, 50.0, 22.0 ]
+					"presentation_rect" : [ 231.0, 79.666657447814941, 50.0, 22.0 ]
 				}
 
 			}
@@ -374,7 +373,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 43.5, 199.0, 54.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.333340287208557, 275.0, 54.0, 23.0 ],
+					"presentation_rect" : [ 26.333340287208557, 34.0, 54.0, 23.0 ],
 					"style" : "rnbomonokai"
 				}
 
@@ -401,7 +400,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 43.5, 153.0, 113.0, 22.0 ],
-					"text" : "\"Tuner raw.maxpat\""
+					"text" : "CNET.tuner.maxpat"
 				}
 
 			}
@@ -622,7 +621,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 217.0, 185.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.333340287208557, 466.666681289672852, 72.0, 72.0 ]
+					"presentation_rect" : [ 26.333340287208557, 135.666681289672852, 72.0, 72.0 ]
 				}
 
 			}
@@ -676,7 +675,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 329.333340287208557, 895.333338737487793, 22.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.333340287208557, 602.333338737487793, 22.0, 140.0 ]
+					"presentation_rect" : [ 26.333340287208557, 231.333338737487793, 120.0, 35.0 ]
 				}
 
 			}
@@ -1129,7 +1128,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Tuner raw.maxpat",
+				"name" : "CNET.tuner.maxpat",
 				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
