@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 274.0, 1002.0, 567.0 ],
+		"rect" : [ 34.0, 100.0, 854.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,28 +40,221 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
+					"fontface" : 0,
+					"fontsize" : 20.0,
+					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 837.0, 280.0, 150.0, 22.0 ],
+					"patching_rect" : [ 778.0, 18.0, 235.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 806.5, 248.0, 150.0, 22.0 ],
-					"text" : "Turn on data from Cyberinet"
+					"presentation_rect" : [ 5.0, 4.5, 87.0, 32.0 ],
+					"text" : "CNET.test"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "toggle",
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-46",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 783.0, 118.0, 150.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 765.5, 76.5, 69.909090909090878, 72.0 ],
+					"text" : "0. Install node packages",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 808.0, 320.0, 150.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 657.5, 84.5, 69.5, 56.0 ],
+					"text" : "7. Stop script",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 486.0, 110.0, 150.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 449.045454545454561, 69.863636363636317, 73.0, 72.0 ],
+					"text" : "5. Enable Communication",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 691.0, 153.0, 150.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 349.090909090909122, 84.5, 69.909090909090878, 56.0 ],
+					"text" : "4. Open set port",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-36",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 492.0, 218.0, 150.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 219.545454545454504, 22.0, 69.909090909090878, 87.0 ],
+					"text" : "3. type desired port name. Bang to set",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 791.0, 389.0, 150.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 19.0, 105.5, 69.909090909090907, 41.0 ],
+					"text" : "1. start script",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 419.0, 190.0, 24.0, 24.0 ],
+					"patching_rect" : [ 265.0, 145.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 46.0, 191.0, 191.0 ]
+					"presentation_rect" : [ 765.5, 151.0, 69.909090909090907, 69.909090909090907 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"blinkcolor" : [ 0.0, 0.337254901960784, 1.0, 1.0 ],
+					"id" : "obj-24",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 107.636363636363612, 71.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.545454545454504, 151.0, 69.909090909090907, 69.909090909090907 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 107.636363636363612, 112.0, 50.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 215.409090909090878, 117.863636363636317, 128.0, 24.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"blinkcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-17",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 233.714285714285722, 145.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 657.5, 151.0, 69.909090909090907, 69.909090909090907 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"blinkcolor" : [ 0.490196078431373, 1.0, 0.0, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 171.142857142857139, 145.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 449.045454545454561, 151.0, 69.909090909090907, 69.909090909090907 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"blinkcolor" : [ 0.670588235294118, 0.0, 1.0, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 139.857142857142861, 145.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 349.090909090909122, 151.0, 69.909090909090907, 69.909090909090907 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"blinkcolor" : [ 1.0, 0.933333333333333, 0.0, 1.0 ],
+					"id" : "obj-6",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 46.0, 145.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 19.0, 151.045454545454561, 69.909090909090907, 69.909090909090907 ]
 				}
 
 			}
@@ -75,74 +268,23 @@
 					"patching_rect" : [ 596.0, 58.0, 150.0, 83.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 571.0, 4.0, 207.0, 53.0 ],
+					"presentation_rect" : [ 628.409090909090992, 4.5, 207.0, 53.0 ],
 					"text" : "Patch by Matthew A. Bardin (04/2023). For more information, visit matthewbardin.com/cyberinet"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"id" : "obj-64",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 144.0, 148.0, 56.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 530.0, 113.0, 161.0, 41.0 ],
-					"text" : "3: See Values populate below",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"id" : "obj-62",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 374.0, 150.0, 41.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 5.909090909090907, 69.0, 99.0, 56.0 ],
-					"text" : "2: Select Cyberinet's Port",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-60",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 111.0, 150.0, 41.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 247.0, 52.454545454545439, 89.0, 57.0 ],
-					"text" : "1: Connect Cyberinet and click this.",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-58",
-					"linecount" : 51,
+					"linecount" : 75,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 656.0, 374.0, 173.0, 791.0 ],
+					"patching_rect" : [ 1033.0, 266.0, 176.0, 1160.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 16,
-					"presentation_rect" : [ 19.0, 293.0, 761.0, 253.0 ],
-					"text" : "This patch is used for Callibrating and Testing the Cyberinet hardware with a max patch.\n\nIt simply connects to a Cyberient unit and displays the invoming values in the above message boxes. EAch outlet on CNET.receive has its own box, and these are broken up by the accompanying sensor on the Cyberinet.\n\nThe goal for this patch is to test that your device can be seen by the computer, and then to display the incom,ing values to see if your patch will need any value scaling between the Cyberient and the process you wish to control with the hardware.\n\nBegin by powering your Cyberient and connecting it via your computer's bluetooth capabilities. Then click the bang object to list all of the available ports in the Max console. You should see the Cyberinet listed as one of the options. Its specific placement in the list will vary depending on the other devices and ports availble to your computer.\nSecond, using the umenu object, select the port letter that matches the Cyberinet from the last step. You should then see values populate in the messages below. If you would like to see the values in the Max Console, click the toggle object.\n\nValues should be scaled to a normal range of 0-1 with the exception of the terperature value, which is measures in degrees celcius. Errors and Raw Data will display any error messages created by an unrecognized value label and the unmapped/routed data coming from the Cyberinet respectively."
+					"presentation_linecount" : 22,
+					"presentation_rect" : [ 19.0, 402.0, 816.409090909090878, 345.0 ],
+					"text" : "This patch is used for Callibrating and Testing the Cyberinet hardware with a max patch.\n\nIt simply connects to a Cyberient unit and displays the invoming values in the above message boxes. EAch outlet on CNET.receive has its own box, and these are broken up by the accompanying sensor on the Cyberinet.\n\nThe goal for this patch is to test that your device can be seen by the computer, and then to display the incom,ing values to see if your patch will need any value scaling between the Cyberient and the process you wish to control with the hardware.\n\nBegin by powering your Cyberient and connecting it via your computer's bluetooth capabilities. \n\nIf you do not already have the appropriate node scripts installed, begin with the rightmost bang to install them. (recommended when using the device for the first time)\nWhen all scripts are installed, you will move from left to right accross the patch. click the bang object to start the script\nList all of the available ports displays them in the Max console. Find the port labeled with the Cyberinet, paste that into the message box and press the third bang object to set it. (this will usually be formatted as  \"/dev/tty.CyberinetV13\" on Mac devices, and COM# on Windows devices. The shown Mac serial address is the default setting.)\nAfter the desired port is selected, use the next two bangs to open said port and enable the communications. You should now see values populating the message boxes. You can toggle displaying the raw data values in the Max console if desired.\nPress the final bang to stop communiations. Begin at step 1 to resume communications (port setting can be skipped at this point, assuming the desired port did not change)\n\nIf your computer is not receiving data from the Cyberinet, make sure the unit is charged, navigate to your computer's bluetooth settings, forget, then repair the Cyberinet.\n\nValues should be scaled to a normal range of 0-1 with the exception of the terperature value, which is measures in degrees celcius. Errors and Raw Data will display any error messages created by an unrecognized value label and the unmapped/routed data coming from the Cyberinet respectively."
 				}
 
 			}
@@ -154,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 664.0, 201.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 651.0, 175.0, 121.0, 22.0 ],
+					"presentation_rect" : [ 714.409090909090992, 293.0, 121.0, 22.0 ],
 					"text" : "Errors and Raw Data"
 				}
 
@@ -167,7 +309,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 656.0, 279.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 369.0, 175.0, 140.0, 22.0 ],
+					"presentation_rect" : [ 393.0, 293.0, 140.0, 22.0 ],
 					"text" : "Airflow and Temperature"
 				}
 
@@ -178,9 +320,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 220.0, 150.0, 22.0 ],
+					"patching_rect" : [ 772.0, 243.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 544.0, 175.0, 54.0, 22.0 ],
+					"presentation_rect" : [ 583.0, 293.0, 54.0, 22.0 ],
 					"text" : "Buttons"
 				}
 
@@ -191,9 +333,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.0, 216.0, 150.0, 22.0 ],
+					"patching_rect" : [ 952.0, 186.5, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 197.0, 175.0, 150.0, 22.0 ],
+					"presentation_rect" : [ 204.409090909090878, 293.0, 150.0, 22.0 ],
 					"text" : "Accelerometer X,Y,Z"
 				}
 
@@ -204,63 +346,46 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 187.0, 150.0, 22.0 ],
+					"patching_rect" : [ 837.0, 162.5, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 175.0, 150.0, 22.0 ],
+					"presentation_rect" : [ 19.0, 293.0, 150.0, 22.0 ],
 					"text" : "Gyroscope X,Y,Z"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-45",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 59.0, 150.0, 22.0 ],
+					"patching_rect" : [ 931.0, 102.0, 150.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 11.0, 150.0, 22.0 ],
-					"text" : "Toggle All Inputs in Console"
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 557.090909090909122, 59.5, 69.909090909090878, 87.0 ],
+					"text" : "6. Toggle All Raw Inputs in Max Console",
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 29.0, 150.0, 37.0 ],
+					"patching_rect" : [ 791.0, 102.0, 150.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 160.090909090909122, 4.0, 150.0, 37.0 ],
-					"text" : "List All Available Serial Ports (Console)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 39.0, 150.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.909090909090907, 11.0, 150.0, 22.0 ],
-					"text" : "Desired Serial Port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 6.0, 70.0, 24.0 ],
-					"text" : "loadmess 0"
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 115.818181818181785, 59.5, 70.090909090909065, 87.0 ],
+					"text" : "2. List All Available Serial Ports (Console)",
+					"textjustification" : 1
 				}
 
 			}
@@ -272,37 +397,24 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.0, 162.5, 24.0, 24.0 ],
+					"patching_rect" : [ 202.428571428571416, 145.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 355.499999999999943, 46.0, 69.909090909090907, 69.909090909090907 ]
+					"presentation_rect" : [ 557.090909090909122, 151.0, 69.909090909090907, 69.909090909090907 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"blinkcolor" : [ 0.0, 1.0, 0.980392156862745, 1.0 ],
 					"id" : "obj-32",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 155.5, 162.5, 24.0, 24.0 ],
+					"patching_rect" : [ 77.285714285714278, 145.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.27272727272728, 46.0, 69.909090909090907, 69.909090909090878 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 273.0, 388.5, 50.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 651.0, 241.0, 121.0, 24.0 ],
-					"text" : "10"
+					"presentation_rect" : [ 115.818181818181785, 151.045454545454561, 69.909090909090907, 69.909090909090878 ]
 				}
 
 			}
@@ -313,9 +425,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.454545454545439, 358.0, 50.0, 24.0 ],
+					"patching_rect" : [ 205.199999999999989, 319.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 525.0, 205.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 564.0, 323.0, 50.0, 24.0 ],
 					"text" : "1"
 				}
 
@@ -328,10 +440,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.27272727272728, 296.0, 50.0, 39.0 ],
+					"patching_rect" : [ 268.600000000000023, 378.5, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 369.0, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 393.0, 323.0, 50.0, 39.0 ],
 					"text" : "0.000005"
 				}
 
@@ -343,9 +455,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.181818181818187, 323.0, 50.0, 24.0 ],
+					"patching_rect" : [ 300.100000000000023, 426.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 459.0, 205.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 483.0, 323.0, 50.0, 24.0 ],
 					"text" : "24.45"
 				}
 
@@ -358,10 +470,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.090909090909093, 358.0, 52.0, 101.0 ],
+					"patching_rect" : [ 326.090909090909122, 473.0, 52.0, 101.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 651.0, 206.0, 121.0, 39.0 ],
+					"presentation_rect" : [ 714.409090909090992, 324.0, 121.0, 39.0 ],
 					"text" : "error: message not recognized: AclY -0.83"
 				}
 
@@ -373,9 +485,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.363636363636374, 386.0, 50.0, 24.0 ],
+					"patching_rect" : [ 236.899999999999977, 350.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 577.0, 205.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 616.0, 323.0, 50.0, 24.0 ],
 					"text" : "1"
 				}
 
@@ -388,10 +500,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.909090909090907, 330.0, 50.0, 39.0 ],
+					"patching_rect" : [ 46.700000000000003, 297.0, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 70.72727272727272, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 70.72727272727272, 323.0, 50.0, 39.0 ],
 					"text" : "0.000327"
 				}
 
@@ -404,10 +516,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 94.636363636363626, 296.0, 50.0, 39.0 ],
+					"patching_rect" : [ 145.14285714285711, 442.0, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 247.0, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 254.409090909090878, 323.0, 50.0, 39.0 ],
 					"text" : "-0.000203"
 				}
 
@@ -420,10 +532,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.545454545454561, 323.0, 50.0, 39.0 ],
+					"patching_rect" : [ 173.5, 266.0, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 296.999999999999943, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 304.409090909090821, 323.0, 50.0, 39.0 ],
 					"text" : "-0.00012"
 				}
 
@@ -436,10 +548,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.818181818181813, 358.0, 50.0, 39.0 ],
+					"patching_rect" : [ 78.400000000000006, 339.0, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 122.72727272727272, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 122.72727272727272, 323.0, 50.0, 39.0 ],
 					"text" : "0.000825"
 				}
 
@@ -452,10 +564,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.72727272727272, 386.0, 50.0, 39.0 ],
+					"patching_rect" : [ 110.099999999999994, 389.0, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 197.0, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 204.409090909090878, 323.0, 50.0, 39.0 ],
 					"text" : "0.000015"
 				}
 
@@ -468,38 +580,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 296.0, 50.0, 39.0 ],
+					"patching_rect" : [ 15.0, 251.0, 50.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 19.0, 205.0, 50.0, 39.0 ],
+					"presentation_rect" : [ 19.0, 323.0, 50.0, 39.0 ],
 					"text" : "-0.000945"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 46.0, 10.0, 58.0, 24.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"items" : [ "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", ",", "o", ",", "p", ",", "q", ",", "r", ",", "s", ",", "t", ",", "u", ",", "v", ",", "w", ",", "x", ",", "y", ",", "z" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 46.0, 163.5, 100.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.909090909090907, 46.0, 100.0, 24.0 ]
 				}
 
 			}
@@ -507,10 +592,10 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 8,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 46.0, 209.0, 238.0, 24.0 ],
+					"patching_rect" : [ 46.0, 209.0, 336.0, 24.0 ],
 					"text" : "CNET.receive"
 				}
 
@@ -518,15 +603,43 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 3 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 4 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 6 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 3 ],
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-4", 2 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 7 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -539,15 +652,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
+					"destination" : [ "obj-4", 5 ],
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -630,8 +736,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-44", 0 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -641,6 +747,31 @@
 				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "emdm.serial.js",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m.monitor.maxpat",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "resize_n4m_monitor_patcher.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
