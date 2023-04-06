@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1452.0, 913.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,10 +45,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1422.666709065437317, 36.000001072883606, 150.0, 62.0 ],
+					"patching_rect" : [ 1422.666709065437317, 36.000001072883606, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1414.666708827018738, 21.0, 452.666675686836243, 34.0 ],
+					"presentation_rect" : [ 1414.666708827018738, 21.0, 452.666675686836243, 33.0 ],
 					"text" : "Matthew Bardin Lecture Recital Control Patch\n04/18/2023 7:30 pm LSU Digital Media Center"
 				}
 
@@ -64,7 +64,7 @@
 					"patching_rect" : [ 1547.0, 674.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1275.5, 223.0, 66.0, 53.0 ],
+					"presentation_rect" : [ 1275.5, 223.0, 66.0, 52.0 ],
 					"text" : "npm install",
 					"textjustification" : 1
 				}
@@ -81,7 +81,7 @@
 					"patching_rect" : [ 1530.0, 718.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1147.5, 223.0, 66.0, 53.0 ],
+					"presentation_rect" : [ 1147.5, 223.0, 66.0, 52.0 ],
 					"text" : "Stop Script",
 					"textjustification" : 1
 				}
@@ -98,7 +98,7 @@
 					"patching_rect" : [ 1547.0, 794.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 996.085714285714403, 223.0, 99.0, 53.0 ],
+					"presentation_rect" : [ 996.085714285714403, 223.0, 99.0, 52.0 ],
 					"text" : "Toggle Console Printing",
 					"textjustification" : 1
 				}
@@ -115,7 +115,7 @@
 					"patching_rect" : [ 1580.0, 835.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 856.25, 223.0, 106.499999999999886, 53.0 ],
+					"presentation_rect" : [ 856.25, 223.0, 106.499999999999886, 52.0 ],
 					"text" : "Enable Communications",
 					"textjustification" : 1
 				}
@@ -132,7 +132,7 @@
 					"patching_rect" : [ 1515.914285714285597, 420.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 737.414285714285711, 223.0, 66.0, 67.0 ],
+					"presentation_rect" : [ 737.414285714285711, 223.0, 66.0, 66.0 ],
 					"text" : "Open Selected Port",
 					"textjustification" : 1
 				}
@@ -147,10 +147,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1497.914285714285597, 361.0, 150.0, 53.0 ],
+					"patching_rect" : [ 1497.914285714285597, 361.0, 150.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 591.25, 216.0, 90.0, 67.0 ],
+					"presentation_rect" : [ 591.25, 216.0, 90.0, 66.0 ],
 					"text" : "Type Selected Port then Bang",
 					"textjustification" : 1
 				}
@@ -183,7 +183,7 @@
 					"patching_rect" : [ 1560.0, 901.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 332.5, 216.0, 68.0, 53.0 ],
+					"presentation_rect" : [ 332.5, 216.0, 68.0, 52.0 ],
 					"text" : "Start Script",
 					"textjustification" : 1
 				}
@@ -714,7 +714,7 @@
 					"patching_rect" : [ 669.0, 600.5, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 51.0, 654.0, 116.0, 53.0 ],
+					"presentation_rect" : [ 51.0, 654.0, 116.0, 52.0 ],
 					"text" : "Click Track Controls",
 					"textjustification" : 1
 				}
@@ -761,7 +761,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1530.0, 488.5, 150.0, 53.0 ],
+					"patching_rect" : [ 1530.0, 488.5, 150.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 393.5, 231.0, 39.0 ],
 					"text" : "Program Advance & Emergency Stop",
@@ -1388,7 +1388,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 691.0, 152.0, 34.0 ],
+					"patching_rect" : [ 228.0, 691.0, 152.0, 33.0 ],
 					"text" : "use b patchers to make UI for each of the patches"
 				}
 
@@ -1401,8 +1401,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1167.0, 735.0, 54.0, 36.0 ],
-					"text" : ";\r\ndsp stop"
+					"patching_rect" : [ 1167.0, 735.0, 54.0, 35.0 ],
+					"text" : ";\rdsp stop"
 				}
 
 			}
@@ -1543,7 +1543,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1157.5, 178.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1157.5, 178.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1157.5, 178.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1593,8 +1595,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 10,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 372.0, 557.0, 179.0, 64.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 372.0, 557.0, 179.0, 62.0 ],
 					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Raindrops.maxpat\""
 				}
 
@@ -1602,13 +1604,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 52.0, 544.0, 121.0, 77.0 ],
-					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Puzzle.maxpat\""
+					"patching_rect" : [ 52.0, 544.0, 82.0, 22.0 ],
+					"text" : "Puzzle"
 				}
 
 			}
@@ -1619,8 +1620,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 7,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 198.0, 544.0, 141.0, 77.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 198.0, 544.0, 141.0, 76.0 ],
 					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Ethereal.maxpat\""
 				}
 
@@ -1656,7 +1657,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.5, 152.0, 150.0, 48.0 ],
+					"patching_rect" : [ 259.5, 152.0, 150.0, 47.0 ],
 					"text" : "load the 3 sub patches into the sketck. swap between them "
 				}
 
@@ -2376,175 +2377,175 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.KarplusStrong.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.compressor.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.feedbackDelay.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.reverb.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.tuner.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.vibDelay.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ethereal.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital/comps",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital/comps",
 				"patcherrelativepath" : "./comps",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MonsterAmbience.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Puzzle.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital/comps",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital/comps",
 				"patcherrelativepath" : "./comps",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RainAmbienceLong.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Raindrops.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital/comps",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital/comps",
 				"patcherrelativepath" : "./comps",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr1.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr10.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr11.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr12.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr2.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr3.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr4.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr5.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr6.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr7.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr8.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr9.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -2557,7 +2558,7 @@
 			}
 , 			{
 				"name" : "introLoop.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -2570,7 +2571,7 @@
 			}
 , 			{
 				"name" : "monsterEffect1.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -2583,35 +2584,35 @@
 			}
 , 			{
 				"name" : "part1.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "part2.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "part3.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "part4.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "part5End.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -2619,21 +2620,21 @@
 , 			{
 				"name" : "pnp.binpassfft~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
-				"patcherrelativepath" : "../../../Max 8/Packages/pnp.maxtools/patchers/filters",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pnp.binpass~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
-				"patcherrelativepath" : "../../../Max 8/Packages/pnp.maxtools/patchers/filters",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random-value.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
