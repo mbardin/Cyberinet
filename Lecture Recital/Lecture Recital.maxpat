@@ -1591,13 +1591,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 10,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 372.0, 557.0, 179.0, 62.0 ],
-					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Raindrops.maxpat\""
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 372.0, 557.0, 113.5, 22.0 ],
+					"text" : "Raindrops"
 				}
 
 			}
@@ -1616,13 +1615,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 7,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 544.0, 141.0, 76.0 ],
-					"text" : "\"C:/Users/Matt/Documents/GitHub/Cyberinet/Lecture Recital/comps/Ethereal.maxpat\""
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 198.0, 544.0, 82.0, 22.0 ],
+					"text" : "Ethereal"
 				}
 
 			}
@@ -2418,13 +2416,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "CNET.vibDelay.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Ethereal.maxpat",
 				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital/comps",
 				"patcherrelativepath" : "./comps",
@@ -2443,6 +2434,83 @@
 				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital/comps",
 				"patcherrelativepath" : "./comps",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart1.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart10.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart11.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart2.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart3.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart4.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart5.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart6.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart7.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart8.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RDpart9.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
@@ -2583,41 +2651,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "part1.mp3",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "part2.mp3",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "part3.mp3",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "part4.mp3",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "part5End.mp3",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pnp.binpassfft~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/pnp.maxtools/patchers/filters",
@@ -2642,6 +2675,13 @@
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "silence.mp3",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{

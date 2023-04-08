@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2258.0, 185.0, 1454.0, 915.0 ],
+		"rect" : [ 34.0, 100.0, 1031.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 32.0, 162.0, 955.0 ],
+					"patching_rect" : [ 29.0, 32.0, 166.0, 955.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
 					"presentation_rect" : [ 540.333332896232605, 20.333335638046265, 889.0, 212.0 ],
@@ -91,7 +91,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1548.0, 481.0, 48.0, 39.0 ],
-					"text" : ";\r\ndsp stop"
+					"text" : ";\rdsp stop"
 				}
 
 			}
@@ -99,7 +99,7 @@
 				"box" : 				{
 					"comment" : "emergency Stop (button2)",
 					"id" : "obj-47",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -281,7 +281,7 @@
 				"box" : 				{
 					"comment" : "Airflow Input",
 					"id" : "obj-1",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -366,7 +366,7 @@
 				"box" : 				{
 					"comment" : "Gyro Y input",
 					"id" : "obj-52",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -379,7 +379,7 @@
 				"box" : 				{
 					"comment" : "Accel X Input",
 					"id" : "obj-50",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -392,7 +392,7 @@
 				"box" : 				{
 					"comment" : "Gyro X Input",
 					"id" : "obj-49",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1201,7 +1201,7 @@
 				"box" : 				{
 					"comment" : "Button Inputs",
 					"id" : "obj-31",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1214,7 +1214,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1226,7 +1226,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1238,11 +1238,11 @@
 				"box" : 				{
 					"comment" : "Signal Input",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 71.857142857142861, 41.0, 30.0, 30.0 ]
 				}
 
@@ -1279,13 +1279,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.92156862745098, 1.0, 0.0, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 157.0, 129.0, 86.0, 86.0 ]
+					"patching_rect" : [ 157.0, 129.0, 86.0, 86.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.833332896232605, 204.333335638046265, 86.0, 86.0 ]
 				}
 
 			}
@@ -1890,6 +1893,22 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "CNET.compressor.maxpat",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNET.reverb.maxpat",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
