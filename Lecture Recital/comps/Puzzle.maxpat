@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1031.0, 762.0 ],
+		"rect" : [ 42.0, 100.0, 1031.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,50 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 330.0, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.833332896232605, 326.333335638046265, 150.0, 22.0 ],
+					"text" : "Record/PB"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 157.0, 121.0, 43.0, 24.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 157.0, 161.0, 42.0, 24.0 ],
+					"text" : "route 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-8",
 					"linecount" : 37,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 32.0, 166.0, 955.0 ],
+					"patching_rect" : [ 687.0, 510.0, 171.0, 955.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
 					"presentation_rect" : [ 540.333332896232605, 20.333335638046265, 889.0, 212.0 ],
@@ -91,7 +128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1548.0, 481.0, 48.0, 39.0 ],
-					"text" : ";\rdsp stop"
+					"text" : ";\r\ndsp stop"
 				}
 
 			}
@@ -130,7 +167,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1610.85714285714289, 741.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.76190432480405, 321.333335638046265, 50.0, 22.0 ],
+					"presentation_rect" : [ 59.76190432480405, 381.333335638046265, 50.0, 22.0 ],
 					"text" : "REVERB"
 				}
 
@@ -143,7 +180,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1651.85714285714289, 760.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.90476146766116, 359.333335638046265, 150.0, 22.0 ],
+					"presentation_rect" : [ 17.90476146766116, 408.333335638046265, 150.0, 22.0 ],
 					"text" : "room size            damping freq"
 				}
 
@@ -719,7 +756,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 214.0, 227.0, 29.0, 24.0 ],
+					"patching_rect" : [ 214.0, 304.0, 29.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1185,7 +1222,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 155.0, 227.0, 32.0, 24.0 ],
+					"patching_rect" : [ 155.0, 304.0, 32.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1286,9 +1323,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 157.0, 129.0, 86.0, 86.0 ],
+					"patching_rect" : [ 157.0, 206.0, 86.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.833332896232605, 204.333335638046265, 86.0, 86.0 ]
+					"presentation_rect" : [ 10.833332896232605, 204.333335638046265, 115.0, 115.0 ]
 				}
 
 			}
@@ -1433,7 +1470,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 425.333333333333371, 206.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.333332896232605, 387.333335638046265, 50.0, 24.0 ]
+					"presentation_rect" : [ 97.333332896232605, 436.333335638046265, 50.0, 24.0 ]
 				}
 
 			}
@@ -1448,7 +1485,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.666666666666629, 182.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.26190432480405, 387.333335638046265, 50.0, 24.0 ]
+					"presentation_rect" : [ 23.26190432480405, 436.333335638046265, 50.0, 24.0 ]
 				}
 
 			}
@@ -1608,6 +1645,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
@@ -1652,7 +1696,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1728,6 +1772,13 @@
 					"destination" : [ "obj-81", 0 ],
 					"order" : 0,
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1895,14 +1946,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.compressor.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.reverb.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
