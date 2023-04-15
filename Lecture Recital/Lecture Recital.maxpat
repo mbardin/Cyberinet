@@ -1388,7 +1388,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 691.0, 152.0, 33.0 ],
+					"patching_rect" : [ 453.0, 807.5, 152.0, 33.0 ],
 					"text" : "use b patchers to make UI for each of the patches"
 				}
 
@@ -1595,7 +1595,7 @@
 					"numinlets" : 10,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 372.0, 557.0, 113.5, 22.0 ],
+					"patching_rect" : [ 240.5, 544.0, 113.5, 22.0 ],
 					"text" : "Raindrops"
 				}
 
@@ -1619,7 +1619,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 198.0, 544.0, 82.0, 22.0 ],
+					"patching_rect" : [ 147.0, 544.0, 82.0, 22.0 ],
 					"text" : "Ethereal"
 				}
 
@@ -2388,6 +2388,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "CNET.dmx.maxpat",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "CNET.feedbackDelay.maxpat",
 				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : ".",
@@ -2623,6 +2630,10 @@
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "imp.artnet.controller.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "introLoop.mp3",

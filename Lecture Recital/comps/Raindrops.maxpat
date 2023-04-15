@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 223.0, 99.0, 1044.0, 762.0 ],
+		"rect" : [ 223.0, 100.0, 1044.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,54 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1077.00000935792923, 103.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1278.5, 103.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1178.0, 103.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1077.00000935792923, 266.0, 66.0, 22.0 ],
+					"text" : "CNET.dmx"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-213",
 					"maxclass" : "newobj",
@@ -116,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1599.0, 729.333354234695435, 150.0, 34.0 ],
+					"patching_rect" : [ 1599.0, 729.333354234695435, 151.0, 33.0 ],
 					"text" : "one for each channel from compressor"
 				}
 
@@ -220,7 +268,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 812.0, 273.0, 72.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0, 127 4000"
 				}
 
@@ -477,7 +524,7 @@
 					"patching_rect" : [ 899.0, 222.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 603.0, 424.833303689956665, 88.0, 34.0 ],
+					"presentation_rect" : [ 603.0, 424.833303689956665, 88.0, 33.0 ],
 					"text" : "new random ambience"
 				}
 
@@ -624,7 +671,7 @@
 					"patching_rect" : [ 43.931818181818244, 8.333338022232056, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 232.0, 475.5, 88.0, 34.0 ],
+					"presentation_rect" : [ 232.0, 475.5, 88.0, 33.0 ],
 					"text" : "Emergeny Brake"
 				}
 
@@ -637,8 +684,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 43.333347082138062, 54.0, 36.0 ],
-					"text" : ";\r\ndsp stop"
+					"patching_rect" : [ 13.0, 43.333347082138062, 54.0, 35.0 ],
+					"text" : ";\rdsp stop"
 				}
 
 			}
@@ -677,7 +724,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1099.50000935792923, 290.0, 60.0, 34.0 ],
+					"patching_rect" : [ 1099.50000935792923, 290.0, 60.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 486.0, 97.0, 20.0 ],
 					"text" : "Projector Color"
@@ -1430,18 +1477,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1077.00000935792923, 224.533316791057587, 64.0, 22.0 ],
-					"text" : "pack 0 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"border" : 1,
 					"id" : "obj-14",
@@ -1453,20 +1488,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 397.0, 97.0, 84.833303689956665 ],
 					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1077.00000935792923, 259.533303916454315, 121.0, 23.0 ],
-					"text" : "prepend brgb"
 				}
 
 			}
@@ -1646,7 +1667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.333371639251709, 74.666697144508362, 150.0, 48.0 ],
+					"patching_rect" : [ 502.333371639251709, 74.666697144508362, 150.0, 47.0 ],
 					"text" : "triggers playback and looping of synth based on button presses"
 				}
 
@@ -1682,7 +1703,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.848478729074714, 386.666645765304565, 150.0, 34.0 ],
+					"patching_rect" : [ 32.848478729074714, 386.666645765304565, 150.0, 33.0 ],
 					"text" : "1.5 second delay before narrator starts"
 				}
 
@@ -1810,7 +1831,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 858.181818181818244, 390.333337306976318, 153.0, 34.0 ],
+					"patching_rect" : [ 858.181818181818244, 390.333337306976318, 157.0, 33.0 ],
 					"text" : "Ambience tracks. randomly switch in BG"
 				}
 
@@ -1822,7 +1843,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 492.181818181818244, 390.333337306976318, 155.0, 48.0 ],
+					"patching_rect" : [ 492.181818181818244, 390.333337306976318, 155.0, 47.0 ],
 					"text" : "Synth tracks. Play in order. Loop as indicated in the score."
 				}
 
@@ -1834,7 +1855,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.181818181818244, 379.666645765304565, 150.0, 48.0 ],
+					"patching_rect" : [ 208.181818181818244, 379.666645765304565, 150.0, 47.0 ],
 					"text" : "narrator tracks. Play in order at appropriuate times. No loops"
 				}
 
@@ -2505,7 +2526,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"order" : 3,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -2678,6 +2699,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -2899,13 +2927,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-144", 2 ],
 					"order" : 0,
 					"source" : [ "obj-190", 0 ]
@@ -2989,6 +3010,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-199", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -3161,6 +3189,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 4,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-183", 0 ],
 					"order" : 3,
 					"source" : [ "obj-26", 0 ]
@@ -3193,14 +3229,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"order" : 4,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-189", 0 ],
 					"order" : 0,
 					"source" : [ "obj-28", 0 ]
@@ -3209,7 +3237,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -3348,13 +3376,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-171", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
@@ -3362,14 +3383,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -3400,7 +3421,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 2 ],
+					"destination" : [ "obj-2", 2 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -3637,6 +3658,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -3769,6 +3797,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-82", 0 ]
 				}
@@ -3882,217 +3917,228 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.KarplusStrong.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.compressor.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNET.dmx.maxpat",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.feedbackDelay.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.reverb.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MonsterAmbience.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart1.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart10.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart11.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart2.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart3.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart4.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart5.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart6.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart7.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart8.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDpart9.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RainAmbienceLong.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr1.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr10.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr11.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr12.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr2.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr3.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr4.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr5.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr6.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr7.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr8.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RaindropsNarr9.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "imp.artnet.controller.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "introLoop.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monsterEffect1.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -4100,13 +4146,13 @@
 , 			{
 				"name" : "random-value.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Max for the Visual Arts/patchers/Toolbox/math/Parametrical/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "silence.mp3",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "Mp3",
 				"implicit" : 1
