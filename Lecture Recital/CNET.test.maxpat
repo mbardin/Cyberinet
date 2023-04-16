@@ -187,13 +187,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.636363636363612, 112.0, 50.0, 24.0 ],
+					"patching_rect" : [ 107.636363636363612, 112.0, 50.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.409090909090878, 117.863636363636317, 128.0, 24.0 ],
+					"presentation_rect" : [ 215.409090909090878, 117.863636363636317, 117.0, 24.0 ],
+					"text" : "/dev/tty.CyberinetV13",
 					"textjustification" : 1
 				}
 
@@ -276,14 +278,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"linecount" : 75,
+					"linecount" : 72,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1033.0, 266.0, 176.0, 1160.0 ],
+					"patching_rect" : [ 1033.0, 266.0, 179.0, 1114.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 22,
-					"presentation_rect" : [ 19.0, 402.0, 816.409090909090878, 345.0 ],
+					"presentation_rect" : [ 19.0, 402.0, 817.0, 345.0 ],
 					"text" : "This patch is used for Callibrating and Testing the Cyberinet hardware with a max patch.\n\nIt simply connects to a Cyberient unit and displays the invoming values in the above message boxes. EAch outlet on CNET.receive has its own box, and these are broken up by the accompanying sensor on the Cyberinet.\n\nThe goal for this patch is to test that your device can be seen by the computer, and then to display the incom,ing values to see if your patch will need any value scaling between the Cyberient and the process you wish to control with the hardware.\n\nBegin by powering your Cyberient and connecting it via your computer's bluetooth capabilities. \n\nIf you do not already have the appropriate node scripts installed, begin with the rightmost bang to install them. (recommended when using the device for the first time)\nWhen all scripts are installed, you will move from left to right accross the patch. click the bang object to start the script\nList all of the available ports displays them in the Max console. Find the port labeled with the Cyberinet, paste that into the message box and press the third bang object to set it. (this will usually be formatted as  \"/dev/tty.CyberinetV13\" on Mac devices, and COM# on Windows devices. The shown Mac serial address is the default setting.)\nAfter the desired port is selected, use the next two bangs to open said port and enable the communications. You should now see values populating the message boxes. You can toggle displaying the raw data values in the Max console if desired.\nPress the final bang to stop communiations. Begin at step 1 to resume communications (port setting can be skipped at this point, assuming the desired port did not change)\n\nIf your computer is not receiving data from the Cyberinet, make sure the unit is charged, navigate to your computer's bluetooth settings, forget, then repair the Cyberinet.\n\nValues should be scaled to a normal range of 0-1 with the exception of the terperature value, which is measures in degrees celcius. Errors and Raw Data will display any error messages created by an unrecognized value label and the unmapped/routed data coming from the Cyberinet respectively."
 				}
 
@@ -365,7 +367,7 @@
 					"patching_rect" : [ 931.0, 102.0, 150.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 557.090909090909122, 59.5, 69.909090909090878, 87.0 ],
+					"presentation_rect" : [ 557.090909090909122, 59.5, 72.0, 87.0 ],
 					"text" : "6. Toggle All Raw Inputs in Max Console",
 					"textjustification" : 1
 				}

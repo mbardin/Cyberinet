@@ -39,8 +39,8 @@ int button1State = 1;
 int button2State = 1;
 
 // store SDP31 values for transmitting
-float diffPressure = 0.0;
-float temperature = 0.0;
+//float diffPressure = 0.0;
+//float temperature = 0.0;
 
 void setup() {
   // Pin mode assignment
@@ -143,6 +143,9 @@ void getButtons() {
 
 void getAir() {
   ////////////Collect Data
+
+  float diffPressure; // Storage for the differential pressure
+  float temperature; // Storage for the temperature
   airFlow.readMeasurement(&diffPressure, &temperature);
 
   ////////////Transmit Data
@@ -168,6 +171,8 @@ void gyroStartup() {
 
 void airflowStartup() {
   // Initialize sensor. Stops if connection cannot be made
+  airFlow.stopContinuousMeasurement();
+
   if (airFlow.begin() == false)
   {
     SerialBT.println(F("SDP31 not detected. Check connections. Freezing..."));

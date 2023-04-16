@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.333332300186157, 634.0, 150.0, 34.0 ],
+					"patching_rect" : [ 129.333332300186157, 634.0, 150.0, 33.0 ],
 					"text" : "adjust inital scale ranges in bottom section"
 				}
 
@@ -54,11 +54,11 @@
 				"box" : 				{
 					"comment" : "Open Selected port (bang)",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 249.333332300186157, 16.0, 30.0, 30.0 ]
 				}
 
@@ -67,11 +67,11 @@
 				"box" : 				{
 					"comment" : "stop script (bang)",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 509.333332300186157, 16.0, 30.0, 30.0 ]
 				}
 
@@ -80,11 +80,11 @@
 				"box" : 				{
 					"comment" : "enable communications (bang)",
 					"id" : "obj-44",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 308.333332300186157, 16.0, 30.0, 30.0 ]
 				}
 
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"comment" : "Desired port name (message)",
 					"id" : "obj-41",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -241,6 +241,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -276,11 +278,11 @@
 				"box" : 				{
 					"comment" : "install serialport packages (bang)",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 583.333332300186157, 16.0, 30.0, 30.0 ]
 				}
 
@@ -313,11 +315,11 @@
 				"box" : 				{
 					"comment" : "raw data print (toggle) (console)",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 399.0, 16.0, 30.0, 30.0 ]
 				}
 
@@ -372,7 +374,7 @@
 				"box" : 				{
 					"comment" : "Button2",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -384,7 +386,7 @@
 				"box" : 				{
 					"comment" : "Button1",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -396,7 +398,7 @@
 				"box" : 				{
 					"comment" : "Temp (Deg. Cel.)",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 10,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -408,7 +410,7 @@
 				"box" : 				{
 					"comment" : "AirPressure",
 					"id" : "obj-29",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -420,7 +422,7 @@
 				"box" : 				{
 					"comment" : "AccelZ (0-1)",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -432,7 +434,7 @@
 				"box" : 				{
 					"comment" : "Error Messages",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 11,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -444,7 +446,7 @@
 				"box" : 				{
 					"comment" : "AccelY (0-1)",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -456,7 +458,7 @@
 				"box" : 				{
 					"comment" : "AccelX (0-1)",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -468,7 +470,7 @@
 				"box" : 				{
 					"comment" : "GyroZ (0-1)",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -480,7 +482,7 @@
 				"box" : 				{
 					"comment" : "GyroY (0-1)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -492,7 +494,7 @@
 				"box" : 				{
 					"comment" : "GyroX (0-1)",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -612,11 +614,11 @@
 				"box" : 				{
 					"comment" : "list all ports (bang) (console)",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 115.666664600372314, 17.0, 30.0, 30.0 ]
 				}
 
@@ -625,11 +627,11 @@
 				"box" : 				{
 					"comment" : "Start Script (bang)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 18.333332300186157, 17.0, 30.0, 30.0 ]
 				}
 
@@ -884,6 +886,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
@@ -938,34 +947,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
