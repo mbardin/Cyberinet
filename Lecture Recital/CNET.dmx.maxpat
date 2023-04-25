@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 1417.0, 673.0 ],
+		"rect" : [ 78.0, 222.0, 1417.0, 673.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 654.0, 132.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 595.0, 104.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 534.0, 129.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -54,7 +90,7 @@
 				"box" : 				{
 					"comment" : "list output for a panel",
 					"id" : "obj-25",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -69,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 665.5, 467.466683208942413, 60.0, 33.0 ],
+					"patching_rect" : [ 665.5, 467.466683208942413, 60.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 107.0, 97.0, 20.0 ],
 					"text" : "Projector Color"
@@ -110,7 +146,7 @@
 				"box" : 				{
 					"comment" : "bang on packet transmission",
 					"id" : "obj-34",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -122,7 +158,7 @@
 				"box" : 				{
 					"comment" : "channel 2",
 					"id" : "obj-33",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -135,7 +171,7 @@
 				"box" : 				{
 					"comment" : "channel 1",
 					"id" : "obj-32",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -146,9 +182,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Blue (0-255)",
+					"comment" : "Blue (0-1)",
 					"id" : "obj-31",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -159,9 +195,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Green (0-255)",
+					"comment" : "Green (0-1)",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -172,9 +208,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Red (0-255)",
+					"comment" : "Red (0-1)",
 					"id" : "obj-28",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -191,7 +227,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 654.0, 130.0, 50.0, 22.0 ]
+					"patching_rect" : [ 654.0, 167.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -203,7 +239,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 594.0, 130.0, 50.0, 22.0 ]
+					"patching_rect" : [ 594.0, 167.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -215,7 +251,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 534.0, 130.0, 50.0, 22.0 ]
+					"patching_rect" : [ 534.0, 167.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -226,7 +262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 715.0, 285.0, 150.0, 60.0 ],
+					"patching_rect" : [ 767.5, 319.0, 150.0, 62.0 ],
 					"text" : "Set to first address number of Fixture\nFeed a list of all the values for the fixture"
 				}
 
@@ -262,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 594.0, 300.0, 114.0, 22.0 ],
+					"patching_rect" : [ 646.5, 334.0, 114.0, 22.0 ],
 					"text" : "181 98 254"
 				}
 
@@ -276,7 +312,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 534.0, 176.0, 139.0, 94.0 ],
+					"patching_rect" : [ 534.0, 213.0, 139.0, 94.0 ],
 					"saturation" : 252
 				}
 
@@ -302,7 +338,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 385.0, 222.0, 33.0 ],
+					"patching_rect" : [ 217.0, 385.0, 222.0, 34.0 ],
 					"text" : "The object can send any number of channels spanning multiple universes."
 				}
 
@@ -332,7 +368,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 176.0, 216.0, 33.0 ],
+					"patching_rect" : [ 201.0, 176.0, 216.0, 34.0 ],
 					"text" : "Send a list of ints or floats to set DMX channel values. Floats will be rounded."
 				}
 
@@ -445,7 +481,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 435.0, 222.0, 47.0 ],
+					"patching_rect" : [ 217.0, 435.0, 222.0, 48.0 ],
 					"text" : "Sync universes forces all universes to be sent whenever data in any single one changes. It is on by default."
 				}
 
@@ -487,7 +523,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 255.0, 164.0, 87.0 ],
+					"patching_rect" : [ 197.0, 255.0, 164.0, 89.0 ],
 					"text" : "The Art-Net addressing values set which universe of DMX you are transmitting to. The 'net' value will not apply to devices using Art-Net 2, and should be set to 0."
 				}
 
@@ -698,7 +734,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -713,14 +749,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -736,6 +772,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -801,7 +858,13 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "imp.artnet.controller.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
