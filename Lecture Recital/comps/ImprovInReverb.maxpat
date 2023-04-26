@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1031.0, 762.0 ],
+		"rect" : [ 2150.0, 313.0, 1836.0, 894.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -179,10 +179,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 858.0, 476.0, 150.0, 33.0 ],
+					"patching_rect" : [ 858.0, 476.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 309.0, 33.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 309.0, 33.0, 150.0, 34.0 ],
 					"text" : "auto-advance. bang to manually swap"
 				}
 
@@ -682,7 +682,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.5, 176.0, 150.0, 33.0 ],
+					"patching_rect" : [ 390.5, 176.0, 150.0, 34.0 ],
 					"text" : "perform for 5 style changes"
 				}
 
@@ -856,8 +856,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 843.399999999999977, 218.0, 54.0, 35.0 ],
-					"text" : ";\rdsp stop"
+					"patching_rect" : [ 843.399999999999977, 218.0, 54.0, 36.0 ],
+					"text" : ";\r\ndsp stop"
 				}
 
 			}
@@ -1484,6 +1484,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-7", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-7", 7 ]
 				}
@@ -1631,35 +1638,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "CNET.feedbackDelay.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.reverb.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.ANG~.maxpat",
-				"bootpath" : "~/Documents/emdm.ANG~/emdm.ang~/patchers",
-				"patcherrelativepath" : "../../../../../Documents/emdm.ANG~/emdm.ang~/patchers",
+				"bootpath" : "~/Documents/maxlibraries/emdm.ANG_/emdm.ANG~/emdm.ang~/patchers",
+				"patcherrelativepath" : "../../../../maxlibraries/emdm.ANG_/emdm.ANG~/emdm.ang~/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "..",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -1677,13 +1684,13 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "nw.gverb~.mxo",
-				"type" : "iLaX"
+				"name" : "nw.gverb~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "panmodule2.maxpat",
-				"bootpath" : "~/Documents/emdm.ANG~/emdm.ang~/patchers",
-				"patcherrelativepath" : "../../../../../Documents/emdm.ANG~/emdm.ang~/patchers",
+				"bootpath" : "~/Documents/maxlibraries/emdm.ANG_/emdm.ANG~/emdm.ang~/patchers",
+				"patcherrelativepath" : "../../../../maxlibraries/emdm.ANG_/emdm.ANG~/emdm.ang~/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1694,8 +1701,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sigmund~.mxo",
-				"type" : "iLaX"
+				"name" : "sigmund~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
