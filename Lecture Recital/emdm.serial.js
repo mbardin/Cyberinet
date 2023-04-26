@@ -6,7 +6,7 @@ const Max = require('max-api');
 
 const { SerialPort, ReadlineParser } = require('serialport')
 const baud = 115200;
-let devicePort = '/dev/tty-CyberinetV13'
+let devicePort = '/dev/tty-CyberinetV13' // default port
 
 // Create a port
 let port;
@@ -37,6 +37,7 @@ Max.addHandler("portlist", () => {
 
 Max.addHandler('setPort', (port) => {
   devicePort = port;
+Max.post(port);
 })
 
 Max.addHandler('open', () => {
@@ -45,14 +46,15 @@ Max.addHandler('open', () => {
     baudRate: baud,
   }, function (err) {
     if (err) {
-      return console.log('Error: ', err.message)
+      return console.log('Error: ', err.message);
     }
   })
+Max.post('port is open');
 })
 
 Max.addHandler('enable', () => {
-  Max.post('Serial Receive Enabled');
 
+Max.post('Serial Receive Enabled');
   port.pipe(parser)
   parser.on('data', (cyberData)=>{
     let cyber = cyberData.split(" ");
@@ -60,7 +62,6 @@ Max.addHandler('enable', () => {
     let value = parseFloat(cyber[1]);
     Max.outlet(sensor, value);
   })
-
   // port.on('readable', function () {
   //   console.log('Data:', port.read())
   // })
@@ -78,9 +79,9 @@ Max.addHandler('enable', () => {
 Max.addHandler('send', (data) => {
   port.write(data, function(err) {
     if (err) {
-      return console.log('Error on write: ', err.message)
+      return console.log('Error on write: ', err.message);
     }
-    console.log('message written')
+    console.log('message written');
   })
   
 })
