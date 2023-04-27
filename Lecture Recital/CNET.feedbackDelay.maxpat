@@ -83,8 +83,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 281.0, 193.5, 63.0, 23.0 ],
-					"text" : "line~ 200"
+					"patching_rect" : [ 281.0, 193.5, 65.0, 23.0 ],
+					"text" : "line~ 200."
 				}
 
 			}
@@ -112,8 +112,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.0, 161.0, 49.0, 23.0 ],
-					"text" : "$1 500"
+					"patching_rect" : [ 281.0, 161.0, 52.0, 23.0 ],
+					"text" : "$1 500."
 				}
 
 			}
@@ -136,7 +136,7 @@
 				"box" : 				{
 					"comment" : "feedback % (0-0.99)",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -176,7 +176,7 @@
 				"box" : 				{
 					"comment" : "Output gain (0-1)",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -202,7 +202,7 @@
 				"box" : 				{
 					"comment" : "delay time (0-1)",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -230,8 +230,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 164.0, 175.0, 78.0, 22.0 ],
-					"text" : "tapin~ 60000"
+					"patching_rect" : [ 164.0, 175.0, 82.0, 22.0 ],
+					"text" : "tapin~ 60000."
 				}
 
 			}
@@ -239,7 +239,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -251,11 +251,11 @@
 				"box" : 				{
 					"comment" : "Signal to delay",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 164.0, 49.0, 30.0, 30.0 ]
 				}
 
@@ -391,9 +391,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
