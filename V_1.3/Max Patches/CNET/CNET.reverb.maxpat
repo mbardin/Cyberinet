@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 342.0, 214.0, 1006.0, 695.0 ],
+		"rect" : [ 374.0, 100.0, 1006.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 529.0, 150.0, 34.0 ],
+					"patching_rect" : [ 125.0, 529.0, 150.0, 33.0 ],
 					"text" : "invert signal to avoid cancellations"
 				}
 
@@ -81,8 +81,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 200.0, 117.0, 22.0 ],
-					"text" : "scale 0. 1. 0. 10000."
+					"patching_rect" : [ 256.0, 200.0, 123.0, 22.0 ],
+					"text" : "scale 0. 1. 100. 5000."
 				}
 
 			}
@@ -94,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 81.0, 63.0, 97.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 50."
+					"text" : "scale 0. 1. 1. 45."
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 35.0, 150.0, 48.0 ],
+					"patching_rect" : [ 755.0, 35.0, 150.0, 47.0 ],
 					"text" : "https://ccrma.stanford.edu/~jos/pasp/Schroeder_Reverberators.html"
 				}
 
@@ -149,7 +149,7 @@
 				"box" : 				{
 					"comment" : "Output Volume (0-1)",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -175,7 +175,7 @@
 				"box" : 				{
 					"comment" : "signal output R",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -224,7 +224,7 @@
 				"box" : 				{
 					"comment" : "Damping(0-1)",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2166,7 +2166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 28.0, 150.0, 34.0 ],
+					"patching_rect" : [ 579.0, 28.0, 150.0, 33.0 ],
 					"text" : "schroder reverb\nlooking at ccrma docs"
 				}
 
@@ -2175,7 +2175,7 @@
 				"box" : 				{
 					"comment" : "room size (0-1)",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2189,7 +2189,7 @@
 				"box" : 				{
 					"comment" : "signal output L",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2201,11 +2201,11 @@
 				"box" : 				{
 					"comment" : "signal input",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 				}
 
@@ -2344,9 +2344,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
