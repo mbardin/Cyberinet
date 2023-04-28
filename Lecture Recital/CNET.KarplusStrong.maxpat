@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 168.0, 261.0, 714.0, 607.0 ],
+		"rect" : [ 501.0, 212.0, 301.0, 607.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 511.0, 203.0, 153.0, 48.0 ],
+					"patching_rect" : [ 511.0, 203.0, 153.0, 47.0 ],
 					"text" : "Takes incoming signal and generates a pluck based on that source"
 				}
 
@@ -113,11 +113,11 @@
 				"box" : 				{
 					"comment" : "trigger note (bang)",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 88.5, 27.0, 30.0, 30.0 ]
 				}
 
@@ -126,7 +126,7 @@
 				"box" : 				{
 					"comment" : "feedback % (0-1)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -137,9 +137,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "pitch (0-10)",
+					"comment" : "pitch (0-1)",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -164,7 +164,7 @@
 				"box" : 				{
 					"comment" : "Output Gain (0-1)",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -277,7 +277,7 @@
 				"box" : 				{
 					"comment" : "output signal",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -289,11 +289,11 @@
 				"box" : 				{
 					"comment" : "Input signal",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 35.0, 27.0, 30.0, 30.0 ]
 				}
 
@@ -434,9 +434,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

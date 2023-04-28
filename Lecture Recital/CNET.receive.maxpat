@@ -619,8 +619,8 @@
 					"numinlets" : 11,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 607.333332300186157, 135.333339810371399, 360.0, 22.0 ],
-					"text" : "route GyroX GyroY GyroZ AccelX AccelY AccelZ B1 B2 AirP Temp"
+					"patching_rect" : [ 607.333332300186157, 135.333339810371399, 344.0, 22.0 ],
+					"text" : "route gyroX gyroY gyroZ accelX accelY accelZ b1 b2 airP temp"
 				}
 
 			}
@@ -644,7 +644,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 584.833332300186157, 16.0, 30.0, 30.0 ]
 				}
 
@@ -788,8 +788,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -829,7 +827,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 669.5, 16.0, 30.0, 30.0 ]
 				}
 
@@ -866,7 +864,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 399.0, 16.0, 30.0, 30.0 ]
 				}
 
@@ -1068,8 +1066,8 @@
 					"numinlets" : 11,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 18.333332300186157, 522.333339810371399, 1129.0, 22.0 ],
-					"text" : "route GyroX GyroY GyroZ AccelX AccelY AccelZ B1 B2 AirP Temp"
+					"patching_rect" : [ 18.333332300186157, 522.333339810371399, 344.0, 22.0 ],
+					"text" : "route gyroX gyroY gyroZ accelX accelY accelZ b1 b2 airP temp"
 				}
 
 			}
@@ -1081,7 +1079,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.333332300186157, 17.0, 30.0, 30.0 ]
 				}
 
