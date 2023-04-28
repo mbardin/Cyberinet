@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 100.0, 1418.0, 811.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -619,8 +619,8 @@
 					"numinlets" : 11,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 607.333332300186157, 135.333339810371399, 360.0, 22.0 ],
-					"text" : "route GyroX GyroY GyroZ AccelX AccelY AccelZ B1 B2 AirP Temp"
+					"patching_rect" : [ 607.333332300186157, 135.333339810371399, 344.0, 22.0 ],
+					"text" : "route gyroX gyroY gyroZ accelX accelY accelZ b1 b2 airP temp"
 				}
 
 			}
@@ -628,11 +628,11 @@
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.333332300186157, 58.0, 66.0, 22.0 ],
-					"text" : "route bang"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 18.333332300186157, 58.0, 133.0, 22.0 ],
+					"text" : "route bang setupSpeed"
 				}
 
 			}
@@ -788,6 +788,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1066,8 +1068,8 @@
 					"numinlets" : 11,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 18.333332300186157, 522.333339810371399, 1129.0, 22.0 ],
-					"text" : "route GyroX GyroY GyroZ AccelX AccelY AccelZ B1 B2 AirP Temp"
+					"patching_rect" : [ 18.333332300186157, 522.333339810371399, 344.0, 22.0 ],
+					"text" : "route gyroX gyroY gyroZ accelX accelY accelZ b1 b2 airP temp"
 				}
 
 			}
@@ -1400,6 +1402,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-50", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 1 ],
+					"order" : 3,
 					"source" : [ "obj-50", 1 ]
 				}
 
@@ -1408,6 +1418,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 1 ],
+					"order" : 2,
+					"source" : [ "obj-50", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 1 ],
+					"order" : 1,
+					"source" : [ "obj-50", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 1 ],
+					"order" : 0,
+					"source" : [ "obj-50", 1 ]
 				}
 
 			}
@@ -1798,7 +1832,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

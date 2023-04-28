@@ -104,22 +104,22 @@ void get6050() {
 
   ////////////Transmit Data
   digitalWrite(msgLED, HIGH); // turn on LED when when transmitting
-  SerialBT.print("GyroX "); // label
+  SerialBT.print("gyroX "); // label
   SerialBT.println(rotX); // value
 
-  SerialBT.print("GyroY "); // label
+  SerialBT.print("gyroY "); // label
   SerialBT.println(rotY); // value
 
-  SerialBT.print("GyroZ "); // etc.
+  SerialBT.print("gyroZ "); // etc.
   SerialBT.println(rotZ);
 
-  SerialBT.print("AccelX ");
+  SerialBT.print("accelX ");
   SerialBT.println(gForceX);
 
-  SerialBT.print("AccelY ");
+  SerialBT.print("accelY ");
   SerialBT.println(gForceY);
 
-  SerialBT.print("AccelZ ");
+  SerialBT.print("accelZ ");
   SerialBT.println(gForceZ);
   digitalWrite(msgLED, LOW);// turn off led when done transmitting
 }
@@ -131,11 +131,11 @@ void getButtons() {
 
   ////////////Transmit Data (every frame. CNET.receive Max Object filters out repetitions.)
   digitalWrite(msgLED, HIGH); // turn LED on when tranmitting data
-  SerialBT.print("B1 "); // label
+  SerialBT.print("b1 "); // label
   SerialBT.println(button1State); // value
   digitalWrite(b1LED, button1State); // on-board led state matches button state
   // repeat for other button
-  SerialBT.print("B2 ");
+  SerialBT.print("b2 ");
   SerialBT.println(button2State);
   digitalWrite(b1LED, button2State);
   digitalWrite(msgLED, LOW); // turn off led when done transmitting
@@ -150,10 +150,10 @@ void getAir() {
 
   ////////////Transmit Data
   digitalWrite(msgLED, HIGH); // turn on LED when tranmitting
-  SerialBT.print(F("AirP ")); // lebel
+  SerialBT.print(F("airP ")); // lebel
   SerialBT.println(diffPressure, 2); // value
 
-  SerialBT.print(F("Temp "));
+  SerialBT.print(F("temp "));
   SerialBT.println(temperature, 2);
   digitalWrite(msgLED, LOW); // turn of LED when done transmitting
 }
