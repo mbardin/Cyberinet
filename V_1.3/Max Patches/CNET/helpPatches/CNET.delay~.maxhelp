@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 119.0, 718.0, 565.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 256.0, 156.0, 26.0 ],
+					"patching_rect" : [ 346.0, 325.0, 156.0, 25.0 ],
 					"text" : "3. adjust delay time",
 					"textjustification" : 1
 				}
@@ -61,7 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 199.0, 158.0, 41.0 ],
+					"patching_rect" : [ 107.0, 268.0, 158.0, 40.0 ],
 					"text" : "2. Begin playback",
 					"textjustification" : 1
 				}
@@ -76,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.5, 409.0, 149.0, 41.0 ],
+					"patching_rect" : [ 11.5, 478.0, 149.0, 40.0 ],
 					"text" : "1. start DSP",
 					"textjustification" : 1
 				}
@@ -90,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 16.0, 229.0, 69.0 ],
+					"patching_rect" : [ 450.0, 8.0, 248.0, 65.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.5, 163.0, 80.0, 22.0 ],
+					"patching_rect" : [ 302.5, 232.0, 80.0, 22.0 ],
 					"text" : "loadmess 0.5"
 				}
 
@@ -113,7 +113,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.5, 354.0, 45.0, 45.0 ]
+					"patching_rect" : [ 63.5, 423.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 292.5, 364.0, 50.0, 22.0 ]
+					"patching_rect" : [ 302.5, 433.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 292.5, 204.0, 20.0, 140.0 ],
+					"patching_rect" : [ 302.5, 273.0, 20.0, 140.0 ],
 					"size" : 1.0
 				}
 
@@ -153,6 +153,7 @@
 								"filename" : "cherokee.aif",
 								"filekind" : "audiofile",
 								"id" : "u309009215",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -173,7 +174,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 53.5, 163.0, 150.0, 30.0 ],
+					"patching_rect" : [ 63.5, 232.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -184,12 +185,12 @@
 				"box" : 				{
 					"fontname" : "Futura",
 					"id" : "obj-5",
-					"linecount" : 6,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 57.0, 391.0, 100.0 ],
-					"text" : "CNET.delay delays an audio signal by anywhere between 5 and 5000ms. This object was designed to be compatible with the Cyberinet. Delay time is represented with floating point numbers in a range of 0-1. The default value is 0.5. CNET.delay does not implement any feedback or gain control. See CNET.feebackDelay for that."
+					"patching_rect" : [ 7.0, 38.0, 441.0, 182.0 ],
+					"text" : "Version 1.3\n\nCNET.delay delays an audio signal by anywhere between 5 and 5000ms. This object was designed to be compatible with the Cyberinet. Delay time is represented with floating point numbers in a range of 0-1. The default value is 0.5. CNET.delay does not implement any feedback, passthrough, or gain control. See CNET.feebackDelay for that.\n\nIn this patch, the original signal will play in the left channel, and the delayed signal will play in the right channel. Remember that CNET.delay~ does not have a built-in passthrough."
 				}
 
 			}
@@ -201,8 +202,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 16.0, 124.0, 32.0 ],
-					"text" : "CNET.delay"
+					"patching_rect" : [ 7.0, 8.0, 145.0, 31.0 ],
+					"text" : "CNET.delay~"
 				}
 
 			}
@@ -213,8 +214,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 53.5, 283.0, 72.0, 22.0 ],
-					"text" : "CNET.delay"
+					"patching_rect" : [ 63.5, 352.0, 79.0, 22.0 ],
+					"text" : "CNET.delay~"
 				}
 
 			}
@@ -222,15 +223,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 1,
+					"midpoints" : [ 73.0, 408.0, 99.0, 408.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -238,6 +231,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
+					"midpoints" : [ 312.0, 456.0, 153.0, 456.0, 153.0, 348.0, 133.0, 348.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -245,6 +239,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 312.0, 255.0, 312.0, 255.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -252,6 +247,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 105.75, 264.0, 93.0, 264.0, 93.0, 339.0, 73.0, 339.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -259,6 +255,17 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 73.0, 264.0, 73.0, 264.0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 73.0, 339.0, 48.0, 339.0, 48.0, 408.0, 73.0, 408.0 ],
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -266,15 +273,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 312.0, 414.0, 312.0, 414.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "CNET.delay.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"name" : "CNET.delay~.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}

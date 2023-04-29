@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 144.0, 1059.0, 480.0 ],
+		"rect" : [ 84.0, 144.0, 1059.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 755.5, 83.0, 29.5, 24.0 ],
+					"patching_rect" : [ 735.5, 174.0, 29.5, 23.0 ],
 					"text" : "0.9"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 724.0, 83.0, 29.5, 24.0 ],
+					"patching_rect" : [ 704.0, 174.0, 29.5, 23.0 ],
 					"text" : "0.5"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 724.0, 49.0, 61.0, 24.0 ],
+					"patching_rect" : [ 704.0, 140.0, 64.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -81,10 +81,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.0, 11.0, 225.0, 69.0 ],
+					"patching_rect" : [ 713.0, 11.0, 250.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 620.0, 15.0, 208.0, 100.0 ],
+					"presentation_rect" : [ 620.0, 15.0, 208.0, 94.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -98,10 +98,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 674.0, 336.0, 150.0, 88.0 ],
+					"patching_rect" : [ 677.0, 428.0, 167.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 675.0, 339.0, 150.0, 88.0 ],
+					"presentation_rect" : [ 675.0, 339.0, 167.0, 84.0 ],
 					"text" : "5. Set output volume. A value of 0 will completly mute any signal from the object. Defaults ot 0.9",
 					"textjustification" : 1
 				}
@@ -116,10 +116,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 336.0, 146.0, 135.0 ],
+					"patching_rect" : [ 467.5, 428.0, 160.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 462.0, 339.0, 146.0, 135.0 ],
+					"presentation_rect" : [ 462.0, 339.0, 160.0, 128.0 ],
 					"text" : "4. Set feedback percentage. Higher values result in more repetitions. Values are clipped to avoid blowing up if values go above 0.999. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -134,10 +134,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 336.0, 150.0, 88.0 ],
+					"patching_rect" : [ 286.5, 428.0, 166.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 284.0, 339.0, 150.0, 88.0 ],
+					"presentation_rect" : [ 284.0, 339.0, 166.0, 84.0 ],
 					"text" : "3. Set delay time. Larger values increase time between repetitions. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -151,9 +151,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 179.0, 150.0, 41.0 ],
+					"patching_rect" : [ 118.5, 255.0, 150.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 182.0, 150.0, 41.0 ],
+					"presentation_rect" : [ 90.0, 182.0, 150.0, 40.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -167,9 +167,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 359.5, 150.0, 41.0 ],
+					"patching_rect" : [ 7.0, 455.5, 150.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 362.5, 150.0, 41.0 ],
+					"presentation_rect" : [ 11.0, 362.5, 150.0, 40.0 ],
 					"text" : "1. Begin DSP",
 					"textjustification" : 1
 				}
@@ -178,15 +178,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 49.0, 611.0, 53.0 ],
+					"patching_rect" : [ 10.0, 49.0, 688.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 11.0, 53.0, 602.0, 53.0 ],
-					"text" : "CNET.feedbackDelay is a single channel feedback delay effect designed to work with the Cyberinet. All control values are within the range of 0-1. The maximum delay time is five seconds. The feedback percentage (inlet 2) is limited to 0.999 to avoid the delay line blowing up."
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 11.0, 53.0, 602.0, 79.0 ],
+					"text" : "Version 1.3\n\nCNET.feedbackDelay is a single channel feedback delay effect designed to work with the Cyberinet. All control values are within the range of 0-1. The maximum delay time is five seconds. The feedback percentage (inlet 2) is limited to 0.999 to avoid the delay line blowing up."
 				}
 
 			}
@@ -197,11 +197,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 11.0, 216.0, 32.0 ],
+					"patching_rect" : [ 10.0, 11.0, 260.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.0, 15.0, 127.0, 58.0 ],
-					"text" : "CNET.feedbackDelay"
+					"presentation_rect" : [ 11.0, 15.0, 127.0, 55.0 ],
+					"text" : "CNET.feedbackDelay~"
 				}
 
 			}
@@ -214,9 +214,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 511.0, 292.0, 50.0, 24.0 ],
+					"patching_rect" : [ 522.5, 386.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 512.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -229,9 +229,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 724.0, 292.0, 50.0, 24.0 ],
+					"patching_rect" : [ 735.5, 386.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 725.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 725.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -244,9 +244,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.0, 292.0, 50.0, 24.0 ],
+					"patching_rect" : [ 359.5, 386.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 349.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 349.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -259,7 +259,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 724.0, 139.0, 20.0, 140.0 ],
+					"patching_rect" : [ 735.5, 233.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 725.0, 142.0, 20.0, 140.0 ],
 					"size" : 1.0
@@ -275,7 +275,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 511.0, 139.0, 20.0, 140.0 ],
+					"patching_rect" : [ 522.5, 233.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 512.0, 142.0, 20.0, 140.0 ],
 					"size" : 1.0
@@ -291,7 +291,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.0, 139.0, 20.0, 140.0 ],
+					"patching_rect" : [ 359.5, 233.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 349.0, 142.0, 20.0, 140.0 ],
 					"size" : 1.0
@@ -307,6 +307,7 @@
 								"filename" : "cherokee.aif",
 								"filekind" : "audiofile",
 								"id" : "u724002876",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -327,7 +328,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 48.0, 139.0, 150.0, 30.0 ],
+					"patching_rect" : [ 55.0, 217.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 142.0, 150.0, 30.0 ],
@@ -342,7 +343,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 306.0, 45.0, 45.0 ],
+					"patching_rect" : [ 59.5, 400.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 309.0, 45.0, 45.0 ]
 				}
@@ -355,11 +356,11 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 48.0, 239.0, 126.0, 24.0 ],
+					"patching_rect" : [ 59.5, 333.0, 141.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 49.0, 242.0, 102.0, 40.0 ],
-					"text" : "CNET.feedbackDelay"
+					"presentation_rect" : [ 49.0, 242.0, 102.0, 38.0 ],
+					"text" : "CNET.feedbackDelay~"
 				}
 
 			}
@@ -468,8 +469,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "CNET.feedbackDelay.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"name" : "CNET.feedbackDelay~.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

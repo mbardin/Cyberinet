@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 144.0, 864.0, 480.0 ],
+		"rect" : [ 84.0, 144.0, 864.0, 574.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 564.0, 16.0, 246.0, 60.0 ],
+					"patching_rect" : [ 564.0, 16.0, 246.0, 62.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 390.0, 153.0, 26.0 ],
+					"patching_rect" : [ 194.0, 489.0, 153.0, 25.0 ],
 					"text" : "latency"
 				}
 
@@ -71,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.0, 193.0, 154.0, 26.0 ],
+					"patching_rect" : [ 516.0, 292.0, 154.0, 25.0 ],
 					"text" : "4. adjust fine tuning"
 				}
 
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.0, 308.0, 154.0, 72.0 ],
+					"patching_rect" : [ 288.0, 407.0, 166.0, 69.0 ],
 					"text" : "3. adjust coarse tuning with floats to inlet two and MIDI notes to inlet 3."
 				}
 
@@ -100,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.0, 178.0, 158.0, 41.0 ],
+					"patching_rect" : [ 95.0, 277.0, 158.0, 40.0 ],
 					"text" : "2. begin playback"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 420.0, 150.0, 41.0 ],
+					"patching_rect" : [ 5.0, 519.0, 150.0, 40.0 ],
 					"text" : "1. turn on DSP"
 				}
 
@@ -123,12 +123,12 @@
 				"box" : 				{
 					"fontname" : "Futura",
 					"id" : "obj-24",
-					"linecount" : 4,
+					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 47.0, 534.0, 69.0 ],
-					"text" : "CNET.pitchshift is a retuning object desiged to interface with the Cyberinet. the patch adjusts the pitch of a signal in real time. Coarse tuning can be from either a 0-1 floating point range or MIDI note values. Fine tuning adjustments are only a 0-1 range. Note that the given frequencies are the desired pitch, not the amount the value is shifted by. All parametrs default to 0.5"
+					"patching_rect" : [ 12.0, 49.0, 543.0, 152.0 ],
+					"text" : "Version 1.3\n\nCNET.pitchshift is a retuning object desiged to interface with the Cyberinet. the patch adjusts the pitch of a signal in real time. Coarse tuning can be from either a 0-1 floating point range or MIDI note values. Fine tuning adjustments are only a 0-1 range. Note that the given frequencies are the desired pitch, not the amount the value is shifted by. All parametrs default to 0.5.\n\nIn this patch, you will hear the original sound from the left channel, and the shifted sound in the right channel."
 				}
 
 			}
@@ -140,8 +140,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 16.0, 241.0, 32.0 ],
-					"text" : "CNET.pitchshift"
+					"patching_rect" : [ 12.0, 16.0, 241.0, 31.0 ],
+					"text" : "CNET.pitchshift~"
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 564.0, 83.0, 80.0, 22.0 ],
+					"patching_rect" : [ 553.0, 152.0, 80.0, 22.0 ],
 					"text" : "loadmess 0.5"
 				}
 
@@ -166,7 +166,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 284.0, 50.0, 22.0 ]
+					"patching_rect" : [ 472.0, 383.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -179,7 +179,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 128.5, 20.0, 140.0 ],
+					"patching_rect" : [ 472.0, 227.5, 20.0, 140.0 ],
 					"size" : 1.0
 				}
 
@@ -193,7 +193,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 295.0, 284.0, 50.0, 22.0 ]
+					"patching_rect" : [ 288.0, 383.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -205,7 +205,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.0, 128.5, 132.0, 53.0 ],
+					"patching_rect" : [ 320.0, 227.5, 132.0, 53.0 ],
 					"range" : 18
 				}
 
@@ -219,7 +219,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 295.0, 128.5, 20.0, 140.0 ],
+					"patching_rect" : [ 288.0, 227.5, 20.0, 140.0 ],
 					"size" : 1.0
 				}
 
@@ -233,7 +233,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 138.5, 390.0, 50.0, 22.0 ]
+					"patching_rect" : [ 138.5, 489.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -246,9 +246,10 @@
 								"filename" : "cherokee.aif",
 								"filekind" : "audiofile",
 								"id" : "u066003252",
-								"loop" : 0,
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -266,7 +267,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.5, 136.0, 150.0, 30.0 ],
+					"patching_rect" : [ 57.5, 235.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -279,7 +280,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.5, 367.0, 45.0, 45.0 ]
+					"patching_rect" : [ 57.5, 466.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -290,8 +291,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 64.5, 280.0, 93.0, 22.0 ],
-					"text" : "CNET.pitchShift"
+					"patching_rect" : [ 57.5, 379.0, 100.0, 22.0 ],
+					"text" : "CNET.pitchShift~"
 				}
 
 			}
@@ -299,7 +300,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 304.5, 270.0, 304.5, 270.0 ],
+					"midpoints" : [ 297.5, 369.0, 297.5, 369.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -307,7 +308,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
-					"midpoints" : [ 336.5, 270.0, 168.0, 270.0, 168.0, 276.0, 123.333333333333343, 276.0 ],
+					"midpoints" : [ 329.5, 378.0, 168.0, 378.0, 168.0, 367.0, 121.0, 367.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -315,7 +316,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 304.5, 309.0, 168.0, 309.0, 168.0, 267.0, 98.666666666666671, 267.0 ],
+					"midpoints" : [ 297.5, 408.0, 168.0, 408.0, 168.0, 366.0, 94.0, 366.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -323,7 +324,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
-					"midpoints" : [ 488.5, 309.0, 459.0, 309.0, 459.0, 270.0, 168.0, 270.0, 168.0, 276.0, 148.0, 276.0 ],
+					"midpoints" : [ 481.5, 408.0, 459.0, 408.0, 459.0, 377.0, 168.0, 377.0, 168.0, 366.0, 148.0, 366.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -331,7 +332,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 488.5, 270.0, 488.5, 270.0 ],
+					"midpoints" : [ 481.5, 369.0, 481.5, 369.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -339,7 +340,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 573.5, 126.0, 501.0, 126.0, 501.0, 123.0, 304.5, 123.0 ],
+					"midpoints" : [ 562.5, 213.0, 297.5, 213.0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
@@ -348,7 +349,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 573.5, 126.0, 501.0, 126.0, 501.0, 123.0, 488.5, 123.0 ],
+					"midpoints" : [ 562.5, 213.0, 481.5, 213.0 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
@@ -357,7 +358,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 111.0, 354.0, 100.0, 354.0 ],
+					"midpoints" : [ 107.5, 453.0, 93.0, 453.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -365,7 +366,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 74.0, 303.0, 74.0, 303.0 ],
+					"midpoints" : [ 67.0, 402.0, 67.0, 402.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -373,7 +374,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 148.0, 303.0, 148.0, 303.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -381,7 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 106.75, 168.0, 87.0, 168.0, 87.0, 267.0, 74.0, 267.0 ],
+					"midpoints" : [ 99.75, 267.0, 81.0, 267.0, 81.0, 366.0, 67.0, 366.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -389,15 +389,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 74.0, 168.0, 74.0, 168.0 ],
+					"midpoints" : [ 67.0, 267.0, 67.0, 267.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "CNET.pitchShift.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"name" : "CNET.pitchShift~.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

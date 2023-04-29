@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.0, 14.0, 238.0, 60.0 ],
+					"patching_rect" : [ 470.0, 14.0, 238.0, 62.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 184.0, 142.0, 104.0 ],
+					"patching_rect" : [ 426.0, 184.0, 154.0, 98.0 ],
 					"text" : "3. signal output can be used to control audio synthesis. Turn on toggle to hear a sine wave match the original sound",
 					"textjustification" : 1
 				}
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 437.0, 154.0, 41.0 ],
+					"patching_rect" : [ 541.0, 437.0, 154.0, 40.0 ],
 					"text" : "tuner latency",
 					"textjustification" : 1
 				}
@@ -90,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.5, 437.0, 154.0, 57.0 ],
+					"patching_rect" : [ 366.5, 437.0, 154.0, 55.0 ],
 					"text" : "Deteted pitch frequency (signal)",
 					"textjustification" : 1
 				}
@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 198.5, 449.5, 155.0, 41.0 ],
+					"patching_rect" : [ 198.5, 449.5, 155.0, 40.0 ],
 					"text" : "detected pitch in MIDI",
 					"textjustification" : 1
 				}
@@ -132,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.5, 226.0, 158.0, 41.0 ],
+					"patching_rect" : [ 104.5, 226.0, 158.0, 40.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -147,7 +147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 442.0, 150.0, 41.0 ],
+					"patching_rect" : [ 6.5, 442.0, 150.0, 40.0 ],
 					"text" : "1. turn on DSP",
 					"textjustification" : 1
 				}
@@ -210,8 +210,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 54.0, 447.0, 116.0 ],
-					"text" : "CNET.tuner takes an incoming audio signal and determines the pitch. Outlet 1 passes the signal through. Outlet 2 gives the MIDI note  of the detected pitch, and outlet 3 gives the pitch frequency as a signal.\n\nNo alteration to the signal occurs, but can add latency to the signal chain. Latency in ms is output from the 4th outlet. Occasional misidentifucation of octaves can occur."
+					"patching_rect" : [ 11.0, 54.0, 697.0, 109.0 ],
+					"text" : "Version 1.3\n\nCNET.tuner takes an incoming audio signal and determines the pitch. Outlet 1 passes the signal through. Outlet 2 gives the MIDI note  of the detected pitch, and outlet 3 gives the pitch frequency as a signal.\n\nNo alteration to the signal occurs, but can add latency to the signal chain. Latency in ms is output from the 4th outlet. Occasional misidentifucation of octaves can occur."
 				}
 
 			}
@@ -223,8 +223,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 14.0, 237.0, 32.0 ],
-					"text" : "CNET.tuner"
+					"patching_rect" : [ 11.0, 14.0, 237.0, 31.0 ],
+					"text" : "CNET.tuner~"
 				}
 
 			}
@@ -279,6 +279,7 @@
 								"filename" : "cello-f2.aif",
 								"filekind" : "audiofile",
 								"id" : "u341003857",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -311,8 +312,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "", "signal", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "signal" ],
 					"patching_rect" : [ 59.0, 277.0, 71.0, 22.0 ],
 					"text" : "CNET.tuner"
 				}
@@ -324,13 +325,6 @@
 					"destination" : [ "obj-13", 0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-1", 3 ]
 				}
 
 			}
@@ -401,8 +395,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.tuner.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 1051.0, 472.0 ],
+		"rect" : [ 2096.0, 690.0, 854.0, 474.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 760.5, 113.0, 29.5, 24.0 ],
+					"patching_rect" : [ 760.5, 113.0, 29.5, 23.0 ],
 					"text" : "0.9"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 729.0, 113.0, 29.5, 24.0 ],
+					"patching_rect" : [ 729.0, 113.0, 29.5, 23.0 ],
 					"text" : "0.5"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 729.0, 79.0, 61.0, 24.0 ],
+					"patching_rect" : [ 729.0, 79.0, 64.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -81,10 +81,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.0, 11.0, 225.0, 69.0 ],
+					"patching_rect" : [ 540.0, 11.0, 250.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 620.0, 15.0, 220.0, 100.0 ],
+					"presentation_rect" : [ 620.0, 15.0, 220.0, 94.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -98,10 +98,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 674.0, 360.0, 150.0, 88.0 ],
+					"patching_rect" : [ 674.0, 360.0, 167.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 675.0, 339.0, 150.0, 88.0 ],
+					"presentation_rect" : [ 675.0, 339.0, 167.0, 84.0 ],
 					"text" : "5. Set output volume. A value of 0 will completly mute any signal from the object. Defaults ot 0.9",
 					"textjustification" : 1
 				}
@@ -116,10 +116,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 360.0, 150.0, 103.0 ],
+					"patching_rect" : [ 461.0, 360.0, 150.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 462.0, 339.0, 150.0, 103.0 ],
+					"presentation_rect" : [ 462.0, 339.0, 150.0, 98.0 ],
 					"text" : "4. Set damping frequency. Higher values absorb more high frequencies. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -134,10 +134,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 360.0, 150.0, 88.0 ],
+					"patching_rect" : [ 283.0, 360.0, 154.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 284.0, 339.0, 150.0, 88.0 ],
+					"presentation_rect" : [ 284.0, 339.0, 154.0, 84.0 ],
 					"text" : "3. set room size. Larger values make a more prominant effect. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -151,9 +151,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 203.0, 150.0, 41.0 ],
+					"patching_rect" : [ 89.0, 203.0, 150.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 182.0, 150.0, 41.0 ],
+					"presentation_rect" : [ 90.0, 182.0, 150.0, 40.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -167,9 +167,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 383.5, 150.0, 41.0 ],
+					"patching_rect" : [ 10.0, 383.5, 150.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 362.5, 150.0, 41.0 ],
+					"presentation_rect" : [ 11.0, 362.5, 150.0, 40.0 ],
 					"text" : "1. Begin DSP",
 					"textjustification" : 1
 				}
@@ -178,15 +178,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 5,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 49.0, 611.0, 84.0 ],
+					"patching_rect" : [ 10.0, 49.0, 711.0, 109.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 11.0, 53.0, 602.0, 84.0 ],
-					"text" : "CNET.reverb is a simple reverb effect designed to easily interface with the Cyberinet. It is based on the Schroeder and John Cowning Reverbs developed by CCRMA. It is internally comprised of three All Pass filters and four feedback delays. Each control inlet receives float values in between 0 and 1. Room Size and Damping default to 0.5, and the output volume defaults to 0.9. CNET.reverb outputs in stereo. For a completly mono effect, see CNET.monoReverb "
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 11.0, 53.0, 602.0, 109.0 ],
+					"text" : "Version 1.3\n\nCNET.reverb is a simple reverb effect designed to easily interface with the Cyberinet. It is based on the Schroeder and John Cowning Reverbs developed by CCRMA. It is internally comprised of three All Pass filters and four feedback delays. Each control inlet receives float values in between 0 and 1. Room Size and Damping default to 0.5, and the output volume defaults to 0.9. CNET.reverb outputs in stereo. For a completly mono effect, see CNET.monoReverb~ "
 				}
 
 			}
@@ -197,10 +197,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 11.0, 127.0, 32.0 ],
+					"patching_rect" : [ 10.0, 11.0, 165.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 15.0, 127.0, 32.0 ],
-					"text" : "CNET.reverb"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 11.0, 15.0, 132.0, 55.0 ],
+					"text" : "CNET.reverb~"
 				}
 
 			}
@@ -213,9 +214,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 511.0, 316.0, 50.0, 24.0 ],
+					"patching_rect" : [ 511.0, 316.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 512.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -228,9 +229,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 724.0, 316.0, 50.0, 24.0 ],
+					"patching_rect" : [ 724.0, 316.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 725.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 725.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -243,9 +244,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.0, 316.0, 50.0, 24.0 ],
+					"patching_rect" : [ 348.0, 316.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 349.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 349.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -306,6 +307,7 @@
 								"filename" : "cherokee.aif",
 								"filekind" : "audiofile",
 								"id" : "u724002876",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -354,10 +356,10 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 48.0, 263.0, 102.0, 24.0 ],
+					"patching_rect" : [ 48.0, 263.0, 92.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 242.0, 102.0, 24.0 ],
-					"text" : "CNET.reverb"
+					"presentation_rect" : [ 49.0, 242.0, 102.0, 23.0 ],
+					"text" : "CNET.reverb~"
 				}
 
 			}
@@ -473,9 +475,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "CNET.reverb.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"name" : "CNET.reverb~.maxpat",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
