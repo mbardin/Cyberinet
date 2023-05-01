@@ -153,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 571.0, 153.0, 151.0, 75.0 ],
+					"patching_rect" : [ 571.0, 153.0, 151.0, 74.0 ],
 					"text" : " both inlets 2 and 3 are for coarse tuning,\n\n2 uses a 0-1 range, and 3 uses MIDI notes"
 				}
 
@@ -177,8 +177,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.5, 200.0, 110.0, 22.0 ],
-					"text" : "scale 0. 1. 10. 500."
+					"patching_rect" : [ 268.5, 200.0, 117.0, 22.0 ],
+					"text" : "scale 0. 1. 10. 2000."
 				}
 
 			}
@@ -349,7 +349,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 135.5, 56.0, 30.0, 30.0 ]
 				}
 

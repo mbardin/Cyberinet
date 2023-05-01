@@ -176,11 +176,11 @@
 					"fontsize" : 13.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 281.0, 193.5, 51.0, 23.0 ],
-					"text" : "line~ 0."
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 281.0, 193.5, 43.0, 23.0 ],
+					"text" : "line 0."
 				}
 
 			}
@@ -232,7 +232,7 @@
 				"box" : 				{
 					"comment" : "feedback % (0-1)",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -272,7 +272,7 @@
 				"box" : 				{
 					"comment" : "Output gain (0-1)",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -298,7 +298,7 @@
 				"box" : 				{
 					"comment" : "delay time (0-1)",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -335,7 +335,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -347,11 +347,11 @@
 				"box" : 				{
 					"comment" : "Signal to delay",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 164.0, 49.0, 30.0, 30.0 ]
 				}
 
@@ -561,9 +561,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
