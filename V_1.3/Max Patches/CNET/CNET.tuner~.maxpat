@@ -40,9 +40,9 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "effect latency",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -101,7 +101,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 110.0, 236.0, 56.0, 22.0 ],
+					"patching_rect" : [ 222.0, 236.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -131,7 +131,7 @@
 				"box" : 				{
 					"comment" : "Signal Pass through",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -143,11 +143,11 @@
 				"box" : 				{
 					"comment" : "detected frequency (signal)",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 411.0, 30.0, 30.0 ]
+					"patching_rect" : [ 146.25, 411.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -155,11 +155,11 @@
 				"box" : 				{
 					"comment" : "pitch (MIDI Note)",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 411.0, 30.0, 30.0 ]
+					"patching_rect" : [ 259.0, 411.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -167,7 +167,7 @@
 				"box" : 				{
 					"comment" : "Singal to Tune",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -185,7 +185,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 147.0, 324.0, 54.0, 23.0 ],
+					"patching_rect" : [ 259.0, 324.0, 54.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 73.0, 54.0, 23.0 ],
 					"style" : "rnbomonokai"
@@ -199,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.0, 274.0, 32.0, 22.0 ],
+					"patching_rect" : [ 259.0, 274.0, 32.0, 22.0 ],
 					"text" : "ftom"
 				}
 
@@ -257,7 +257,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-9", 1 ]
 				}
 
@@ -272,14 +272,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{

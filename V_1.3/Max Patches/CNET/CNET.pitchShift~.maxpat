@@ -112,13 +112,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "effect latency",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 419.0, 30.0, 30.0 ]
+					"patching_rect" : [ 401.0, 419.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -136,13 +136,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Signal Passthrough",
+					"comment" : "Shifted Signal",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 419.0, 30.0, 30.0 ]
+					"patching_rect" : [ 135.0, 419.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 333.0, 233.0, 50.0, 22.0 ]
+					"patching_rect" : [ 338.5, 233.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 333.0, 288.0, 50.0, 22.0 ]
+					"patching_rect" : [ 338.5, 288.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -215,7 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 261.0, 32.0, 22.0 ],
+					"patching_rect" : [ 338.5, 261.0, 32.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -224,12 +224,12 @@
 				"box" : 				{
 					"comment" : "coarse tuning (MIDI)",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.5, 56.0, 30.0, 30.0 ]
+					"patching_rect" : [ 338.5, 56.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -237,7 +237,7 @@
 				"box" : 				{
 					"comment" : "Fine Tuning (0-1)",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -250,11 +250,11 @@
 				"box" : 				{
 					"comment" : "coarse tuning (0-1)",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 268.5, 56.0, 30.0, 30.0 ]
 				}
 
@@ -313,7 +313,7 @@
 				"box" : 				{
 					"comment" : "Signal Passthrough",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -343,9 +343,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Singal to tune",
+					"comment" : "Singal to shift",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -519,8 +519,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "rnbomonokai",
 				"default" : 				{
