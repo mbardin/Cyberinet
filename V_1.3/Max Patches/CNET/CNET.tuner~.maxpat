@@ -114,7 +114,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "list" ],
-					"patching_rect" : [ 88.0, 124.0, 252.0, 36.0 ],
+					"patching_rect" : [ 88.0, 124.0, 252.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
@@ -171,7 +171,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 88.0, 14.0, 30.0, 30.0 ]
 				}
 
@@ -215,7 +215,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-2", 1 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
