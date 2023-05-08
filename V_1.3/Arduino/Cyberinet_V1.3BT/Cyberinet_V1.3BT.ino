@@ -28,6 +28,10 @@ const int button1 = 12;
 const int button2 = 14;
 const int b1LED = 26;
 const int b2LED = 27;
+const int expPin1 = 33;
+const int expPin2 = 32;
+const int expPin3 = 35;
+const int expPin4 = 18;
 
 // MPU 6050 values
 const int MPU_ADDR = 0x68; // I2C address of the MPU-6050
@@ -65,6 +69,7 @@ void setup() {
 void loop() { // check the sensors and transmit each loop.
   get6050();
   getButtons();
+  getExp();
   getAir(); // put 6050 and sdp31 on ends of sensor checks
 }
 
@@ -139,6 +144,31 @@ void getButtons() {
   SerialBT.println(button2State);
   digitalWrite(b1LED, button2State);
   digitalWrite(msgLED, LOW); // turn off led when done transmitting
+}
+
+int exp1State = 0;
+int exp2State = 0;
+int exp3State = 0;
+int exp4State = 0;
+
+void getExp() {
+  // Look at each return pin
+  exp1State = digitalRead(expPin1);
+  exp2State = digitalRead(expPin2);
+  exp3State = digitalRead(expPin3);
+  exp4State = digitalRead(expPin4);
+
+  // transmitData
+  digitalWrite(msgLED, HIGH);
+  SerialBT.print("exp1 ");
+  SerialBT.println(exp1State);
+  SerialBT.print("exp2 ");
+  SerialBT.println(exp2State);
+  SerialBT.print("exp3 ");
+  SerialBT.println(exp3State);
+  SerialBT.print("exp4 ");
+  SerialBT.println(exp4State);
+  digitalWrite(msgLED, LOW);
 }
 
 void getAir() {
