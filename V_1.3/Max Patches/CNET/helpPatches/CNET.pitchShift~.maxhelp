@@ -40,12 +40,143 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 592.0, 184.0, 29.5, 22.0 ],
+					"text" : "0.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 555.0, 184.0, 29.5, 22.0 ],
+					"text" : "0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 555.0, 152.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 579.0, 227.5, 169.0, 24.0 ],
+					"text" : "Experiment with presets!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 522.0, 227.5, 53.0, 29.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.100000001490116, 5, "obj-14", "kslider", "int", 36, 5, "obj-16", "flonum", "float", 0.100000001490116, 5, "obj-18", "slider", "float", 0.5, 5, "obj-17", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.100000001490116, 5, "obj-14", "kslider", "int", 36, 5, "obj-16", "flonum", "float", 0.100000001490116, 5, "obj-18", "slider", "float", 0.0, 5, "obj-17", "flonum", "float", 0.0 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.444354832172394, 5, "obj-14", "kslider", "int", 36, 5, "obj-16", "flonum", "float", 0.444354832172394, 5, "obj-18", "slider", "float", 0.284615397453308, 5, "obj-17", "flonum", "float", 0.284615397453308 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.444354832172394, 5, "obj-14", "kslider", "int", 36, 5, "obj-16", "flonum", "float", 0.444354832172394, 5, "obj-18", "slider", "float", 0.854404449462891, 5, "obj-17", "flonum", "float", 0.854404449462891 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.444354832172394, 5, "obj-14", "kslider", "int", 47, 5, "obj-16", "flonum", "float", 0.444354832172394, 5, "obj-18", "slider", "float", 0.854404449462891, 5, "obj-17", "flonum", "float", 0.854404449462891 ]
+						}
+, 						{
+							"number" : 6,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.444354832172394, 5, "obj-14", "kslider", "int", 52, 5, "obj-16", "flonum", "float", 0.444354832172394, 5, "obj-18", "slider", "float", 0.854404449462891, 5, "obj-17", "flonum", "float", 0.854404449462891 ]
+						}
+, 						{
+							"number" : 7,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.444354832172394, 5, "obj-14", "kslider", "int", 52, 5, "obj-16", "flonum", "float", 0.444354832172394, 5, "obj-18", "slider", "float", 0.424751847982407, 5, "obj-17", "flonum", "float", 0.424751847982407 ]
+						}
+, 						{
+							"number" : 8,
+							"data" : [ 5, "obj-7", "playlist~", "preset_count", 1, 7, "obj-7", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-7", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-7", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-7", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-7", "playlist~", "preset_clipstate", 1, "id", "u066003252", 7, "obj-7", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-7", "playlist~", "preset_execute", 5, "obj-9", "flonum", "float", 0.0, 5, "obj-11", "slider", "float", 0.914454102516174, 5, "obj-14", "kslider", "int", 52, 5, "obj-16", "flonum", "float", 0.914454102516174, 5, "obj-18", "slider", "float", 0.005769230891019, 5, "obj-17", "flonum", "float", 0.005769230891019 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 655.0, 152.0, 167.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 4, 44, 358, 172 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage CNET.pitchShift~",
+					"varname" : "CNET.pitchShift~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 655.0, 116.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"psCoarse" : [ 0.1 ],
+						"psFine" : [ 0.5 ],
+						"psMIDI" : [ 52 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u361007726"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 564.0, 16.0, 246.0, 62.0 ],
+					"patching_rect" : [ 564.0, 16.0, 246.0, 60.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -58,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 489.0, 153.0, 25.0 ],
+					"patching_rect" : [ 194.0, 489.0, 153.0, 26.0 ],
 					"text" : "latency"
 				}
 
@@ -71,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 516.0, 292.0, 154.0, 25.0 ],
+					"patching_rect" : [ 516.0, 292.0, 154.0, 26.0 ],
 					"text" : "4. adjust fine tuning"
 				}
 
@@ -86,7 +217,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 407.0, 166.0, 69.0 ],
+					"patching_rect" : [ 288.0, 407.0, 166.0, 72.0 ],
 					"text" : "3. adjust coarse tuning with floats to inlet two and MIDI notes to inlet 3."
 				}
 
@@ -100,7 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 277.0, 158.0, 40.0 ],
+					"patching_rect" : [ 95.0, 277.0, 158.0, 41.0 ],
 					"text" : "2. begin playback"
 				}
 
@@ -114,7 +245,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 519.0, 150.0, 40.0 ],
+					"patching_rect" : [ 5.0, 519.0, 150.0, 41.0 ],
 					"text" : "1. turn on DSP"
 				}
 
@@ -127,8 +258,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 49.0, 543.0, 152.0 ],
-					"text" : "Version 1.3\n\nCNET.pitchshift is a retuning object desiged to interface with the Cyberinet. the patch adjusts the pitch of a signal in real time. Coarse tuning can be from either a 0-1 floating point range or MIDI note values. Fine tuning adjustments are only a 0-1 range. Note that the given frequencies are the desired pitch, not the amount the value is shifted by. All parametrs default to 0.5.\n\nIn this patch, you will hear the original sound from the left channel, and the shifted sound in the right channel."
+					"patching_rect" : [ 12.0, 49.0, 527.0, 162.0 ],
+					"text" : "Version 1.3\n\nCNET.pitchshift is a retuning object desiged to interface with the Cyberinet. the patch adjusts the pitch of a signal in real time. Coarse tuning can be from either a 0-1 floating point range or MIDI note values. Fine tuning adjustments are only a 0-1 range. Note that the given frequencies are the desired pitch, not the amount the value is shifted by. Coarse tuning defaults to 0.1, and fine tuning defaults to 0.5. A value of 0 will result in no shifting\n\nIn this patch, you will hear the original sound from the left channel, and the shifted sound in the right channel."
 				}
 
 			}
@@ -140,20 +271,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 16.0, 241.0, 31.0 ],
+					"patching_rect" : [ 12.0, 16.0, 241.0, 32.0 ],
 					"text" : "CNET.pitchshift~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.0, 152.0, 80.0, 22.0 ],
-					"text" : "loadmess 0.5"
 				}
 
 			}
@@ -180,7 +299,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 472.0, 227.5, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "psFine"
 				}
 
 			}
@@ -206,7 +326,8 @@
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 320.0, 227.5, 132.0, 53.0 ],
-					"range" : 18
+					"range" : 18,
+					"varname" : "psMIDI"
 				}
 
 			}
@@ -220,7 +341,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 288.0, 227.5, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "psCoarse"
 				}
 
 			}
@@ -299,9 +421,32 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 297.5, 369.0, 297.5, 369.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -340,18 +485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 562.5, 213.0, 297.5, 213.0 ],
-					"order" : 1,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 562.5, 213.0, 481.5, 213.0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -397,7 +531,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.pitchShift~.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

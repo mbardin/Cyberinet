@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 215.0, 204.0, 990.0, 722.0 ],
+		"rect" : [ 150.0, 111.0, 796.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,12 +41,102 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 84.0, 587.0, 150.0, 37.0 ],
+					"text" : "Experiment with presets!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 31.0, 587.0, 43.0, 31.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u389001737", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 1.0, 5, "obj-8", "slider", "float", 0.400000005960464, 5, "obj-10", "slider", "float", 0.5, 5, "obj-12", "slider", "float", 0.5, 5, "obj-14", "slider", "float", 1.0, 5, "obj-16", "flonum", "float", 1.0, 5, "obj-18", "flonum", "float", 0.400000005960464, 5, "obj-20", "flonum", "float", 0.5, 5, "obj-22", "flonum", "float", 1.0, 5, "obj-24", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u389001737", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.0, 5, "obj-8", "slider", "float", 0.0, 5, "obj-10", "slider", "float", 0.5, 5, "obj-12", "slider", "float", 0.5, 5, "obj-14", "slider", "float", 1.0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-20", "flonum", "float", 0.5, 5, "obj-22", "flonum", "float", 1.0, 5, "obj-24", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u389001737", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.610794067382812, 5, "obj-8", "slider", "float", 0.415384620428085, 5, "obj-10", "slider", "float", 0.738461554050446, 5, "obj-12", "slider", "float", 0.80448716878891, 5, "obj-14", "slider", "float", 0.75781637430191, 5, "obj-16", "flonum", "float", 0.610794067382812, 5, "obj-18", "flonum", "float", 0.415384620428085, 5, "obj-20", "flonum", "float", 0.80448716878891, 5, "obj-22", "flonum", "float", 0.75781637430191, 5, "obj-24", "flonum", "float", 0.738461554050446 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u389001737", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.610794067382812, 5, "obj-8", "slider", "float", 0.415384620428085, 5, "obj-10", "slider", "float", 0.100000001490116, 5, "obj-12", "slider", "float", 0.933333337306976, 5, "obj-14", "slider", "float", 0.75781637430191, 5, "obj-16", "flonum", "float", 0.610794067382812, 5, "obj-18", "flonum", "float", 0.415384620428085, 5, "obj-20", "flonum", "float", 0.933333337306976, 5, "obj-22", "flonum", "float", 0.75781637430191, 5, "obj-24", "flonum", "float", 0.100000001490116 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u389001737", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.803722083568573, 5, "obj-8", "slider", "float", 0.628846168518066, 5, "obj-10", "slider", "float", 0.653846144676208, 5, "obj-12", "slider", "float", 0.933333337306976, 5, "obj-14", "slider", "float", 0.75781637430191, 5, "obj-16", "flonum", "float", 0.803722083568573, 5, "obj-18", "flonum", "float", 0.628846168518066, 5, "obj-20", "flonum", "float", 0.933333337306976, 5, "obj-22", "flonum", "float", 0.75781637430191, 5, "obj-24", "flonum", "float", 0.653846144676208 ]
+						}
+, 						{
+							"number" : 6,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u389001737", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.803722083568573, 5, "obj-8", "slider", "float", 0.0, 5, "obj-10", "slider", "float", 0.653846144676208, 5, "obj-12", "slider", "float", 0.933333337306976, 5, "obj-14", "slider", "float", 0.671712160110474, 5, "obj-16", "flonum", "float", 0.803722083568573, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-20", "flonum", "float", 0.933333337306976, 5, "obj-22", "flonum", "float", 0.671712160110474, 5, "obj-24", "flonum", "float", 0.653846144676208 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 983.0, 197.0, 164.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 4, 44, 358, 172 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage CNET.vibDelay~",
+					"varname" : "CNET.vibDelay~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 983.0, 167.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"vDelDryGain" : [ 0.803722084367246 ],
+						"vDelOutGain" : [ 0.671712158808933 ],
+						"vDelTimw" : [ 0.0 ],
+						"vDelVSpeed" : [ 0.933333333333333 ],
+						"vDelvDepth" : [ 0.653846153846154 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u168001753"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"id" : "obj-51",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.5, 483.0, 150.0, 79.0 ],
+					"patching_rect" : [ 732.5, 483.0, 153.0, 78.0 ],
 					"text" : "7. set wet effect output. a value of 0 will mute the effect. Accepts values between 0 and 1. Defaults to 1.0"
 				}
 
@@ -59,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 483.0, 150.0, 79.0 ],
+					"patching_rect" : [ 485.0, 483.0, 150.0, 78.0 ],
 					"text" : "6. set vibrato depth. accepts values between 0 and 1. Maximum depth is 50 Hz. Defaults to 0.5"
 				}
 
@@ -72,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 718.0, 270.5, 150.0, 79.0 ],
+					"patching_rect" : [ 718.0, 270.5, 150.0, 78.0 ],
 					"text" : "5. set vibrato speed. accpets values between 0 and 1. Maximum speed is 5 Hz"
 				}
 
@@ -85,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.0, 270.5, 150.0, 93.0 ],
+					"patching_rect" : [ 487.0, 270.5, 151.0, 91.0 ],
 					"text" : "4. set delay time. accetps values between 0 and 1.\nmaximum delay time is 5 seconds. defaults to 0.4"
 				}
 
@@ -98,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 266.0, 150.0, 79.0 ],
+					"patching_rect" : [ 256.0, 266.0, 150.0, 78.0 ],
 					"text" : "3. set dry output gain. accepts ranges of 0-1. defaults to 1.0. A value of 0 will mute the original signal."
 				}
 
@@ -135,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 14.0, 218.0, 62.0 ],
+					"patching_rect" : [ 586.0, 14.0, 218.0, 60.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -147,7 +237,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 45.0, 799.0, 131.0 ],
+					"patching_rect" : [ 5.0, 45.0, 799.0, 127.0 ],
 					"text" : "Version 1.3\n\nCNET.vibDelay~ is a audio effect designed to interface with the Cyberinet. It combines a single delay line with a vibrato effect, resulting in the delayed signal being able to take on a unique character.\n\nThe first outlet passes the original signal through, and the second one outputs the altered signal.\nInlet 1 receives the signal, inlet 2 controls the dry output volume. outlets 3 controsl the delay time. Outlets 4 and 5 control the vibrato parameters, and outlet 6 controls the wet signal output level.\nAll control inputs accept floating point values between 0 and 1. default values are given below."
 				}
 
@@ -287,7 +377,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 680.0, 444.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "vDelOutGain"
 				}
 
 			}
@@ -302,7 +393,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 678.0, 240.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "vDelVSpeed"
 				}
 
 			}
@@ -317,7 +409,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 451.0, 444.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "vDelvDepth"
 				}
 
 			}
@@ -332,7 +425,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 451.0, 240.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "vDelTimw"
 				}
 
 			}
@@ -346,7 +440,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 223.0, 240.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "vDelDryGain"
 				}
 
 			}
@@ -574,7 +669,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.vibDelay~.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

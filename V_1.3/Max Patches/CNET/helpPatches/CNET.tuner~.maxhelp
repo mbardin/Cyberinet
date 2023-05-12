@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 765.0, 557.0 ],
+		"rect" : [ 59.0, 119.0, 1124.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,111 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-30",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 743.0, 179.5, 150.0, 64.0 ],
+					"text" : "4. Create harmonizations by altering the signal or MIDI pitch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 684.5, 357.0, 142.0, 22.0 ],
+					"text" : "rampsmooth~ 1000 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 695.0, 194.5, 41.0, 41.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 684.5, 271.5, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 684.5, 324.5, 43.0, 22.0 ],
+					"text" : "cycle~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 652.0, 235.5, 30.0, 22.0 ],
+					"text" : "*~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-8",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 673.0, 408.0, 150.0, 106.0 ],
+					"text" : "smoothing the signal may be necessary, expecially if the patch has difficulty reading the pitch. It helps, but this  effect sound still has a little wobbleing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 366.5, 330.0, 142.0, 22.0 ],
+					"text" : "rampsmooth~ 1000 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.0, 14.0, 238.0, 62.0 ],
+					"patching_rect" : [ 629.0, 8.0, 238.0, 60.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -59,23 +158,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 184.0, 154.0, 98.0 ],
+					"patching_rect" : [ 415.5, 175.5, 154.0, 104.0 ],
 					"text" : "3. signal output can be used to control audio synthesis. Turn on toggle to hear a sine wave match the original sound",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"fontname" : "Futura",
-					"id" : "obj-30",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 437.0, 154.0, 40.0 ],
-					"text" : "tuner latency",
 					"textjustification" : 1
 				}
 
@@ -90,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.5, 437.0, 154.0, 55.0 ],
+					"patching_rect" : [ 366.5, 437.0, 154.0, 57.0 ],
 					"text" : "Deteted pitch frequency (signal)",
 					"textjustification" : 1
 				}
@@ -117,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 198.5, 449.5, 155.0, 40.0 ],
+					"patching_rect" : [ 198.5, 449.5, 155.0, 41.0 ],
 					"text" : "detected pitch in MIDI",
 					"textjustification" : 1
 				}
@@ -132,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.5, 226.0, 158.0, 40.0 ],
+					"patching_rect" : [ 104.5, 226.0, 158.0, 41.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -147,22 +231,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 442.0, 150.0, 40.0 ],
+					"patching_rect" : [ 6.5, 442.0, 150.0, 41.0 ],
 					"text" : "1. turn on DSP",
 					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-17",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 593.0, 408.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -206,12 +277,12 @@
 				"box" : 				{
 					"fontname" : "Futura",
 					"id" : "obj-11",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 54.0, 697.0, 109.0 ],
-					"text" : "Version 1.3\n\nCNET.tuner takes an incoming audio signal and determines the pitch. Outlet 1 passes the signal through. Outlet 2 gives the MIDI note  of the detected pitch, and outlet 3 gives the pitch frequency as a signal.\n\nNo alteration to the signal occurs, but can add latency to the signal chain. Latency in ms is output from the 4th outlet. Occasional misidentifucation of octaves can occur."
+					"patching_rect" : [ 11.0, 54.0, 697.0, 100.0 ],
+					"text" : "Version 1.3\n\nCNET.tuner takes an incoming audio signal and determines the pitch. Outlet 1 passes the signal through. Outlet 2 gives the MIDI note  of the detected pitch, and outlet 3 gives the pitch frequency as a signal.\n\nNo alteration to the signal occurs, but can add latency to the signal chain. Occasional misidentifucation of octaves can occur."
 				}
 
 			}
@@ -223,7 +294,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 14.0, 237.0, 31.0 ],
+					"patching_rect" : [ 11.0, 14.0, 237.0, 32.0 ],
 					"text" : "CNET.tuner~"
 				}
 
@@ -280,9 +351,9 @@
 								"filekind" : "audiofile",
 								"id" : "u341003857",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -322,8 +393,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -345,14 +424,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -366,6 +452,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -373,8 +466,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -392,10 +506,17 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.tuner.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1

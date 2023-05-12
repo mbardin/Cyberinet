@@ -41,13 +41,97 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"id" : "obj-30",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 103.0, 147.5, 189.0, 42.0 ],
+					"text" : "click to change presets and explore different effects."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 48.0, 158.0, 53.0, 21.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 4, "obj-4", "playlist~", "preset_execute", 5, "obj-8", "slider", "float", 0.5, 5, "obj-10", "slider", "float", 0.5, 5, "obj-14", "flonum", "float", 0.5, 5, "obj-16", "flonum", "float", 0.5, 5, "obj-7", "slider", "float", 0.5, 5, "obj-5", "flonum", "float", 0.5, 5, "obj-13", "slider", "float", 0.5, 5, "obj-11", "flonum", "float", 0.5, 5, "obj-22", "slider", "float", 0.5, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-19", "slider", "float", 0.5, 5, "obj-17", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 4, "obj-4", "playlist~", "preset_execute", 5, "obj-8", "slider", "float", 0.804714620113373, 5, "obj-10", "slider", "float", 0.152233257889748, 5, "obj-14", "flonum", "float", 0.152233257889748, 5, "obj-16", "flonum", "float", 0.804714620113373, 5, "obj-7", "slider", "float", 0.5, 5, "obj-5", "flonum", "float", 0.5, 5, "obj-13", "slider", "float", 0.829280376434326, 5, "obj-11", "flonum", "float", 0.829280376434326, 5, "obj-22", "slider", "float", 0.89739453792572, 5, "obj-21", "flonum", "float", 0.89739453792572, 5, "obj-19", "slider", "float", 0.212406948208809, 5, "obj-17", "flonum", "float", 0.212406948208809 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 4, "obj-4", "playlist~", "preset_execute", 5, "obj-8", "slider", "float", 0.295409440994263, 5, "obj-10", "slider", "float", 0.720223307609558, 5, "obj-14", "flonum", "float", 0.720223307609558, 5, "obj-16", "flonum", "float", 0.295409440994263, 5, "obj-7", "slider", "float", 0.614640176296234, 5, "obj-5", "flonum", "float", 0.614640176296234, 5, "obj-13", "slider", "float", 0.197270467877388, 5, "obj-11", "flonum", "float", 0.197270467877388, 5, "obj-22", "slider", "float", 0.410173684358597, 5, "obj-21", "flonum", "float", 0.410173684358597, 5, "obj-19", "slider", "float", 0.414392054080963, 5, "obj-17", "flonum", "float", 0.414392054080963 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 4, "obj-4", "playlist~", "preset_execute", 5, "obj-8", "slider", "float", 0.802977681159973, 5, "obj-10", "slider", "float", 0.292803972959518, 5, "obj-14", "flonum", "float", 0.292803972959518, 5, "obj-16", "flonum", "float", 0.802977681159973, 5, "obj-7", "slider", "float", 0.194540947675705, 5, "obj-5", "flonum", "float", 0.194540947675705, 5, "obj-13", "slider", "float", 0.921712160110474, 5, "obj-11", "flonum", "float", 0.921712160110474, 5, "obj-22", "slider", "float", 0.830024838447571, 5, "obj-21", "flonum", "float", 0.830024838447571, 5, "obj-19", "slider", "float", 0.948263049125671, 5, "obj-17", "flonum", "float", 0.948263049125671 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1034.0, 107.0, 114.0, 40.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 1057, 100, 1440, 462 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage CNET.compressor~",
+					"varname" : "CNET.compressor~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 968.0, 107.0, 58.0, 24.0 ],
+					"restore" : 					{
+						"compAttack" : [ 0.5 ],
+						"compInGain" : [ 0.5 ],
+						"compMakeUp" : [ 0.5 ],
+						"compRatio" : [ 0.5 ],
+						"compRelease" : [ 0.5 ],
+						"compThresh" : [ 0.5 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u899000643"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-28",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.5, 567.0, 150.0, 84.0 ],
+					"patching_rect" : [ 137.0, 567.0, 150.0, 88.0 ],
 					"text" : "Make up gain Can be monitored with a meter~ connected to the third outlet.",
 					"textjustification" : 1
 				}
@@ -60,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 135.0, 520.0, 135.0, 43.0 ]
+					"patching_rect" : [ 152.0, 519.0, 135.0, 43.0 ]
 				}
 
 			}
@@ -73,10 +157,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 721.0, 151.0, 98.0 ],
+					"patching_rect" : [ 287.0, 721.0, 153.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 953.0, 633.0, 151.0, 98.0 ],
+					"presentation_rect" : [ 953.0, 633.0, 153.0, 103.0 ],
 					"text" : "6. Set attack time. Higher values result in the compression being applied slower. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -91,9 +175,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 337.0, 677.0, 50.0, 23.0 ],
+					"patching_rect" : [ 337.0, 677.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1003.0, 589.0, 50.0, 23.0 ]
+					"presentation_rect" : [ 1003.0, 589.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -109,7 +193,8 @@
 					"patching_rect" : [ 337.0, 524.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1003.0, 436.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "compAttack"
 				}
 
 			}
@@ -118,14 +203,14 @@
 					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-20",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.0, 378.0, 164.0, 84.0 ],
+					"patching_rect" : [ 599.0, 378.0, 166.0, 72.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 785.0, 633.0, 164.0, 84.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 785.0, 633.0, 166.0, 72.0 ],
 					"text" : "5. Set compression ratio. Higher values result in more compression. Defaults ot 0.5",
 					"textjustification" : 1
 				}
@@ -140,9 +225,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 649.0, 334.0, 50.0, 23.0 ],
+					"patching_rect" : [ 662.0, 334.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 835.0, 589.0, 50.0, 23.0 ]
+					"presentation_rect" : [ 835.0, 589.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -155,10 +240,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 649.0, 181.0, 20.0, 140.0 ],
+					"patching_rect" : [ 662.0, 181.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 835.0, 436.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "compRatio"
 				}
 
 			}
@@ -171,10 +257,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.0, 721.0, 166.0, 113.0 ],
+					"patching_rect" : [ 455.0, 721.0, 166.0, 119.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 951.0, 339.0, 166.0, 113.0 ],
+					"presentation_rect" : [ 951.0, 339.0, 166.0, 119.0 ],
 					"text" : "7. Set release time. Higher values result in compression being applied for longer after sounds move below the threshold. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -189,9 +275,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 505.0, 677.0, 50.0, 23.0 ],
+					"patching_rect" : [ 505.0, 677.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1001.0, 295.0, 50.0, 23.0 ]
+					"presentation_rect" : [ 1001.0, 295.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -207,7 +293,8 @@
 					"patching_rect" : [ 505.0, 524.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1001.0, 142.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "compRelease"
 				}
 
 			}
@@ -220,10 +307,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 626.0, 721.0, 153.0, 98.0 ],
+					"patching_rect" : [ 626.0, 721.0, 153.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 783.0, 338.0, 153.0, 98.0 ],
+					"presentation_rect" : [ 783.0, 338.0, 153.0, 103.0 ],
 					"text" : "8. Set Makeup Gain. Adjusts volume after compression. Can be monitored via outlet 3. Defaults ot 0.5",
 					"textjustification" : 1
 				}
@@ -238,9 +325,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 676.0, 677.0, 50.0, 23.0 ],
+					"patching_rect" : [ 676.0, 677.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 833.0, 294.0, 50.0, 23.0 ]
+					"presentation_rect" : [ 833.0, 294.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -256,7 +343,8 @@
 					"patching_rect" : [ 676.0, 524.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 833.0, 141.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "compMakeUp"
 				}
 
 			}
@@ -267,7 +355,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 832.0, 132.0, 29.5, 23.0 ],
+					"patching_rect" : [ 832.0, 132.0, 29.5, 24.0 ],
 					"text" : "0.5"
 				}
 
@@ -279,7 +367,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 832.0, 107.0, 64.0, 23.0 ],
+					"patching_rect" : [ 832.0, 107.0, 64.0, 24.0 ],
 					"text" : "loadbang"
 				}
 
@@ -291,10 +379,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.0, 23.0, 247.0, 65.0 ],
+					"patching_rect" : [ 809.0, 23.0, 249.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 620.0, 15.0, 208.0, 94.0 ],
+					"presentation_rect" : [ 620.0, 15.0, 208.0, 100.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -308,10 +396,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 378.0, 150.0, 98.0 ],
+					"patching_rect" : [ 440.0, 378.0, 150.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 675.0, 339.0, 150.0, 98.0 ],
+					"presentation_rect" : [ 675.0, 339.0, 150.0, 103.0 ],
 					"text" : "4. Set Compression threshold. Lower values result in more compression. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -326,10 +414,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.0, 378.0, 152.0, 84.0 ],
+					"patching_rect" : [ 282.0, 378.0, 152.0, 88.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 462.0, 339.0, 152.0, 84.0 ],
+					"presentation_rect" : [ 462.0, 339.0, 152.0, 88.0 ],
 					"text" : "3. Set input gain level. Higher levels will result in more compression. Dedaults to 0.5",
 					"textjustification" : 1
 				}
@@ -343,9 +431,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 268.0, 150.0, 40.0 ],
+					"patching_rect" : [ 89.0, 268.0, 150.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 182.0, 150.0, 40.0 ],
+					"presentation_rect" : [ 90.0, 182.0, 150.0, 41.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -359,9 +447,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 448.5, 150.0, 40.0 ],
+					"patching_rect" : [ 10.0, 448.5, 150.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 362.5, 150.0, 40.0 ],
+					"presentation_rect" : [ 11.0, 362.5, 150.0, 41.0 ],
 					"text" : "1. Begin DSP",
 					"textjustification" : 1
 				}
@@ -374,10 +462,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 46.5, 815.0, 79.0 ],
+					"patching_rect" : [ 10.0, 46.5, 815.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 11.0, 53.0, 606.0, 94.0 ],
+					"presentation_rect" : [ 11.0, 53.0, 609.0, 100.0 ],
 					"text" : "Version 1.3\n\nCNET.compressor is a basic stereo compressor based of of the various native Max compression objects. The first two inlets are the Left and Right channels, and the remaining 6 control the input gain, threshold, ratio, attack, release, and makeup gain (continuing left to right). All parameters accept floating numbers between 0 and 1, and all parameters default to 0.5 "
 				}
 
@@ -389,10 +477,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 6.0, 216.0, 31.0 ],
+					"patching_rect" : [ 10.0, 6.0, 216.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.0, 15.0, 127.0, 55.0 ],
+					"presentation_rect" : [ 11.0, 15.0, 127.0, 58.0 ],
 					"text" : "CNET.compressor~"
 				}
 
@@ -406,9 +494,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.0, 334.0, 50.0, 23.0 ],
+					"patching_rect" : [ 332.0, 334.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.0, 295.0, 50.0, 23.0 ]
+					"presentation_rect" : [ 512.0, 295.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -421,9 +509,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 490.0, 334.0, 50.0, 23.0 ],
+					"patching_rect" : [ 490.0, 334.0, 50.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 725.0, 295.0, 50.0, 23.0 ]
+					"presentation_rect" : [ 725.0, 295.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -439,7 +527,8 @@
 					"patching_rect" : [ 490.0, 181.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 725.0, 142.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "compThresh"
 				}
 
 			}
@@ -455,7 +544,8 @@
 					"patching_rect" : [ 332.0, 181.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 512.0, 142.0, 20.0, 140.0 ],
-					"size" : 1.0
+					"size" : 1.0,
+					"varname" : "compInGain"
 				}
 
 			}
@@ -471,7 +561,7 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -517,10 +607,10 @@
 					"numinlets" : 8,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 48.0, 328.0, 123.0, 23.0 ],
+					"patching_rect" : [ 48.0, 328.0, 123.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 49.0, 242.0, 102.0, 38.0 ],
+					"presentation_rect" : [ 49.0, 242.0, 102.0, 40.0 ],
 					"text" : "CNET.compressor~"
 				}
 
@@ -705,7 +795,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.compressor~.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

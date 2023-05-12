@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 954.0, 565.0 ],
+		"rect" : [ 59.0, 119.0, 1030.0, 565.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,97 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-10",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 821.0, 126.0, 150.0, 91.0 ],
+					"text" : "Presets for increasing and decreasing ranges.\nExperimentation not rcommended unless needed."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 746.0, 163.0, 65.0, 17.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-5", "umenu", "int", 0, 5, "obj-13", "dial", "float", 127.0, 5, "obj-14", "dial", "float", 127.0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-21", "flonum", "float", 0.0, 5, "obj-23", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-30", "flonum", "float", 0.0, 5, "obj-29", "flonum", "float", 0.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-33", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0, 5, "obj-46", "toggle", "int", 0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-5", "umenu", "int", 2, 5, "obj-13", "dial", "float", 64.0, 5, "obj-14", "dial", "float", 127.0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-18", "flonum", "float", -63.0, 5, "obj-21", "flonum", "float", 0.0, 5, "obj-23", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-30", "flonum", "float", 0.0, 5, "obj-29", "flonum", "float", 0.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-33", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0, 5, "obj-46", "toggle", "int", 0 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-5", "umenu", "int", 5, 5, "obj-13", "dial", "float", 127.0, 5, "obj-14", "dial", "float", 217.600006103515625, 5, "obj-16", "flonum", "float", 90.599998474121094, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-21", "flonum", "float", 0.0, 5, "obj-23", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-30", "flonum", "float", 0.0, 5, "obj-29", "flonum", "float", 0.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-33", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0, 5, "obj-46", "toggle", "int", 0 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 5, "obj-5", "umenu", "int", 6, 5, "obj-13", "dial", "float", 24.600000381469727, 5, "obj-14", "dial", "float", 32.0, 5, "obj-16", "flonum", "float", -95.0, 5, "obj-18", "flonum", "float", -102.400001525878906, 5, "obj-21", "flonum", "float", 0.0, 5, "obj-23", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-30", "flonum", "float", 0.0, 5, "obj-29", "flonum", "float", 0.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-33", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0, 5, "obj-46", "toggle", "int", 0 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 5, "obj-5", "umenu", "int", 4, 5, "obj-13", "dial", "float", 230.399993896484375, 5, "obj-14", "dial", "float", 224.0, 5, "obj-16", "flonum", "float", 97.0, 5, "obj-18", "flonum", "float", 103.400001525878906, 5, "obj-21", "flonum", "float", 0.0, 5, "obj-23", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-30", "flonum", "float", 0.0, 5, "obj-29", "flonum", "float", 0.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-33", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0, 5, "obj-46", "toggle", "int", 0 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 812.0, 77.0, 159.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 4, 44, 358, 172 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage CNET.rangeSet",
+					"varname" : "CNET.rangeSet"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 746.0, 77.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"rangeSetMax" : [ 224.0 ],
+						"rangeSetMin" : [ 230.399999999999977 ],
+						"rangeSetSensorChoose" : [ 4 ],
+						"rangeSetValueSend" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u391010929"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Futura",
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 510.0, 629.0, 21.0 ],
+					"patching_rect" : [ 11.0, 510.0, 629.0, 22.0 ],
 					"text" : "All values still between 0 and 1, but the internal scaling and movement through the range will change."
 				}
 
@@ -60,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.5, 176.5, 147.0, 69.0 ],
+					"patching_rect" : [ 183.5, 176.5, 147.0, 72.0 ],
 					"text" : "5. adjusted vales can also be sent with a bang."
 				}
 
@@ -75,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 187.0, 161.0, 69.0 ],
+					"patching_rect" : [ 11.0, 187.0, 161.0, 72.0 ],
 					"text" : "4. select sensor to adjust. Selecting outputs all values as a list. "
 				}
 
@@ -89,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 622.0, 254.0, 157.0, 40.0 ],
+					"patching_rect" : [ 622.0, 254.0, 157.0, 42.0 ],
 					"text" : "3. set new maximum value."
 				}
 
@@ -104,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.0, 184.0, 150.0, 55.0 ],
+					"patching_rect" : [ 347.0, 184.0, 150.0, 57.0 ],
 					"text" : "2. set new minimum value."
 				}
 
@@ -166,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 368.0, 155.0, 40.0 ],
+					"patching_rect" : [ 391.0, 368.0, 155.0, 42.0 ],
 					"text" : "1. connect Cyberinet unit"
 				}
 
@@ -179,7 +264,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 237.0, 254.0, 40.0, 40.0 ]
+					"patching_rect" : [ 237.0, 254.0, 40.0, 40.0 ],
+					"varname" : "rangeSetValueSend"
 				}
 
 			}
@@ -191,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 0.0, 243.0, 65.0 ],
+					"patching_rect" : [ 724.0, 0.0, 247.0, 69.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -386,7 +472,8 @@
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 575.0, 254.0, 40.0, 40.0 ],
-					"size" : 256.0
+					"size" : 256.0,
+					"varname" : "rangeSetMax"
 				}
 
 			}
@@ -401,7 +488,8 @@
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 391.0, 254.0, 40.0, 40.0 ],
-					"size" : 256.0
+					"size" : 256.0,
+					"varname" : "rangeSetMin"
 				}
 
 			}
@@ -413,7 +501,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 31.0, 739.0, 152.0 ],
+					"patching_rect" : [ 0.0, 31.0, 739.0, 162.0 ],
 					"text" : "Version 1.3\n\nCNET.rangeSet is used to acjust the value scaling for the Cyberinet. It is not recommended for use unless a performer is creating values that create either too much or not enough of the desired effect.\n\nThe first inlet determines the sensor to adjust. This can be set with the provided ument or by using the same labels as CNET.receive. The next two inlets set the new minimum and maximum values respectivelty.\n\nThe values are then fed into the first inlet of CNET.receive to adjust the values. All outputs from CNET.receive are still in between 0 and 1."
 				}
 
@@ -427,7 +515,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 261.0, 100.0, 22.0 ]
+					"patching_rect" : [ 11.0, 261.0, 100.0, 22.0 ],
+					"varname" : "rangeSetSensorChoose"
 				}
 
 			}
@@ -463,7 +552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 242.0, 31.0 ],
+					"patching_rect" : [ 0.0, 0.0, 242.0, 32.0 ],
 					"text" : "CNET.rangeSet"
 				}
 
@@ -642,21 +731,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.rangeSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "TEXT",
 				"implicit" : 1
