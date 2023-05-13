@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 821.0, 126.0, 150.0, 91.0 ],
+					"patching_rect" : [ 821.0, 126.0, 150.0, 93.0 ],
 					"text" : "Presets for increasing and decreasing ranges.\nExperimentation not rcommended unless needed."
 				}
 
@@ -112,8 +112,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 746.0, 77.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"rangeSetMax" : [ 224.0 ],
-						"rangeSetMin" : [ 230.399999999999977 ],
+						"rangeSetMax" : [ 127.0 ],
+						"rangeSetMin" : [ 127.0 ],
 						"rangeSetSensorChoose" : [ 4 ],
 						"rangeSetValueSend" : [ 0.0 ]
 					}
@@ -130,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 510.0, 629.0, 22.0 ],
+					"patching_rect" : [ 11.0, 510.0, 629.0, 21.0 ],
 					"text" : "All values still between 0 and 1, but the internal scaling and movement through the range will change."
 				}
 
@@ -145,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.5, 176.5, 147.0, 72.0 ],
+					"patching_rect" : [ 183.5, 176.5, 147.0, 69.0 ],
 					"text" : "5. adjusted vales can also be sent with a bang."
 				}
 
@@ -160,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 187.0, 161.0, 72.0 ],
+					"patching_rect" : [ 11.0, 187.0, 166.0, 69.0 ],
 					"text" : "4. select sensor to adjust. Selecting outputs all values as a list. "
 				}
 
@@ -174,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 622.0, 254.0, 157.0, 42.0 ],
+					"patching_rect" : [ 622.0, 254.0, 157.0, 40.0 ],
 					"text" : "3. set new maximum value."
 				}
 
@@ -189,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.0, 184.0, 150.0, 57.0 ],
+					"patching_rect" : [ 347.0, 184.0, 150.0, 55.0 ],
 					"text" : "2. set new minimum value."
 				}
 
@@ -251,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 368.0, 155.0, 42.0 ],
+					"patching_rect" : [ 391.0, 368.0, 155.0, 40.0 ],
 					"text" : "1. connect Cyberinet unit"
 				}
 
@@ -277,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 0.0, 247.0, 69.0 ],
+					"patching_rect" : [ 724.0, 0.0, 248.0, 65.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -501,7 +501,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 31.0, 739.0, 162.0 ],
+					"patching_rect" : [ 0.0, 31.0, 742.0, 152.0 ],
 					"text" : "Version 1.3\n\nCNET.rangeSet is used to acjust the value scaling for the Cyberinet. It is not recommended for use unless a performer is creating values that create either too much or not enough of the desired effect.\n\nThe first inlet determines the sensor to adjust. This can be set with the provided ument or by using the same labels as CNET.receive. The next two inlets set the new minimum and maximum values respectivelty.\n\nThe values are then fed into the first inlet of CNET.receive to adjust the values. All outputs from CNET.receive are still in between 0 and 1."
 				}
 
@@ -509,7 +509,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"items" : [ "gyroX", ",", "gyroY", ",", "gyroZ", ",", "accelX", ",", "accelY", ",", "accelZ", ",", "airP", ",", "temp", ",", "b1", ",", "b2", ",", "ext" ],
+					"items" : [ "gyroX", ",", "gyroY", ",", "gyroZ", ",", "accelX", ",", "accelY", ",", "accelZ", ",", "airP", ",", "temp", ",", "b1", ",", "b2", ",", "exp1", ",", "exp2", ",", "exp3", ",", "exp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -552,7 +552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 242.0, 32.0 ],
+					"patching_rect" : [ 0.0, 0.0, 242.0, 31.0 ],
 					"text" : "CNET.rangeSet"
 				}
 
@@ -731,21 +731,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.rangeSet.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
 				"patcherrelativepath" : "../../../../Lecture Recital",
 				"type" : "TEXT",
 				"implicit" : 1

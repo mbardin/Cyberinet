@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 1270.0, 742.0 ],
+		"rect" : [ 112.0, 141.0, 1270.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-7",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 390.0, 460.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-3",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 458.5, 236.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "toggle",
@@ -150,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 470.0, 29.5, 22.0 ],
+					"patching_rect" : [ 539.0, 460.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -198,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 617.0, 434.0, 52.0, 22.0 ],
+					"patching_rect" : [ 617.0, 408.0, 52.0, 22.0 ],
 					"text" : "togedge"
 				}
 
@@ -210,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 617.0, 405.0, 36.0, 22.0 ],
+					"patching_rect" : [ 617.0, 379.0, 36.0, 22.0 ],
 					"text" : "> 20."
 				}
 
@@ -310,7 +336,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 515.0, 58.0, 50.0, 22.0 ]
+					"patching_rect" : [ 495.5, 45.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -335,7 +361,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 412.0, 158.0, 50.0, 22.0 ]
+					"patching_rect" : [ 402.0, 251.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -348,7 +374,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.0, 212.0, 50.0, 22.0 ]
+					"patching_rect" : [ 255.0, 251.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -359,7 +385,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 319.0, 108.0, 74.0, 22.0 ],
+					"patching_rect" : [ 328.0, 151.0, 74.0, 22.0 ],
 					"text" : "$1 3000."
 				}
 
@@ -371,7 +397,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 311.0, 138.0, 41.0, 22.0 ],
+					"patching_rect" : [ 328.0, 201.0, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -398,6 +424,7 @@
 								"filename" : "cello-f2.aif",
 								"filekind" : "audiofile",
 								"id" : "u845003869",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -470,7 +497,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.0, 265.0, 45.0, 45.0 ]
+					"patching_rect" : [ 212.0, 481.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -495,6 +522,7 @@
 								"filename" : "HAWK.wav",
 								"filekind" : "audiofile",
 								"id" : "u698010988",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -565,7 +593,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 312.0, 193.0, 130.0, 22.0 ],
+					"patching_rect" : [ 291.0, 320.0, 130.0, 22.0 ],
 					"text" : "CNET.feedbackDelay~"
 				}
 
@@ -624,7 +652,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -760,6 +788,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -768,6 +803,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -936,14 +980,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.feedbackDelay~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.receiveCaps.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -951,7 +995,7 @@
 , 			{
 				"name" : "HAWK.wav",
 				"bootpath" : "~/Documents/Max 8/Packages/BLOCKS/media",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/BLOCKS/media",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/BLOCKS/media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -963,7 +1007,7 @@
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
