@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 1038.0, 742.0 ],
+		"rect" : [ 275.0, 123.0, 1038.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.333332300186157, 389.0, 164.0, 22.0 ],
+					"patching_rect" : [ 137.333332300186157, 144.0, 164.0, 22.0 ],
 					"text" : "setPort /dev/tty.CyberinetV13"
 				}
 
@@ -548,7 +548,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.333332300186157, 171.0, 171.0, 22.0 ],
+					"patching_rect" : [ 779.333332300186157, 465.0, 171.0, 22.0 ],
 					"text" : "setPort /dev/cu.usbserial-0001"
 				}
 
@@ -680,6 +680,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1193,13 +1195,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
@@ -1452,6 +1447,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-69", 0 ]
 				}
@@ -1552,7 +1554,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"order" : 1,
 					"source" : [ "obj-82", 0 ]
 				}

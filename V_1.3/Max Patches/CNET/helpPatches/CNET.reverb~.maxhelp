@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 139.0, 166.0, 854.0, 474.0 ],
+		"rect" : [ 100.0, 100.0, 854.0, 474.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 761.5, 51.5, 75.0, 55.0 ],
+					"patching_rect" : [ 761.5, 51.5, 79.0, 55.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -68,9 +68,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 761.5, 22.0, 58.0, 24.0 ],
 					"restore" : 					{
-						"revDamp" : [ 0.0 ],
-						"revOutGain" : [ 0.023076923076923 ],
-						"revSize" : [ 0.0 ]
+						"revDamp" : [ 0.5 ],
+						"revOutGain" : [ 0.8 ],
+						"revSize" : [ 0.530769230769231 ]
 					}
 ,
 					"text" : "autopattr",
@@ -89,6 +89,18 @@
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.5, 5, "obj-8", "slider", "float", 0.5, 5, "obj-10", "slider", "float", 0.899999976158142, 5, "obj-12", "flonum", "float", 0.5, 5, "obj-14", "flonum", "float", 0.899999976158142, 5, "obj-16", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.030645161867142, 5, "obj-8", "slider", "float", 0.866997539997101, 5, "obj-10", "slider", "float", 0.899999976158142, 5, "obj-12", "flonum", "float", 0.030645161867142, 5, "obj-14", "flonum", "float", 0.899999976158142, 5, "obj-16", "flonum", "float", 0.866997539997101 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.984615385532379, 5, "obj-8", "slider", "float", 0.866997539997101, 5, "obj-10", "slider", "float", 0.899999976158142, 5, "obj-12", "flonum", "float", 0.984615385532379, 5, "obj-14", "flonum", "float", 0.899999976158142, 5, "obj-16", "flonum", "float", 0.866997539997101 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 5, "obj-4", "playlist~", "preset_count", 1, 7, "obj-4", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-4", "playlist~", "preset_clipstate", 1, "absolutepath", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "filename", "cherokee.aif", 7, "obj-4", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-4", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-4", "playlist~", "preset_clipstate", 1, "id", "u724002876", 7, "obj-4", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-4", "playlist~", "preset_execute", 5, "obj-6", "slider", "float", 0.984615385532379, 5, "obj-8", "slider", "float", 0.114143922924995, 5, "obj-10", "slider", "float", 0.777543425559998, 5, "obj-12", "flonum", "float", 0.984615385532379, 5, "obj-14", "flonum", "float", 0.777543425559998, 5, "obj-16", "flonum", "float", 0.114143922924995 ]
 						}
  ]
 				}
@@ -378,9 +390,9 @@
 								"filekind" : "audiofile",
 								"id" : "u724002876",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+									"loop" : 0
 								}
 
 							}
