@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 829.5, 326.0, 49.0, 22.0 ],
+					"text" : "/~ 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -688,7 +700,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 964.0, 146.0, 95.0, 62.0 ],
+					"patching_rect" : [ 964.0, 146.0, 97.0, 62.0 ],
 					"text" : "have unique name each take to avoid overwriting"
 				}
 
@@ -725,7 +737,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 831.0, 326.0, 30.0, 30.0 ]
+					"patching_rect" : [ 831.0, 372.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1027,8 +1039,16 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 0,
-						"data" : [  ]
+						"count" : 2,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							}
+ ]
 					}
 ,
 					"id" : "obj-3",
@@ -1151,6 +1171,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 13 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -1179,7 +1206,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
