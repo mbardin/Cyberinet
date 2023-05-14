@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 39.0, 241.0, 49.0, 22.0 ],
+					"patching_rect" : [ 68.0, 236.0, 49.0, 22.0 ],
 					"text" : "tapout~"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 39.0, 115.0, 78.0, 22.0 ],
+					"patching_rect" : [ 68.0, 129.0, 78.0, 22.0 ],
 					"text" : "tapin~ 60000"
 				}
 
@@ -133,7 +133,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 313.0, 30.0, 30.0 ]
+					"patching_rect" : [ 39.0, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -167,7 +167,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 

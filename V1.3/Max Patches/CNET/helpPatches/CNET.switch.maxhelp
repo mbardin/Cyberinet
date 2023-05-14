@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -15,7 +15,7 @@
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Futura PT",
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
@@ -45,8 +45,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 396.5, 172.0, 24.0 ],
-					"text" : "Experiment with presets!"
+					"patching_rect" : [ 152.0, 396.5, 172.0, 26.0 ],
+					"text" : "Experiment with presets!",
+					"textjustification" : 1
 				}
 
 			}
@@ -86,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 31.0, 77.0, 36.0 ],
+					"patching_rect" : [ 645.0, 31.0, 77.0, 39.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -106,9 +107,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 645.0, 5.0, 56.0, 22.0 ],
+					"patching_rect" : [ 645.0, 5.0, 56.0, 24.0 ],
 					"restore" : 					{
-						"switchCD" : [ 0.666666626930237 ],
+						"switchCD" : [ 0.666667 ],
 						"switchSensitivity" : [ 0.5 ]
 					}
 ,
@@ -124,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 591.0, 155.5, 59.0, 22.0 ],
+					"patching_rect" : [ 591.0, 155.5, 59.0, 24.0 ],
 					"text" : "0.666667"
 				}
 
@@ -136,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 557.0, 155.5, 29.5, 22.0 ],
+					"patching_rect" : [ 557.0, 155.5, 29.5, 24.0 ],
 					"text" : "0.5"
 				}
 
@@ -148,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 564.0, 122.0, 58.0, 22.0 ],
+					"patching_rect" : [ 564.0, 122.0, 58.0, 24.0 ],
 					"text" : "loadbang"
 				}
 
@@ -158,12 +159,13 @@
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-28",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.0, 155.5, 150.0, 122.0 ],
-					"text" : "cooldown. amount of time needed to pass before switch can be activated again. a value of 0. = 250ms, and a value of 1. = 1000ms. defaults to 0.6666 (500ms)"
+					"patching_rect" : [ 394.0, 155.5, 151.0, 118.0 ],
+					"text" : "cooldown. amount of time needed to pass before switch can be activated again. a value of 0. = 250ms, and a value of 1. = 1000ms. defaults to 0.6666 (500ms)",
+					"textjustification" : 1
 				}
 
 			}
@@ -176,8 +178,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 196.0, 150.0, 67.0 ],
-					"text" : "sensitivity. Higher values result in more responsive toggles. defaults to 0.5"
+					"patching_rect" : [ 229.0, 196.0, 150.0, 72.0 ],
+					"text" : "sensitivity. Higher values result in more responsive toggles. defaults to 0.5",
+					"textjustification" : 1
 				}
 
 			}
@@ -185,12 +188,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-24",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.5, 226.0, 181.0, 93.0 ],
-					"text" : "1. Send data into CNET.switch. Accepts floating point values between 0 and 1. Use slider in this example if Cyberinet is not connected."
+					"patching_rect" : [ 39.5, 226.0, 184.0, 87.0 ],
+					"text" : "1. Send data into CNET.switch. Accepts floating point values between 0 and 1. Use slider in this example if Cyberinet is not connected.",
+					"textjustification" : 1
 				}
 
 			}
@@ -249,7 +253,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 68.0, 196.0, 124.0, 22.0 ],
+					"patching_rect" : [ 68.0, 196.0, 124.0, 24.0 ],
 					"text" : "CNET.receive"
 				}
 
@@ -261,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.0, 5.0, 244.0, 48.0 ],
+					"patching_rect" : [ 394.0, 5.0, 245.0, 53.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\nFor more information on  the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -299,7 +303,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6.5, 363.0, 77.0, 22.0 ],
+					"patching_rect" : [ 6.5, 363.0, 77.0, 24.0 ],
 					"text" : "CNET.switch"
 				}
 
@@ -337,22 +341,23 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 41.0, 636.0, 75.0 ],
+					"patching_rect" : [ 2.0, 41.0, 636.0, 68.0 ],
 					"text" : "Version 1.0\n\nOutputs a toggle (0 or 1). when the difference between the previous and current data points exceed a sensitivity threshold. Waits before accepting a new value to change the switch. Designed to work with CNET.receive, but can be allpied to any data between 0 and 1."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 20.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 10.0, 150.0, 20.0 ],
+					"patching_rect" : [ 2.0, 10.0, 240.0, 32.0 ],
 					"text" : "CNET.switch"
 				}
 
@@ -454,22 +459,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/zMusic Composition Scores/performances/Lecture Recital",
+				"patcherrelativepath" : "../../../../zMusic Composition Scores/performances/Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.switch.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/zMusic Composition Scores/performances/Lecture Recital",
+				"patcherrelativepath" : "../../../../zMusic Composition Scores/performances/Lecture Recital",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -492,7 +497,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }
