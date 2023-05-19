@@ -592,7 +592,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 291.0, 320.0, 130.0, 22.0 ],
 					"text" : "CNET.feedbackDelay~"
 				}
@@ -602,11 +602,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 11,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 312.0, 60.0, 124.0, 22.0 ],
-					"text" : "CNET.receiveCaps"
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 312.0, 60.0, 124.0, 22.0 ]
 				}
 
 			}
@@ -616,29 +615,6 @@
 					"destination" : [ "obj-16", 0 ],
 					"order" : 2,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-1", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
-					"order" : 2,
-					"source" : [ "obj-1", 4 ]
 				}
 
 			}
@@ -655,21 +631,6 @@
 					"destination" : [ "obj-3", 0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 1 ],
-					"order" : 0,
-					"source" : [ "obj-1", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -965,13 +926,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 2 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -979,23 +933,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "CNET.feedbackDelay~.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "CNET.receiveCaps.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "HAWK.wav",
 				"bootpath" : "~/Documents/Max 8/Packages/BLOCKS/media",
-				"patcherrelativepath" : "../../../../../Max 8/Packages/BLOCKS/media",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/BLOCKS/media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -1003,31 +943,6 @@
 				"name" : "cello-f2.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/V_1.3/Max Patches/CNET",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
