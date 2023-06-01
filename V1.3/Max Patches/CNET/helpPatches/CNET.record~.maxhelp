@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 317.5, 78.0, 93.0 ],
+					"patching_rect" : [ 62.0, 317.5, 81.0, 93.0 ],
 					"text" : " optional: raise gain to hear signal being recorded"
 				}
 
@@ -214,8 +214,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 15,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"numoutlets" : 16,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 194.433333333333337, 212.0, 221.06666666666672, 22.0 ],
 					"text" : "CNET.receive"
 				}
@@ -520,7 +520,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

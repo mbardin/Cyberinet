@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 743.0, 179.5, 150.0, 64.0 ],
+					"patching_rect" : [ 743.0, 179.5, 150.0, 66.0 ],
 					"text" : "4. Create harmonizations by altering the signal or MIDI pitch"
 				}
 
@@ -120,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.0, 408.0, 150.0, 106.0 ],
+					"patching_rect" : [ 673.0, 408.0, 153.0, 108.0 ],
 					"text" : "smoothing the signal may be necessary, expecially if the patch has difficulty reading the pitch. It helps, but this  effect sound still has a little wobbleing"
 				}
 
@@ -144,7 +144,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 629.0, 8.0, 238.0, 60.0 ],
+					"patching_rect" : [ 629.0, 8.0, 238.0, 62.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -158,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 415.5, 175.5, 154.0, 104.0 ],
+					"patching_rect" : [ 415.5, 175.5, 158.0, 98.0 ],
 					"text" : "3. signal output can be used to control audio synthesis. Turn on toggle to hear a sine wave match the original sound",
 					"textjustification" : 1
 				}
@@ -174,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.5, 437.0, 154.0, 57.0 ],
+					"patching_rect" : [ 366.5, 437.0, 154.0, 55.0 ],
 					"text" : "Deteted pitch frequency (signal)",
 					"textjustification" : 1
 				}
@@ -201,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 198.5, 449.5, 155.0, 41.0 ],
+					"patching_rect" : [ 198.5, 449.5, 155.0, 40.0 ],
 					"text" : "detected pitch in MIDI",
 					"textjustification" : 1
 				}
@@ -216,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.5, 226.0, 158.0, 41.0 ],
+					"patching_rect" : [ 104.5, 226.0, 158.0, 40.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -231,7 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 442.0, 150.0, 41.0 ],
+					"patching_rect" : [ 6.5, 442.0, 150.0, 40.0 ],
 					"text" : "1. turn on DSP",
 					"textjustification" : 1
 				}
@@ -281,7 +281,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 54.0, 697.0, 100.0 ],
+					"patching_rect" : [ 11.0, 54.0, 763.0, 94.0 ],
 					"text" : "Version 1.3\n\nCNET.tuner takes an incoming audio signal and determines the pitch. Outlet 1 passes the signal through. Outlet 2 gives the MIDI note  of the detected pitch, and outlet 3 gives the pitch frequency as a signal.\n\nNo alteration to the signal occurs, but can add latency to the signal chain. Occasional misidentifucation of octaves can occur."
 				}
 
@@ -294,7 +294,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 14.0, 237.0, 32.0 ],
+					"patching_rect" : [ 11.0, 14.0, 237.0, 31.0 ],
 					"text" : "CNET.tuner~"
 				}
 
@@ -516,8 +516,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.tuner.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/zMusic Composition Scores/performances/Lecture Recital",
+				"patcherrelativepath" : "../../../../zMusic Composition Scores/performances/Lecture Recital",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -557,7 +557,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

@@ -367,7 +367,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 38.0, 853.0, 89.0 ],
+					"patching_rect" : [ 10.0, 38.0, 855.0, 89.0 ],
 					"text" : "Version 1.1\n\nThis object is used to playback a recorded Cyberinet performance. After recording a performance with CNET.record~, a sound file and a text file are generated. Unlock the patch and enter the file pathway for those files in the message boxes. Then, use a bang to set the file pathways.Toggle playback with the third inlet. This object uses the final time stamp data point to automatically progress through the recorded data points in sync with with the original performance in the sound file. Data can be routed as with CNET.receive. Data smoothing may be needed. Use the below subpatch if needed."
 				}
 
@@ -869,14 +869,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "CNET.dataPlayback~.maxpat",
+				"name" : "CNET.dataplayBack~.maxpat",
 				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

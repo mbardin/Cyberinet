@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 367.0, 97.0, 37.0 ],
+					"patching_rect" : [ 181.0, 367.0, 97.0, 38.0 ],
 					"text" : "explore with presets!"
 				}
 
@@ -87,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 783.0, 134.5, 95.0, 49.0 ],
+					"patching_rect" : [ 783.0, 134.5, 95.0, 50.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -109,9 +109,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 810.0, 109.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"revDamp" : [ 0.040570719602978 ],
-						"revOutGain" : [ 0.777915632754342 ],
-						"revSize" : [ 0.915384615384615 ]
+						"revDamp" : [ 0.5 ],
+						"revOutGain" : [ 0.9 ],
+						"revSize" : [ 0.5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -164,10 +164,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 689.0, 375.0, 169.0, 79.0 ],
+					"patching_rect" : [ 689.0, 375.0, 169.0, 81.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 690.0, 354.0, 169.0, 79.0 ],
+					"presentation_rect" : [ 690.0, 354.0, 169.0, 81.0 ],
 					"text" : "5. Set output volume. A value of 0 will completly mute any signal from the object. Defaults ot 0.9",
 					"textjustification" : 1
 				}
@@ -182,10 +182,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 476.0, 375.0, 146.0, 93.0 ],
+					"patching_rect" : [ 476.0, 375.0, 146.0, 94.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 477.0, 354.0, 146.0, 93.0 ],
+					"presentation_rect" : [ 477.0, 354.0, 146.0, 94.0 ],
 					"text" : "4. Set damping frequency. Higher values absorb more high frequencies. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -200,10 +200,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.0, 375.0, 154.0, 79.0 ],
+					"patching_rect" : [ 298.0, 375.0, 154.0, 81.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 299.0, 354.0, 154.0, 79.0 ],
+					"presentation_rect" : [ 299.0, 354.0, 154.0, 81.0 ],
 					"text" : "3. set room size. Larger values make a more prominant effect. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -395,10 +395,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.0, 16.0, 250.0, 60.0 ],
+					"patching_rect" : [ 635.0, 16.0, 250.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 620.0, 15.0, 208.0, 87.0 ],
+					"presentation_rect" : [ 620.0, 15.0, 208.0, 89.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -410,7 +410,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 56.0, 626.0, 114.0 ],
+					"patching_rect" : [ 5.0, 56.0, 626.0, 117.0 ],
 					"text" : "Version 1.3\n\nThis object functions idetnitally to CNET.reverb~, except that it outputs a single mono signal instead of stereo. \n\nCNET.monoReverb is a simple reverb effect designed to easily interface with the Cyberinet. It is based on the Schroeder and John Cowning Reverbs developed by CCRMA. It is internally comprised of three All Pass filters and four feedback delays. Each control inlet receives float values in between 0 and 1. Room Size and Damping default to 0.5, and the output volume defaults to 0.9."
 				}
 
@@ -551,7 +551,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.monoReverb~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -563,7 +563,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

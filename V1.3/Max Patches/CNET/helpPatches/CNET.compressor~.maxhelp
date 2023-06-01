@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.0, 147.5, 189.0, 42.0 ],
+					"patching_rect" : [ 103.0, 147.5, 191.0, 40.0 ],
 					"text" : "click to change presets and explore different effects."
 				}
 
@@ -87,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1034.0, 107.0, 114.0, 40.0 ],
+					"patching_rect" : [ 1034.0, 107.0, 124.0, 38.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 1057, 100, 1440, 462 ],
 						"parameter_enable" : 0,
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 968.0, 107.0, 58.0, 24.0 ],
+					"patching_rect" : [ 968.0, 107.0, 65.0, 23.0 ],
 					"restore" : 					{
 						"compAttack" : [ 0.5 ],
 						"compInGain" : [ 0.5 ],
@@ -131,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 567.0, 150.0, 88.0 ],
+					"patching_rect" : [ 137.0, 567.0, 150.0, 84.0 ],
 					"text" : "Make up gain Can be monitored with a meter~ connected to the third outlet.",
 					"textjustification" : 1
 				}
@@ -157,10 +157,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 721.0, 153.0, 103.0 ],
+					"patching_rect" : [ 287.0, 721.0, 153.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 953.0, 633.0, 153.0, 103.0 ],
+					"presentation_rect" : [ 953.0, 633.0, 153.0, 98.0 ],
 					"text" : "6. Set attack time. Higher values result in the compression being applied slower. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -175,9 +175,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 337.0, 677.0, 50.0, 24.0 ],
+					"patching_rect" : [ 337.0, 677.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1003.0, 589.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 1003.0, 589.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -207,10 +207,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.0, 378.0, 166.0, 72.0 ],
+					"patching_rect" : [ 599.0, 378.0, 184.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 785.0, 633.0, 166.0, 72.0 ],
+					"presentation_rect" : [ 785.0, 633.0, 184.0, 69.0 ],
 					"text" : "5. Set compression ratio. Higher values result in more compression. Defaults ot 0.5",
 					"textjustification" : 1
 				}
@@ -225,9 +225,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 662.0, 334.0, 50.0, 24.0 ],
+					"patching_rect" : [ 662.0, 334.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 835.0, 589.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 835.0, 589.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -257,10 +257,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.0, 721.0, 166.0, 119.0 ],
+					"patching_rect" : [ 455.0, 721.0, 166.0, 113.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 951.0, 339.0, 166.0, 119.0 ],
+					"presentation_rect" : [ 951.0, 339.0, 166.0, 113.0 ],
 					"text" : "7. Set release time. Higher values result in compression being applied for longer after sounds move below the threshold. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -275,9 +275,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 505.0, 677.0, 50.0, 24.0 ],
+					"patching_rect" : [ 505.0, 677.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1001.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 1001.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -307,10 +307,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 626.0, 721.0, 153.0, 103.0 ],
+					"patching_rect" : [ 626.0, 721.0, 153.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 783.0, 338.0, 153.0, 103.0 ],
+					"presentation_rect" : [ 783.0, 338.0, 153.0, 98.0 ],
 					"text" : "8. Set Makeup Gain. Adjusts volume after compression. Can be monitored via outlet 3. Defaults ot 0.5",
 					"textjustification" : 1
 				}
@@ -325,9 +325,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 676.0, 677.0, 50.0, 24.0 ],
+					"patching_rect" : [ 676.0, 677.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 833.0, 294.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 833.0, 294.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 832.0, 132.0, 29.5, 24.0 ],
+					"patching_rect" : [ 832.0, 132.0, 29.5, 23.0 ],
 					"text" : "0.5"
 				}
 
@@ -367,7 +367,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 832.0, 107.0, 64.0, 24.0 ],
+					"patching_rect" : [ 832.0, 107.0, 64.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -379,10 +379,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.0, 23.0, 249.0, 69.0 ],
+					"patching_rect" : [ 809.0, 23.0, 250.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 620.0, 15.0, 208.0, 100.0 ],
+					"presentation_rect" : [ 620.0, 15.0, 208.0, 94.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -396,10 +396,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 378.0, 150.0, 103.0 ],
+					"patching_rect" : [ 440.0, 378.0, 150.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 675.0, 339.0, 150.0, 103.0 ],
+					"presentation_rect" : [ 675.0, 339.0, 150.0, 98.0 ],
 					"text" : "4. Set Compression threshold. Lower values result in more compression. Defaults to 0.5",
 					"textjustification" : 1
 				}
@@ -414,10 +414,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.0, 378.0, 152.0, 88.0 ],
+					"patching_rect" : [ 282.0, 378.0, 155.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 462.0, 339.0, 152.0, 88.0 ],
+					"presentation_rect" : [ 462.0, 339.0, 155.0, 84.0 ],
 					"text" : "3. Set input gain level. Higher levels will result in more compression. Dedaults to 0.5",
 					"textjustification" : 1
 				}
@@ -431,9 +431,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 268.0, 150.0, 41.0 ],
+					"patching_rect" : [ 89.0, 268.0, 150.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 182.0, 150.0, 41.0 ],
+					"presentation_rect" : [ 90.0, 182.0, 150.0, 40.0 ],
 					"text" : "2. begin playback",
 					"textjustification" : 1
 				}
@@ -447,9 +447,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 448.5, 150.0, 41.0 ],
+					"patching_rect" : [ 10.0, 448.5, 150.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 362.5, 150.0, 41.0 ],
+					"presentation_rect" : [ 11.0, 362.5, 150.0, 40.0 ],
 					"text" : "1. Begin DSP",
 					"textjustification" : 1
 				}
@@ -462,10 +462,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 46.5, 815.0, 84.0 ],
+					"patching_rect" : [ 10.0, 46.5, 815.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 11.0, 53.0, 609.0, 100.0 ],
+					"presentation_rect" : [ 11.0, 53.0, 609.0, 94.0 ],
 					"text" : "Version 1.3\n\nCNET.compressor is a basic stereo compressor based of of the various native Max compression objects. The first two inlets are the Left and Right channels, and the remaining 6 control the input gain, threshold, ratio, attack, release, and makeup gain (continuing left to right). All parameters accept floating numbers between 0 and 1, and all parameters default to 0.5 "
 				}
 
@@ -477,10 +477,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 6.0, 216.0, 32.0 ],
+					"patching_rect" : [ 10.0, 6.0, 216.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.0, 15.0, 127.0, 58.0 ],
+					"presentation_rect" : [ 11.0, 15.0, 127.0, 55.0 ],
 					"text" : "CNET.compressor~"
 				}
 
@@ -494,9 +494,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.0, 334.0, 50.0, 24.0 ],
+					"patching_rect" : [ 332.0, 334.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 512.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -509,9 +509,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 490.0, 334.0, 50.0, 24.0 ],
+					"patching_rect" : [ 490.0, 334.0, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 725.0, 295.0, 50.0, 24.0 ]
+					"presentation_rect" : [ 725.0, 295.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -607,10 +607,10 @@
 					"numinlets" : 8,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 48.0, 328.0, 123.0, 24.0 ],
+					"patching_rect" : [ 48.0, 328.0, 123.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 49.0, 242.0, 102.0, 40.0 ],
+					"presentation_rect" : [ 49.0, 242.0, 102.0, 38.0 ],
 					"text" : "CNET.compressor~"
 				}
 
@@ -795,7 +795,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.compressor~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -807,7 +807,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

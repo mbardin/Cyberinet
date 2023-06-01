@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -176,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 564.0, 16.0, 246.0, 60.0 ],
+					"patching_rect" : [ 564.0, 16.0, 246.0, 62.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -189,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 489.0, 153.0, 26.0 ],
+					"patching_rect" : [ 194.0, 489.0, 153.0, 25.0 ],
 					"text" : "latency"
 				}
 
@@ -202,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 516.0, 292.0, 154.0, 26.0 ],
+					"patching_rect" : [ 516.0, 292.0, 154.0, 25.0 ],
 					"text" : "4. adjust fine tuning"
 				}
 
@@ -217,7 +217,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 407.0, 166.0, 72.0 ],
+					"patching_rect" : [ 288.0, 407.0, 166.0, 69.0 ],
 					"text" : "3. adjust coarse tuning with floats to inlet two and MIDI notes to inlet 3."
 				}
 
@@ -231,7 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 277.0, 158.0, 41.0 ],
+					"patching_rect" : [ 95.0, 277.0, 158.0, 40.0 ],
 					"text" : "2. begin playback"
 				}
 
@@ -245,7 +245,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 519.0, 150.0, 41.0 ],
+					"patching_rect" : [ 5.0, 519.0, 150.0, 40.0 ],
 					"text" : "1. turn on DSP"
 				}
 
@@ -258,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 49.0, 527.0, 162.0 ],
+					"patching_rect" : [ 12.0, 49.0, 557.0, 152.0 ],
 					"text" : "Version 1.3\n\nCNET.pitchshift is a retuning object desiged to interface with the Cyberinet. the patch adjusts the pitch of a signal in real time. Coarse tuning can be from either a 0-1 floating point range or MIDI note values. Fine tuning adjustments are only a 0-1 range. Note that the given frequencies are the desired pitch, not the amount the value is shifted by. Coarse tuning defaults to 0.1, and fine tuning defaults to 0.5. A value of 0 will result in no shifting\n\nIn this patch, you will hear the original sound from the left channel, and the shifted sound in the right channel."
 				}
 
@@ -271,7 +271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 16.0, 241.0, 32.0 ],
+					"patching_rect" : [ 12.0, 16.0, 241.0, 31.0 ],
 					"text" : "CNET.pitchshift~"
 				}
 
@@ -531,7 +531,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.pitchShift~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -543,7 +543,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

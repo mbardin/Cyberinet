@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 267.0, 47.0, 24.0 ],
+					"patching_rect" : [ 15.0, 267.0, 50.0, 23.0 ],
 					"text" : "*~ 0.2"
 				}
 
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 267.0, 372.0, 56.0, 24.0 ],
+					"patching_rect" : [ 267.0, 372.0, 56.0, 23.0 ],
 					"sig" : 0.0
 				}
 
@@ -73,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.0, 473.0, 150.0, 26.0 ],
+					"patching_rect" : [ 102.0, 473.0, 153.0, 25.0 ],
 					"text" : "explore with presets!"
 				}
 
@@ -113,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 466.0, 199.0, 24.0 ],
+					"patching_rect" : [ 600.0, 466.0, 217.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -133,11 +133,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 541.0, 466.0, 58.0, 24.0 ],
+					"patching_rect" : [ 541.0, 466.0, 65.0, 23.0 ],
 					"restore" : 					{
-						"kpsFB" : [ 0.91098016500473 ],
-						"kpsOutGain" : [ 0.899999976158142 ],
-						"kpsPitch" : [ 0.223014891147614 ]
+						"kpsFB" : [ 0.5 ],
+						"kpsOutGain" : [ 0.9 ],
+						"kpsPitch" : [ 0.5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -154,7 +154,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 714.0, 320.0, 50.0, 24.0 ]
+					"patching_rect" : [ 714.0, 320.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -167,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.0, 320.0, 50.0, 24.0 ]
+					"patching_rect" : [ 560.0, 320.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -180,7 +180,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 403.0, 320.0, 50.0, 24.0 ]
+					"patching_rect" : [ 403.0, 320.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -193,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.5, 199.0, 150.0, 57.0 ],
+					"patching_rect" : [ 214.5, 199.0, 150.0, 55.0 ],
 					"text" : "6. Bang inlet two to generate a new note"
 				}
 
@@ -207,7 +207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 649.0, 365.0, 158.0, 72.0 ],
+					"patching_rect" : [ 649.0, 365.0, 158.0, 69.0 ],
 					"text" : "5. set output volume. a value of 0 will mute the output. Defaults to 0.9"
 				}
 
@@ -221,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 365.0, 150.0, 72.0 ],
+					"patching_rect" : [ 495.0, 365.0, 150.0, 69.0 ],
 					"text" : "4. set feedback parameter. defaults to 0.5"
 				}
 
@@ -235,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 365.0, 152.0, 57.0 ],
+					"patching_rect" : [ 338.0, 365.0, 152.0, 55.0 ],
 					"text" : "3. set pitch parameter. defaults to 0.5"
 				}
 
@@ -285,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 173.0, 150.0, 41.0 ],
+					"patching_rect" : [ 54.0, 173.0, 150.0, 40.0 ],
 					"text" : "2. begin playback"
 				}
 
@@ -297,7 +297,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 93.0, 408.5, 150.0, 26.0 ],
+					"patching_rect" : [ 93.0, 408.5, 150.0, 25.0 ],
 					"text" : "1. start DSP"
 				}
 
@@ -309,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.5, 126.0, 29.5, 24.0 ],
+					"patching_rect" : [ 535.5, 126.0, 29.5, 23.0 ],
 					"text" : "0.9"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 126.0, 29.5, 24.0 ],
+					"patching_rect" : [ 504.0, 126.0, 29.5, 23.0 ],
 					"text" : "0.5"
 				}
 
@@ -333,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 504.0, 82.0, 68.0, 24.0 ],
+					"patching_rect" : [ 504.0, 82.0, 68.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -345,7 +345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 8.0, 248.0, 69.0 ],
+					"patching_rect" : [ 560.0, 8.0, 248.0, 65.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -357,7 +357,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 35.0, 417.0, 84.0 ],
+					"patching_rect" : [ 6.0, 35.0, 441.0, 79.0 ],
 					"text" : "Version 1.3\n\nTakes an incoming signal and generates a plucked string effect using the orignal signal and Karplus-Strong synthesis. A quiet version of the original sound plays in the left channel, and the effect plays in the right"
 				}
 
@@ -368,7 +368,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 8.0, 150.0, 22.0 ],
+					"patching_rect" : [ 6.0, 8.0, 150.0, 21.0 ],
 					"text" : "CNET.KarplusStrong~"
 				}
 
@@ -447,7 +447,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 37.0, 329.0, 139.0, 24.0 ],
+					"patching_rect" : [ 37.0, 329.0, 139.0, 23.0 ],
 					"text" : "CNET.KarplusStrong~"
 				}
 
@@ -597,7 +597,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.KarplusStrong~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -609,7 +609,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

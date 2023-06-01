@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.0, 473.0, 150.0, 37.0 ],
+					"patching_rect" : [ 339.0, 473.0, 150.0, 38.0 ],
 					"text" : "Experiment with presets!"
 				}
 
@@ -103,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1129.0, 60.0, 91.0, 35.0 ],
+					"patching_rect" : [ 1129.0, 60.0, 91.0, 36.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -127,10 +127,10 @@
 					"restore" : 					{
 						"multDPTG" : [ 1.0 ],
 						"multDVol1" : [ 0.9 ],
-						"multDtime1" : [ 0.5625 ],
-						"multDtime2" : [ 0.555448717948718 ],
-						"multDtime3" : [ 0.579166666666667 ],
-						"multDtime4" : [ 0.571474358974359 ],
+						"multDtime1" : [ 0.3 ],
+						"multDtime2" : [ 0.5 ],
+						"multDtime3" : [ 0.7 ],
+						"multDtime4" : [ 0.8 ],
 						"multDvol2" : [ 0.9 ],
 						"multDvol3" : [ 0.9 ],
 						"multDvol4" : [ 0.9 ]
@@ -149,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1052.0, 443.5, 150.0, 51.0 ],
+					"patching_rect" : [ 1052.0, 443.5, 150.0, 52.0 ],
 					"text" : "9. set delay 4 volume. A value of 0 will mute this delay."
 				}
 
@@ -162,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 856.0, 436.5, 136.0, 64.0 ],
+					"patching_rect" : [ 856.0, 436.5, 136.0, 66.0 ],
 					"text" : "10. set delay 4 time. accepts values between 0 and 1. defaults to 0.8."
 				}
 
@@ -175,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 647.0, 443.5, 150.0, 51.0 ],
+					"patching_rect" : [ 647.0, 443.5, 150.0, 52.0 ],
 					"text" : "9. set delay 3 volume. A value of 0 will mute this delay."
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 216.5, 136.0, 64.0 ],
+					"patching_rect" : [ 1048.0, 216.5, 136.0, 66.0 ],
 					"text" : "8. set delay 3 time. accepts values between 0 and 1. defaults to 0.7."
 				}
 
@@ -201,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 856.0, 223.5, 150.0, 51.0 ],
+					"patching_rect" : [ 856.0, 223.5, 150.0, 52.0 ],
 					"text" : "7. set delay 2 volume. A value of 0 will mute this delay."
 				}
 
@@ -214,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 653.0, 223.5, 150.0, 64.0 ],
+					"patching_rect" : [ 653.0, 223.5, 150.0, 66.0 ],
 					"text" : "6. set delay 2 time. accepts values between 0 and 1. defaults to 0.5"
 				}
 
@@ -227,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 457.0, 223.5, 150.0, 51.0 ],
+					"patching_rect" : [ 457.0, 223.5, 150.0, 52.0 ],
 					"text" : "5. set delay 1 volume. A value of 0 will mute this delay."
 				}
 
@@ -240,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 223.5, 150.0, 64.0 ],
+					"patching_rect" : [ 269.0, 223.5, 150.0, 66.0 ],
 					"text" : "4. set delay 1 time. accepts values between 0 and 1. Defaults to 0.3"
 				}
 
@@ -265,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.0, 221.5, 152.0, 64.0 ],
+					"patching_rect" : [ 58.0, 221.5, 152.0, 66.0 ],
 					"text" : "3. Set passthrough volume. defaults to 1.0. A value of 0 will mute the passthrough."
 				}
 
@@ -605,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 36.5, 635.0, 127.0 ],
+					"patching_rect" : [ 2.0, 36.5, 635.0, 131.0 ],
 					"text" : "Version 1.3\n\nThe first thing you may notice about CNET.multDel~ is its alrge numbers of inlets. The first inlet receives the signal to be dealyed and the second controls the volume for that inlet. That pattern contunies for each of the 4 delay lines used in this object. CNET.multDel~ will pass through the original signal, followed by up to 4 delayed repetitions. Each of these can have thir output volume indepentently adjusted.\n\nThe maximum delay time for each of the 4 delay lines is 10 seconds. Defaults are given below, the dry passthrough defaults to 1.0, and all delay lines default to 0.9."
 				}
 
@@ -698,10 +698,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 637.0, 5.5, 250.0, 60.0 ],
+					"patching_rect" : [ 637.0, 5.5, 250.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 620.0, 15.0, 208.0, 87.0 ],
+					"presentation_rect" : [ 620.0, 15.0, 208.0, 89.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -1042,7 +1042,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.multDel~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1054,7 +1054,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

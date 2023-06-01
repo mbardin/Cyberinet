@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -106,7 +106,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 450.0, 97.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"delayTime" : [ 0.665136456489563 ],
+						"delayTime" : [ 0.5 ],
 						"loopr" : [ 							{
 								"data" : 								{
 									"clips" : [ 										{
@@ -141,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.0, 325.0, 156.0, 26.0 ],
+					"patching_rect" : [ 346.0, 325.0, 156.0, 25.0 ],
 					"text" : "3. adjust delay time",
 					"textjustification" : 1
 				}
@@ -156,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 268.0, 158.0, 41.0 ],
+					"patching_rect" : [ 107.0, 268.0, 158.0, 40.0 ],
 					"text" : "2. Begin playback",
 					"textjustification" : 1
 				}
@@ -171,7 +171,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 478.0, 149.0, 41.0 ],
+					"patching_rect" : [ 11.5, 478.0, 149.0, 40.0 ],
 					"text" : "1. start DSP",
 					"textjustification" : 1
 				}
@@ -185,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 8.0, 248.0, 69.0 ],
+					"patching_rect" : [ 450.0, 8.0, 248.0, 65.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nfor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -286,7 +286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 38.0, 399.0, 193.0 ],
+					"patching_rect" : [ 7.0, 38.0, 402.0, 182.0 ],
 					"text" : "Version 1.3\n\nCNET.delay delays an audio signal by anywhere between 5 and 5000ms. This object was designed to be compatible with the Cyberinet. Delay time is represented with floating point numbers in a range of 0-1. The default value is 0.5. CNET.delay does not implement any feedback, passthrough, or gain control. See CNET.feebackDelay for that.\n\nIn this patch, the original signal will play in the left channel, and the delayed signal will play in the right channel. Remember that CNET.delay~ does not have a built-in passthrough."
 				}
 
@@ -299,7 +299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 8.0, 145.0, 32.0 ],
+					"patching_rect" : [ 7.0, 8.0, 145.0, 31.0 ],
 					"text" : "CNET.delay~"
 				}
 
@@ -378,7 +378,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.delay~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -390,7 +390,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 587.0, 150.0, 37.0 ],
+					"patching_rect" : [ 84.0, 587.0, 150.0, 38.0 ],
 					"text" : "Experiment with presets!"
 				}
 
@@ -116,11 +116,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 983.0, 167.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"vDelDryGain" : [ 0.803722084367246 ],
-						"vDelOutGain" : [ 0.671712158808933 ],
-						"vDelTimw" : [ 0.0 ],
-						"vDelVSpeed" : [ 0.933333333333333 ],
-						"vDelvDepth" : [ 0.653846153846154 ]
+						"vDelDryGain" : [ 1.0 ],
+						"vDelOutGain" : [ 1.0 ],
+						"vDelTimw" : [ 0.4 ],
+						"vDelVSpeed" : [ 0.5 ],
+						"vDelvDepth" : [ 0.5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -136,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.5, 483.0, 153.0, 78.0 ],
+					"patching_rect" : [ 732.5, 483.0, 153.0, 79.0 ],
 					"text" : "7. set wet effect output. a value of 0 will mute the effect. Accepts values between 0 and 1. Defaults to 1.0"
 				}
 
@@ -149,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 483.0, 150.0, 78.0 ],
+					"patching_rect" : [ 485.0, 483.0, 150.0, 79.0 ],
 					"text" : "6. set vibrato depth. accepts values between 0 and 1. Maximum depth is 50 Hz. Defaults to 0.5"
 				}
 
@@ -162,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 718.0, 270.5, 150.0, 78.0 ],
+					"patching_rect" : [ 718.0, 270.5, 150.0, 79.0 ],
 					"text" : "5. set vibrato speed. accpets values between 0 and 1. Maximum speed is 5 Hz"
 				}
 
@@ -175,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.0, 270.5, 151.0, 91.0 ],
+					"patching_rect" : [ 487.0, 270.5, 151.0, 93.0 ],
 					"text" : "4. set delay time. accetps values between 0 and 1.\nmaximum delay time is 5 seconds. defaults to 0.4"
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 266.0, 150.0, 78.0 ],
+					"patching_rect" : [ 256.0, 266.0, 150.0, 79.0 ],
 					"text" : "3. set dry output gain. accepts ranges of 0-1. defaults to 1.0. A value of 0 will mute the original signal."
 				}
 
@@ -225,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 14.0, 218.0, 60.0 ],
+					"patching_rect" : [ 586.0, 14.0, 218.0, 62.0 ],
 					"text" : "Patch by Matthew A. Bardin [05/2023]\n\nFor more information on the Cyberinet, visit matthewbardin.com/cyberinet"
 				}
 
@@ -237,7 +237,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 45.0, 799.0, 127.0 ],
+					"patching_rect" : [ 5.0, 45.0, 799.0, 131.0 ],
 					"text" : "Version 1.3\n\nCNET.vibDelay~ is a audio effect designed to interface with the Cyberinet. It combines a single delay line with a vibrato effect, resulting in the delayed signal being able to take on a unique character.\n\nThe first outlet passes the original signal through, and the second one outputs the altered signal.\nInlet 1 receives the signal, inlet 2 controls the dry output volume. outlets 3 controsl the delay time. Outlets 4 and 5 control the vibrato parameters, and outlet 6 controls the wet signal output level.\nAll control inputs accept floating point values between 0 and 1. default values are given below."
 				}
 
@@ -669,7 +669,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.vibDelay~.maxpat",
-				"bootpath" : "~/Desktop/Cyberinet/Cyberinet/V_1.3/Max Patches/CNET",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -681,7 +681,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

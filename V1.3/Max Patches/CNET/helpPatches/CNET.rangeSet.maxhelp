@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -525,8 +525,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 11,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
+					"numoutlets" : 16,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 11.0, 413.0, 124.0, 22.0 ],
 					"text" : "CNET.receive"
 				}
@@ -731,22 +731,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNET.rangeSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CNET.receive.maxpat",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "emdm.serial.js",
-				"bootpath" : "~/Documents/GitHub/Cyberinet/Lecture Recital",
-				"patcherrelativepath" : "../../../../Lecture Recital",
+				"bootpath" : "~/Documents/GitHub/Cyberinet/V1.3/Max Patches/CNET",
+				"patcherrelativepath" : "..",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -769,7 +769,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }

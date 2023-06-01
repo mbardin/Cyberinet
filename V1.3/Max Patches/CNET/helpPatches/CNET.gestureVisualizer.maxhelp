@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 730.0, 260.5, 110.0, 66.0 ],
+					"patching_rect" : [ 730.0, 260.5, 113.0, 66.0 ],
 					"text" : "3. Bang into the second inet to reset the visualization"
 				}
 
@@ -282,7 +282,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 1.0, 0.443137254901961, 1.0 ]
 	}
 
 }
